@@ -1,0 +1,69 @@
+
+.mainwrap{width:1000px;margin:0 auto;}
+.more{display:block;width:38px;height:16px;line-height:0;background:url(../images/more_20.png) no-repeat;}
+#header{height:88px;background-color:#f8f8f8;}
+#header .logo{display:block;float:left;margin:20px 55px 0 0;width:296px;height:50px;overflow:hidden;}
+#header .nav{margin-top:30px;}
+#header .nav li{float:left;height:56px;line-height:56px;}
+#header .nav li a{display:block;padding:0 22px 0 46px;color:#4c4e62;background-image:url(../images/index_nav_01.png);}
+#header .nav li .nav_0{background-position:10px 16px;}
+#header .nav li .nav_1{background-position:-105px 16px;}
+#header .nav li .nav_2{background-position:-229px 16px;}
+#header .nav li .nav_3{background-position:-350px 16px;}
+
+#header .nav li.active{}
+#header .nav li.active a{color:#40b1e6;border-bottom:2px solid #40b1e6;}
+#header .nav li.active .nav_0{background-position:10px -36px;}
+#header .nav li.active .nav_1{background-position:-105px -36px;}
+#header .nav li.active .nav_2{background-position:-229px -36px;}
+#header .nav li.active .nav_3{background-position:-350px -36px;}
+
+
+#loginBox{float:right;width:149px;height:50px;background-color:#40b1e6;color:#fff;position:relative;z-index:11;}
+#loginBox .login_btns{}
+#loginBox .login_btns a{display:block;float:left;width:74px;height:16px;margin:17px 0;line-height:16px;color:#fff;text-align:center;}
+#login_btn{border-right:1px solid #fff;font-weight:bold;}
+#loginPop{position:absolute;right:0;top:52px;z-index:10;width:245px;height:258px;border:1px solid #b1b1b1;color:#4a4a4a;background-color:#FFF;}
+#loginPop h3.loginPop_title{height:28px;line-height:28px;text-align:center;color:#fff;font-size:14px;font-weight:normal;background-color:#40b1e6;}
+#loginPop #loginForm{padding:16px 20px;}
+#loginForm .form_div{margin-bottom:13px;font-size:12px;}
+#loginForm .form_div .login_lab{display:block;border:1px solid #b1b1b1;padding-left:46px;height:28px;background-color:#f6fcff;overflow:hidden;}
+#loginForm .form_div .login_ipt{background-color:#f6fcff;height:28px;width:150px;line-height:28px;border:none;color:#4a4a4a;vertical-align:middle;}
+#loginForm .form_div .checkcode_lab{padding-left:10px;}
+#loginForm .form_div .checkcode_lab img{float:right;}
+#loginForm .form_div .login_checkcode{display:block;float:left;width:80px;vertical-align:top;}
+#loginForm .form_div .autologin{display:block;float:left;line-height:28px;}
+#loginForm .form_div .username{background:url(../images/login_pop_03.png) no-repeat #f6fcff;}
+#loginForm .form_div .password{background:url(../images/login_pop_06.png) no-repeat #f6fcff;}
+#autologin{vertical-align: middle;}
+#loginForm .form_div .forgetPsw{display:block;float:right;line-height:28px;color:#40b1e6;}
+#loginForm .form_div .forgetPsw:hover{text-decoration:underline;}
+#login_submit{width:206px;height:36px;line-height:36px;padding:0;margin:0 auto;border:none;background-color:#fac03d;color:#fff;font-size:14px;cursor:pointer;}
+
+#userBox{float:right;width:147px;height:48px;position:relative;z-index:11;top:-1px;border:1px solid #40b1e6;}
+#userBox .userAvatar{margin:9px 3px;width:30px;height:30px;overflow:hidden;line-height:0;}
+#userBox .userAvatar img{width:30px;height:30px;}
+#userBox .username{line-height:48px;color:#5d5e6f;font-size:14px;width:60px;margin-right:3px;overflow:hidden;}
+#userBox .logout{display:block;margin-top:14px;width:40px;height:20px;text-align:center;line-height:20px;color:#fff;background-color:#40b1e6;font-size:12px;}
+
+#main .main_partners{padding:50px 0 48px;height:60px;}
+#main .pm_btn{display:block;float:left;margin:0 8px;width:24px;height:60px;background-image:url(../images/pm_nav.png);}
+#main .pm_next{background-position:-24px 0;}
+#main .pm_box{width:900px;height:60px;overflow:hidden;}
+#main .pm_box ul{width:910px;}
+#main .pm_box li{width:130px;float:left;}
+#main .pm_box li a{display:block;width:118px;line-height:0;border:1px solid #e9e9e9;}
+
+#footer{padding-top:26px;text-align:center;background-color:#40b1e6;color:#fff;}
+#footer .logo{display:block;width:101px;height:50px;margin:0 auto;margin-bottom:32px;}
+#footer .hotline{font-size:12px;}
+#footer .hotline_num{font-size:40px;line-height:60px;padding-bottom:13px;}
+#footer .links{font-size:12px;line-height:46px;}
+#footer .links a{color:#fff;}
+#footer .bdb{width:720px;margin:0 auto;border-bottom:1px dotted #fff;}
+#footer .copy{line-height:32px;font-size:12px;padding:10px 0 25px 0;}
+
+#sidebar{position:fixed;right:0;top:300px;z-index:100;width:49px;height:152px;background:url(../images/side_service_03.png) no-repeat;}
+#sidebar .side_btns{}
+#sidebar .side_btns a{display:block;height:51px;}
+#go_top{height:50px;}

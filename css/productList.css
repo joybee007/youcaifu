@@ -1,0 +1,79 @@
+#banner{height:349px;border-top:2px solid #40b1e6;border-bottom:1px solid #e8e8e8;}
+.stepsbox{border-bottom:1px solid #e8e8e8;}
+.steps{height:122px;background:url(../images/setps_07.png) no-repeat;}
+
+#productList{padding-top:13px;}
+.list_left{width:600px;}
+.list_right{width:368px;}
+.list_left .list_title{height:26px;margin-bottom:4px;background-image:url(../images/pro_list_title.png);}
+.list_left .list_title h2{float:left;color:#fff;font-size:16px;width:73px;line-height:26px;padding-left:7px;}
+.list_left .list_title .lt_info{float:left;padding:4px 0 0 15px;font-size:14px;color:#8f8f8f;line-height:22px;}
+.list_left .list_title .list_more{display:block;float:right;width:36px;height:16px;margin-top:10px;background-color:blue;opacity:.3;}
+.list_left .good_pro{background-position:0 -26px;}
+.pro_info{padding:10px 0;border-bottom:1px dotted #cfcfcf;}
+.pro_info .pi_left{width:163px;height:156px;padding:11px 8px;margin-right:9px;border:1px solid #e4dfdf;}
+.pro_info .pi_right{width:410px;}
+.pro_info .pi_benefits{}
+.pro_info .pi_benefits span{display:block;float:left;margin-right:19px;padding:0 19px;height:28px;line-height:28px;border:1px solid #c6c6c6;color:#444;}
+.pro_info .pi_right h3{height:44px;line-height:44px;color:#474747;font-size:14px;}
+.pro_info .pi_right dl{float:left;text-align:center;height:48px;margin-bottom:16px;}
+.pro_info .pi_right dl dd{font-size:28px;line-height:30px;height:30px;color:#ec8028;font-family:Microsoft Yahei,Arial;font-weight:bold;}
+.pro_info .pi_right dl dd .unit{font-weight:normal;font-size:20px;}
+.pro_info .pi_right dl dt{font-size:12px;color:#b5b5b5;height:18px;}
+.pro_info .pi_right .pi_n0{width:174px;border-right:1px solid #dbdbdb;}
+.pro_info .pi_right .pi_n1{width:116px;border-right:1px solid #dbdbdb;}
+.pro_info .pi_right .pi_n2{width:118px;}
+.pro_info .pi_right .follows{background:url(../images/p_list_follow_icon_07.png) no-repeat 9px 8px;height:26px;padding:8px 0 0 46px;font-size:12px;line-height:26px;}
+.pro_info .pi_right .follows .red{font-size:14px;font-weight:bold;}
+.pro_info .pi_right .reserve{display:block;width:166px;height:40px;text-align:center;line-height:40px;font-size:16px;color:#fff;background-color:#f14d2c;}
+.pro_info .pi_right .reserve_yellow{background-color:#fac03d;}
+
+.pro_box{}
+.pro_box .pb_title{height:26px;background-color:#40b1e6;}
+.pro_box .pb_title h2{float:left;font-size:16px;color:#fff;line-height:26px;padding:0 8px 0 10px;}
+.pro_box .pb_title .pb_title_info{float:left;font-size:14px;color:#fff;padding-top:4px;line-height:22px;}
+.pro_box .pb_title .pb_more{display:block;float:right;margin:5px 8px 0 0;width:36px;height:16px;background:url(../images/pro_list_more_03.png) no-repeat;}
+.pro_box .pb_info{border:1px solid #cacfd6;border-top:none;}
+.pro_box .pb_info .pb_benefits{padding:7px 0 7px 8px;}
+.pro_box .pb_info .pb_benefits span{display:block;float:left;margin-right:12px;padding:0 18px;height:28px;line-height:28px;border:1px solid #c6c6c6;color:#444;}
+.pro_box .pb_info h3{padding:0 0 7px 10px;height:22px;line-height:22px;font-size:14px;color:#545454;}
+.pro_box .pb_info .pb_intro{background-color:#fafafa;border-top:1px solid #cacfd6;padding:12px 0 9px 0;display:none;}
+.pro_box .pb_info .pb_intro dl{float:left;text-align:center;height:42px;margin-bottom:16px;}
+.pro_box .pb_info .pb_intro dl dd{font-size:22px;line-height:26px;height:26px;color:#ec8028;font-family:Microsoft Yahei,Arial;}
+.pro_box .pb_info .pb_intro dl dd .unit{font-weight:normal;font-size:20px;}
+.pro_box .pb_info .pb_intro dl dt{font-size:12px;color:#b5b5b5;height:16px;}
+.pro_box .pb_info .pb_n0{width:147px;border-right:1px solid #dbdbdb;}
+.pro_box .pb_info .pb_n1{width:116px;border-right:1px solid #dbdbdb;}
+.pro_box .pb_info .pb_n2{width:101px;}
+.pro_box .pb_info .pb_intro .pb_btns{padding:0 9px;}
+.pro_box .pb_info .pb_intro .follows{background:url(../images/pb_follows_07.png) no-repeat 9px 0;height:26px;padding:0 0 0 46px;font-size:12px;line-height:26px;}
+.pro_box .pb_info .pb_intro .follows .red{font-size:14px;font-weight:bold;}
+.pro_box .pb_info .pb_intro .reserve{display:block;width:100px;height:30px;text-align:center;line-height:30px;font-size:14px;color:#fff;background-color:#40b1e6;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
