@@ -1,0 +1,37 @@
+
+.reg_head{height:76px;overflow:hidden;background-color:#40b1e6;}
+
+h1{float:left;width:160px;padding:0 0 0 28px;line-height:64px;height:64px;color:#fff;font-size:30px;background:url(../images/reg_header_03.png) no-repeat 28px 53px;}
+
+.reg_head .reg_nav{padding-top:39px;float:left;}
+.reg_head .reg_nav li{float:left;width:158px;height:38px;border:1px solid #fff;border-bottom:none;margin-right:1px;text-align:center;line-height:38px;background-color:#40b1e6;color:#fff;font-size:14px;}
+.reg_head .reg_nav li.active{color:#40b1e6;background-color:#fff;}
+
+.reg_main{background:url(../images/reg_main_bg_03.gif) no-repeat 567px 37px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
