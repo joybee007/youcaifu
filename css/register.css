@@ -11,21 +11,22 @@ h1{float:left;width:160px;padding:0 0 0 28px;line-height:64px;height:64px;color:
 .reg_head .old_user .old_login{display:block;float:left;color:#fff;width:64px;height:24px;text-align:center;line-height:24px;border:1px solid #fff;}
 .reg_main{background:url(../images/reg_main_bg_03.gif) no-repeat 567px 37px;}
 
-#reg{display:block;padding:34px 0 0 0;}
+#reg{display:block;padding:34px 0 30px 0;}
 .ui_form_ele{height:68px;}
-.ui_form_ele label{display:block;float:left;color:#616161;}
-.ui_form_ele label .lab{display:block;float:left;width:132px;text-align:right;line-height:32px;font-size:14px;}
+.ui_form_ele label{display:block;float:left;color:#616161;font-size:14px;}
+.ui_form_ele label .lab{display:block;float:left;width:132px;text-align:right;line-height:32px;}
 .ui_form_ele label .ui_input{display:block;float:left;width:248px;height:32px;line-height:32px;background-color:#fcfcfc;border:1px solid #b1b1b1;color:#616161;}
 .ui_form_ele label .ui_check_input{width:134px;border-right:none;}
 .ui_form_ele .getcheckcode{display:block;float:left;width:115px;height:34px;line-height:34px;text-align:center;background-color:#40b1e6;color:#fff;font-size:12px;}
+.ui_form_ele .valid_icon{display:block;float:left;margin:5px 0 0 10px;width:25px;height:25px;background-image:url(../images/reg_valid_icon.png);}
+.ui_form_ele .invalided{background-position:0 -25px;}
+.ui_form_ele .agreement_lab{padding-left:132px;line-height:20px;}
+.ui_form_ele .agreement_lab #agreement{vertical-align:middle;}
+.ui_form_ele .agreement_lab a{color:#616161;}
+.ui_form_ele .agreement_lab a:hover{color:#40b1e6;}
+#reg .submit{display:block;margin:0 0 0 132px;width:250px;height:50px;background-color:#fac03d;text-align:center;line-height:50px;font-size:16px;color:#fff;}
 
-
-
-
-
-
-
-
+#main .bdb1{border-bottom:1px solid #ede6e6;}
 
 
 
