@@ -6,16 +6,18 @@ h1{float:left;width:160px;padding:0 0 0 28px;line-height:64px;height:64px;color:
 .reg_head .reg_nav{padding-top:39px;float:left;}
 .reg_head .reg_nav li{float:left;width:158px;height:38px;border:1px solid #fff;border-bottom:none;margin-right:1px;text-align:center;line-height:38px;background-color:#40b1e6;color:#fff;font-size:14px;}
 .reg_head .reg_nav li.active{color:#40b1e6;background-color:#fff;}
-
+.reg_head .old_user{float:right;width:186px;padding-top:26px;height:26px;font-size:14px;}
+.reg_head .old_user span{display:block;float:left;width:100px;line-height:26px;color:#fff;}
+.reg_head .old_user .old_login{display:block;float:left;color:#fff;width:64px;height:24px;text-align:center;line-height:24px;border:1px solid #fff;}
 .reg_main{background:url(../images/reg_main_bg_03.gif) no-repeat 567px 37px;}
 
-#reg{display:block;}
-
-
-
-
-
-
+#reg{display:block;padding:34px 0 0 0;}
+.ui_form_ele{height:68px;}
+.ui_form_ele label{display:block;float:left;color:#616161;}
+.ui_form_ele label .lab{display:block;float:left;width:132px;text-align:right;line-height:32px;font-size:14px;}
+.ui_form_ele label .ui_input{display:block;float:left;width:248px;height:32px;line-height:32px;background-color:#fcfcfc;border:1px solid #b1b1b1;color:#616161;}
+.ui_form_ele label .ui_check_input{width:134px;border-right:none;}
+.ui_form_ele .getcheckcode{display:block;float:left;width:115px;height:34px;line-height:34px;text-align:center;background-color:#40b1e6;color:#fff;font-size:12px;}
 
 
 
