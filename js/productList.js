@@ -1,30 +1,24 @@
+
 $(function(){
-	$('#pm_marquee').kxbdSuperMarquee({
-		distance:390,
-		time:5,
-		direction:'left',
-		isEqual:true,
-		btnGo:{left:'#pm_prev',right:'#pm_next'}
-	});
-	function pageScroll(){
-		window.scrollBy(0,-50);
-		var scrolldelay=setTimeout(arguments.callee,10);
-		0==document.documentElement.scrollTop&&0==document.body.scrollTop&&clearTimeout(scrolldelay);
-	}
-	$('#go_top').click(pageScroll);
-	
-	$('.pb_intro:first').show();
-	$('.pb_info').mouseenter(function(){
-		$(this).siblings().find('.pb_intro').slideUp('fast');
-		$(this).find('.pb_intro').slideDown('fast');
-	});
-	
-	
-	
-	
-	
-	
-	
+	//条件下拉收起
+	(function(){
+		var searchbox=$('#searchbox'),
+			_height=searchbox.innerHeight(),
+			height,
+			more_search=$('#more_search');
+		more_search.click(function(){
+			if(more_search.is('.ms_back')){
+				searchbox.animate({height:_height});
+				more_search.removeClass('ms_back').text('更多选项');
+			}else{
+				searchbox.css('height','auto');
+				height=searchbox.innerHeight();
+				searchbox.css('height',_height);
+				searchbox.animate({height:height-1});
+				more_search.addClass('ms_back').text('收起');
+			}
+		});
+	})();
 	
 	
 	
