@@ -57,18 +57,19 @@ h1{padding-left:10px;height:44px;line-height:42px;font-size:20px;color:#40b1e6;}
 .pro_info .pro_info_2 .cost_des{height:99px;line-height:99px;font-size:30px;color:#f14d2c;}
 .pro_info .pro_info_2 .reserve{display:block;height:40px;text-align:center;line-height:40px;font-size:16px;color:#fff;background-color:#f14d2c;}
 
+.main_paging{padding:23px 0 20px;font-size:12px;text-align:center;}
+.main_paging a{display:inline-block;height:26px;line-height:26px;border:1px solid #8a8a8a;color:#5d5d5d;}
+.main_paging .prev_page,.main_paging .next_page{padding:0 10px;}
+.main_paging .pages,.main_paging .prevs,.main_paging .nexts{width:26px;text-align:center;}
+.main_paging .prevs,.main_paging .nexts{background-image:url(../images/main_paging_btns.png);}
+.main_paging .prevs{background-position:0 -26px;}
+.main_paging .nexts{background-position:-26px -26px;}
+.main_paging a.disabled{border:1px solid #d9d9d9;color:#d9d9d9;}
+.main_paging a.disabled_prevs{border:1px solid #d9d9d9;background-position:0 0;}
+.main_paging a.disabled_nexts{border:1px solid #d9d9d9;background-position:-26px 0;}
+.main_paging a.active{border:1px solid #40b1e6;background-color:#40b1e6;color:#fff;}
 
-
-
-
-
-
-
-
-
-
-
-
+.main_partners{border-top:1px solid #cfcfcf;}
 
 
 
