@@ -7,6 +7,9 @@
 	<link rel="stylesheet" type="text/css" href="css/public.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/register.css" media="all" />
 	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/kxbdSuperMarquee.js"></script>
+	<script type="text/javascript" src="js/public.js"></script>
 	<script type="text/javascript" src="js/register.js"></script>
 </head>
 <body class="yahei">
@@ -46,8 +49,8 @@
 			</div>
 		</div>
 	</div>
-	<div id="main" class="mainwrap">
-		<div class="reg_head">
+	<div id="main">
+		<div class="reg_head mainwrap">
 			<h1>注册会员</h1>
 			<ul class="reg_nav clearfix">
 				<li class="active">个人会员</li>
@@ -58,11 +61,11 @@
 				<a href="javascript:void(0)" class="old_login">登录</a>
 			</div>
 		</div>
-		<div class="reg_main">
+		<div class="reg_main mainwrap">
 			<form action="" id="reg">
 				<div class="ui_form_ele">
 					<label for="username"><span class="lab">手机号码：</span><input type="text" name="username" id="username" class="ui_input" /></label>
-					<span class="valid_icon"></span>
+					<span class="valid_icon valided"></span>
 					<span class="valid_info clear"></span>
 				</div>
 				<div class="ui_form_ele">
@@ -72,12 +75,12 @@
 				</div>
 				<div class="ui_form_ele">
 					<label for="password"><span class="lab">请设置密码：</span><input type="password" name="password" id="password" class="ui_input" /></label>
-					<span class="valid_icon"></span>
+					<span class="valid_icon valided"></span>
 					<span class="valid_info clear"></span>
 				</div>
 				<div class="ui_form_ele">
 					<label for="password1"><span class="lab">请确认密码：</span><input type="password" name="password1" id="password1" class="ui_input" /></label>
-					<span class="valid_icon"></span>
+					<span class="valid_icon invalided"></span>
 					<span class="valid_info clear"></span>
 				</div>
 				<div class="ui_form_ele">
@@ -86,10 +89,28 @@
 					<span class="valid_info clear"></span>
 				</div>
 				<div class="ui_form_ele">
-					<label for="agreement"><input type="checkbox" name="agreement" id="agreement" />&nbsp;我已阅读<a href="javascript:void(0)">《优财富会员注册服务条款》</a></label>
+					<label for="agreement" class="agreement_lab"><input type="checkbox" name="agreement" id="agreement" />&nbsp;我已阅读<a href="javascript:void(0)">《优财富会员注册服务条款》</a></label>
 				</div>
 				<a href="javascript:void(0)" class="submit">立即注册</a>
 			</form>
+		</div>
+		<div class="bdb1"></div>
+		<div class="main_partners mainwrap">
+			<div class="mainwrap clearfix">
+				<a href="javascript:void(0)" class="pm_btn pm_prev" id="pm_prev"></a>
+				<div class="pm_box fl" id="pm_marquee">
+					<ul>
+						<li><a href="javascript:void(0)"><img src="images/partners/p_03.png" alt="" /></a></li>
+						<li><a href="javascript:void(0)"><img src="images/partners/p_05.png" alt="" /></a></li>
+						<li><a href="javascript:void(0)"><img src="images/partners/p_07.png" alt="" /></a></li>
+						<li><a href="javascript:void(0)"><img src="images/partners/p_09.png" alt="" /></a></li>
+						<li><a href="javascript:void(0)"><img src="images/partners/p_11.png" alt="" /></a></li>
+						<li><a href="javascript:void(0)"><img src="images/partners/p_13.png" alt="" /></a></li>
+						<li><a href="javascript:void(0)"><img src="images/partners/p_15.png" alt="" /></a></li>
+					</ul>
+				</div>
+				<a href="javascript:void(0)" class="pm_btn pm_next" id="pm_next"></a>
+			</div>
 		</div>
 	</div>
 	<div id="footer">
