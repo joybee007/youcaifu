@@ -52,12 +52,13 @@ h1 img{vertical-align:middle;}
 .pro_info_table{border:1px solid #c7c7c7;border-collapse:collapse;font-size:14px;width:90%;margin:0 auto;}
 .pro_info_table td{border:1px solid #c7c7c7;line-height:34px;color:#474747;padding:0 20px;}
 .pro_info_table td.title{width:128px;text-align:center;color:#666;background-color:#eaf2f6;padding:0;}
-
-
-
-
-
-
+.pro_files{background-color:#f7f7f7;border:1px solid #c7c7c7;padding:15px 22px;}
+.pro_files li{float:left;margin:0 18px;height:195px;overflow:hidden;}
+.pro_files a{display:block;width:100px;}
+.pro_files dt{width:100px;height:130px;line-height:0;padding-bottom:5px;}
+.pro_files dd{font-size:12px;color:#474747;}
+.pro_organ{border:1px solid #c7c7c7;line-height:28px;font-size:12px;color:#474747;}
+.pro_organ p{width:810px;padding:10px 0 0 0;}
 
 
 
