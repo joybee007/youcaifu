@@ -27,6 +27,7 @@ h1 img{vertical-align:middle;}
 .pd_n .pd_n0 dd{float:left;font-size:32px;color:#ec8028;line-height:46px;}
 .pd_n .pd_n1 dd,.pd_n .pd_n2 dd{font-size:20px;color:#ec8028;}
 .pd_n .pd_n1 dt,.pd_n .pd_n2 dt{font-size:12px;color:#b5b5b5;}
+.pd_right{float:left;width:680px;}
 .pd_right table{color:#808080;font-size:16px;}
 .pd_right table td{height:38px;line-height:38px;}
 .pd_right table td.describ{padding-right:30px;}
@@ -35,14 +36,12 @@ h1 img{vertical-align:middle;}
 .pd_right .pd_time span{display:block;float:left;}
 .pd_right .pd_time a{display:block;float:left;height:28px;padding:0 15px;margin-top:9px;margin-right:10px;line-height:28px;border:1px solid #c6c6c6;font-size:16px;color:#444;}
 .pd_right .pd_time a.active{border:1px solid #40b1e6;background-color:#40b1e6;color:#fff;}
-
-
-
-
-
-
-.pd_right{float:left;width:680px;}
-
+.pd_right .pd_money{height:56px;line-height:56px;margin-bottom:10px;}
+.pd_right .pd_money span{display:block;float:left;}
+.pd_right .pd_money input{display:block;float:left;width:180px;height:40px;line-height:40px;margin:8px 5px 0 0;border:1px solid #c6c6c6;font-size:20px;text-align:right;}
+.pd_right .pd_interest{float:left;border:1px dashed #ec8028;margin-bottom:15px;padding:0 75px 0 20px;height:48px;line-height:48px;font-size:14px;color:#808080;}
+.pd_right .pd_interest .content{font-size:18px;color:#ec8028;}
+.pd_right .reserve{display:block;width:166px;height:40px;line-height:40px;text-align:center;color:#fff;background-color:#f14d2c;}
 
 
 
@@ -50,9 +49,9 @@ h1 img{vertical-align:middle;}
 
 
 #main h2{height:54px;padding-top:20px;font-size:16px;color:#474747;}
-
-
-
+.pro_info_table{border:1px solid #c7c7c7;border-collapse:collapse;font-size:14px;width:90%;margin:0 auto;}
+.pro_info_table td{border:1px solid #c7c7c7;line-height:34px;color:#474747;padding:0 20px;}
+.pro_info_table td.title{width:128px;text-align:center;color:#666;background-color:#eaf2f6;padding:0;}
 
 
 
