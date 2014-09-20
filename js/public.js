@@ -13,4 +13,8 @@ $(function(){
 		0==document.documentElement.scrollTop&&0==document.body.scrollTop&&clearTimeout(scrolldelay);
 	}
 	$('#go_top').click(pageScroll);
+	
+	$('#header .nav li').hover(function(){
+		$(this).toggleClass('hover');
+	});
 });
