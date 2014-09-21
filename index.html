@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/public.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/index.css" media="all" />
 	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="js/kxbdSuperMarquee.js"></script>
 	<script type="text/javascript" src="js/y_marquee.js"></script>
@@ -17,14 +18,15 @@
 	<div id="header">
 		<div class="mainwrap clearfix">
 			<a href="" class="logo fl"><img src="images/logo_03.png" alt="" /></a>
-			<div class="nav fl">
-				<ul class="clearfix">
+			<div class="nav fl clearfix">
+				<ul class="clearfix fl">
 					<li class="active"><a href="javascript:void(0)" class="nav_0">首页</a></li>
 					<li><a href="javascript:void(0)" class="nav_1">产品中心</a></li>
 					<li><a href="javascript:void(0)" class="nav_2">资讯中心</a></li>
 					<li><a href="javascript:void(0)" class="nav_3">关于我们</a></li>
 				</ul>
 			</div>
+			//根据是否登录切换#loginBox和#userBox的显示。
 			<div id="loginBox">
 				<div class="login_btns">
 					<a href="javascript:void(0)" id="login_btn">登录</a>
@@ -49,6 +51,11 @@
 						<input type="submit" value="登&nbsp;录" id="login_submit" />
 					</form>
 				</div>
+			</div>
+			<div id="userBox" class="none">
+				<div class="userAvatar fl"><img src="images/userAvatar_03.png" alt="" /></div>
+				<div class="username fl">王某某</div>
+				<a href="javascript:void(0)" class="logout fl">退出</a>
 			</div>
 		</div>
 	</div>
@@ -98,8 +105,7 @@
 					</div>
 					<div class="news_list">
 						<a href="javascript:void(0)" class="more"></a>
-						<div class="clear"></div>
-						<ul>
+						<ul class="clear">
 							<li>
 								<a href="javascript:void(0)" class="news_link">美国房地产市场投资新趋势<img src="images/news_new_16.png" alt="" /></a>
 								<a href="javascript:void(0)" class="news_date">2014-09-01</a>
@@ -132,8 +138,7 @@
 					</div>
 					<div class="news_list">
 						<a href="javascript:void(0)" class="more"></a>
-						<div class="clear"></div>
-						<ul>
+						<ul class="clear">
 							<li>
 								<a href="javascript:void(0)" class="news_link">美国房地产市场投资新趋势</a>
 								<a href="javascript:void(0)" class="news_date">2014-09-01</a>
