@@ -17,12 +17,11 @@
 #main .main_nav li.last{margin-right:0;}
 #main .main_nav li dl dt{line-height:0;width:109px;height:138px;margin:0 auto;overflow:hidden;}
 #main .main_nav li dl dd{padding:15px 5px 10px;font-size:12px;line-height:20px;color:#7d7d7d;}
-#main .main_news{background-color:#f8fafb;padding:15px 0;}
+#main .main_news{padding:15px 0;}
 #main .main_news .news_left{width:480px;}
 #main .main_news .news_right{width:480px;}
 #main .main_news .news_title{float:left;width:200px;}
 #main .main_news .news_list{float:left;width:280px;font-size:12px;}
-#main .main_news h3{padding-top:5px;line-height:32px;font-size:16px;color:#40b1e6;}
 #main .main_news .more{float:right;margin-top:20px;}
 #main .main_news ul{padding-top:9px;}
 #main .main_news ul li{height:29px;border-bottom:1px dotted #d1d6e3;line-height:28px;}
@@ -30,4 +29,25 @@
 #main .main_news ul li a.news_link img{_vertical-align:middle;}
 #main .main_news ul li a.news_link:hover{text-decoration:underline;}
 #main .main_news ul li a.news_date{display:block;float:right;width:70px;height:28px;color:#c4c4c4;}
+/* 专家团队 */
+#main .main_specialists{background-color:#f8fafb;padding:15px 0;}
+.main_specialists ul li{float:left;width:165px;}
+.main_specialists ul li dl{width:152px;}
+.main_specialists ul li dl dt{width:152px;height:170px;overflow:hidden;}
+.main_specialists ul li dl dt img{width:152px;height:170px;}
+.main_specialists ul li dl dd{padding:5px 0;}
+.main_specialists ul li dl dd p{line-height:26px;font-size:12px;color:#8f8f8f;text-align:center;}
+.main_specialists ul li dl dd p.name{border-bottom:1px dashed #d1d6e3;}
+
+
+.hot .hot_list{width:492px;}
+
+.hot .pi_right{width:302px;}
+
+
+
+
+
+
+
 

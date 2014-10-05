@@ -1,0 +1,22 @@
+/* 热销产品列表 css */
+.list_title{height:25px;border-bottom:1px solid #f14d2c;}
+.list_title h2{float:left;color:#fff;font-size:16px;line-height:25px;padding:0 7px;background-color:#f14d2c;}
+.list_title .lt_co{float:left;width:10px;height:25px;background-image:url(../images/pro_list_title.png);}
+.list_title .lt_info{float:left;padding:4px 0 0 15px;font-size:14px;color:#8f8f8f;line-height:22px;}
+.list_title .list_more{display:block;float:right;width:36px;height:16px;margin-top:9px;background:url(../images/pro_list_more_03.png) 0 0 no-repeat;}
+.pro_info{padding:15px 0;border-bottom:1px dotted #cfcfcf;}
+.pro_info .pi_left{width:163px;height:156px;padding:11px 8px;margin-right:9px;border:1px solid #e4dfdf;}
+.pro_info .pi_right{}
+.pro_info .pi_benefits{font-size:12px;color:#474747;border-top:1px dashed #e8e8e8;border-bottom:1px dashed #e8e8e8;line-height:14px;padding:7px;margin-bottom:12px;}
+.pro_info .pi_right h3{height:30px;line-height:16px;color:#474747;font-size:14px;}
+.pro_info .pi_right h3 img{vertical-align:middle;}
+.pro_info .pi_right dl{float:left;text-align:center;height:48px;margin-bottom:16px;}
+.pro_info .pi_right dl dd{font-size:28px;line-height:30px;height:30px;color:#ec8028;font-family:Microsoft Yahei,Arial;font-weight:bold;}
+.pro_info .pi_right dl dd .unit{font-weight:normal;font-size:20px;}
+.pro_info .pi_right dl dt{font-size:12px;color:#b5b5b5;height:18px;}
+.pro_info .pi_right .pi_n0{width:48%;border-right:1px solid #dbdbdb;}
+.pro_info .pi_right .pi_n1{width:25%;border-right:1px solid #dbdbdb;}
+.pro_info .pi_right .pi_n2{width:25%;}
+.pro_info .pi_right .follows{background:url(../images/p_list_follow_icon_07.png) no-repeat 9px 8px;height:26px;padding:8px 0 0 46px;font-size:12px;line-height:26px;}
+.pro_info .pi_right .follows .red{font-size:14px;font-weight:bold;}
+.pro_info .pi_right .reserve{display:block;width:166px;height:40px;text-align:center;line-height:40px;font-size:16px;color:#fff;background:url(../images/reserve_03.png) 0 0 no-repeat;}
