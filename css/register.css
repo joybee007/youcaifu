@@ -1,8 +1,5 @@
-
 .reg_head{height:76px;overflow:hidden;background-color:#40b1e6;}
-
 h1{float:left;width:160px;padding:0 0 0 28px;line-height:64px;height:64px;color:#fff;font-size:30px;background:url(../images/reg_header_03.png) no-repeat 28px 53px;}
-
 .reg_head .reg_nav{padding-top:39px;float:left;}
 .reg_head .reg_nav li{float:left;width:158px;height:38px;border:1px solid #fff;border-bottom:none;margin-right:1px;text-align:center;line-height:38px;background-color:#40b1e6;color:#fff;font-size:14px;cursor:pointer;}
 .reg_head .reg_nav li.active{color:#40b1e6;background-color:#fff;}
@@ -11,20 +8,23 @@ h1{float:left;width:160px;padding:0 0 0 28px;line-height:64px;height:64px;color:
 .reg_head .old_user .old_login{display:block;float:left;color:#fff;width:64px;height:24px;text-align:center;line-height:24px;border:1px solid #fff;}
 .reg_main{background:url(../images/reg_main_bg_03.gif) no-repeat 567px 37px;}
 
-#reg{display:block;padding:34px 0 30px 0;}
-.ui_form_ele{height:68px;}
-.ui_form_ele label{display:block;float:left;color:#616161;font-size:14px;}
-.ui_form_ele label .lab{display:block;float:left;width:132px;text-align:right;line-height:32px;}
-.ui_form_ele label .ui_input{display:block;float:left;width:248px;height:32px;line-height:32px;background-color:#fcfcfc;border:1px solid #b1b1b1;color:#616161;}
-.ui_form_ele label .ui_check_input{width:134px;border-right:none;}
-.ui_form_ele .getcheckcode{display:block;float:left;width:115px;height:34px;line-height:34px;text-align:center;background-color:#40b1e6;color:#fff;font-size:12px;}
-.ui_form_ele .valid_icon{display:block;float:left;margin:5px 0 0 10px;width:25px;height:25px;background-image:url(../images/reg_valid_icon.png);}
-.ui_form_ele .invalided{background-position:0 -25px;}
-.ui_form_ele .agreement_lab{padding-left:132px;line-height:20px;}
-.ui_form_ele .agreement_lab #agreement{vertical-align:middle;}
-.ui_form_ele .agreement_lab a{color:#616161;}
-.ui_form_ele .agreement_lab a:hover{color:#40b1e6;}
-#reg .submit{display:block;margin:0 0 0 132px;width:250px;height:50px;background-color:#fac03d;text-align:center;line-height:50px;font-size:16px;color:#fff;}
+.regForm{display:block;padding:34px 0 30px 0;}
+
+.regForm .submit{display:block;margin:0 0 0 132px;width:250px;height:50px;background-color:#fac03d;text-align:center;line-height:50px;font-size:16px;color:#fff;}
+
+.regP_success{padding:175px 0 140px 345px;background:#fff url(../images/xiaoren_03.jpg) 142px 94px no-repeat;}
+.regP_success .success_info{height:48px;line-height:48px;padding-left:105px;background:url(../images/reg_cuccess_icon.png) 0 0 no-repeat;font-size:30px;}
+.regP_success .success{color:#40b1e6;background-position:38px 0;}
+.regP_success .failure{color:#969696;background-position:38px -48px;}
+.regP_success .success_text{line-height:38px;color:#969696;font-size:14px;padding-left:105px;}
+.regP_success .success_btns{padding-top:35px;}
+.regP_success .success_btns input{border:none;width:250px;height:50px;line-height:50px;color:#fff;font-size:16px;font-family:Microsoft Yahei;cursor:pointer;}
+.regP_success .forward{background:#fac03d;}
+.regP_success .back{background:#40b1e6;}
+
+
+
+
 
 #main .bdb1{border-bottom:1px solid #ede6e6;}
 
