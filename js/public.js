@@ -37,5 +37,7 @@ $(function(){
 		}).click();
 		
 	}
-	
+	if(navigator.userAgent.indexOf('MSIE')){
+		$('a').attr('hidefocus',true);
+	}
 });

@@ -3,8 +3,8 @@ h1{padding-left:10px;height:44px;line-height:42px;font-size:20px;color:#40b1e6;}
 #searchbox{height:250px;overflow:hidden;border:1px solid #e8e8e8;}
 #searchbox .search_0{height:50px;line-height:50px;font-size:14px;border-bottom:1px dashed #e8e8e8;}
 #searchbox .search_0 .search_00{display:block;padding-left:17px;width:70px;color:#838383;}
-#searchbox .search_0 .search_ipt{float:left;height:30px;width:480px;margin-top:8px;border:2px solid #40b1e6;border-right:none;}
-#searchbox .search_0 .search_ipt input{border:none;background:none;height:30px;width:470px;line-height:32px;}
+#searchbox .search_0 .search_ipt{float:left;height:30px;width:480px;margin-top:8px;border:2px solid #40b1e6;border-right:none;_overflow:hidden;}
+#searchbox .search_0 .search_ipt input{border:none;background:none;height:30px;width:470px;line-height:30px;}
 #searchbox .search_0 .search_button{display:block;width:86px;height:34px;background-color:#40b1e6;font-size:16px;color:#fff;text-align:center;line-height:34px;margin-top:8px;}
 #searchbox .search_0 .search_ipt input:-webkit-autofill{-webkit-box-shadow:0 0 0 100px white inset;}
 #searchbox .search_div{padding:9px 0 6px 17px;color:#535353;line-height:24px;border-bottom:1px dashed #e8e8e8;color:#535353;font-size:12px;}
@@ -34,8 +34,8 @@ h1{padding-left:10px;height:44px;line-height:42px;font-size:20px;color:#40b1e6;}
 .pro_info{padding:20px 0;border-bottom:1px dotted #cfcfcf;}
 .pro_info .pro_link{display:block;float:left;width:178px;height:178px;border:1px solid #e4dfdf;margin-right:9px;}
 .pro_info .pro_link img{width:178px;height:178px;}
-.pro_info .pro_info_0{float:left;width:396px;}
-.pro_info .pi_benefits span{display:block;float:left;margin-right:19px;padding:0 19px;height:28px;line-height:28px;border:1px solid #c6c6c6;color:#444;font-size:16px;}
+.pro_info .pro_info_0{float:left;width:396px;_overflow:hidden;}
+.pro_info .pi_benefits span{display:block;float:left;margin-right:19px;_margin-right:10px;padding:0 19px;height:28px;line-height:28px;border:1px solid #c6c6c6;color:#444;font-size:16px;}
 .pro_info .pro_info_0 h3{height:30px;line-height:30px;padding-top:7px;color:#474747;font-size:14px;color:#474747;}
 .pro_info .pro_info_0 h3 img{vertical-align:middle;}
 .pro_info .pro_info_0 table{border:none;font-size:12px;}
