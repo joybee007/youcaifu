@@ -12,8 +12,8 @@
 .pro_box .pb_title .pb_title_info{float:left;font-size:14px;color:#fff;padding-top:4px;line-height:22px;}
 .pro_box .pb_title .pb_more{display:block;float:right;margin:5px 8px 0 0;width:36px;height:16px;background:url(../images/pro_list_more_02.png) no-repeat;}
 .pro_box .pb_info{border:1px solid #cacfd6;border-top:none;}
-.pro_box .pb_info .pb_benefits{padding:7px 0 7px 8px;}
-.pro_box .pb_info .pb_benefits span{display:block;float:left;margin-right:12px;padding:0 18px;height:28px;line-height:28px;border:1px solid #c6c6c6;color:#444;}
+.pro_box .pb_info .pb_benefits{padding:7px 0 7px 8px;/* overflow:hidden;height:30px; */}
+.pro_box .pb_info .pb_benefits span{display:block;float:left;margin-right:12px;_margin-right:8px;padding:0 18px;height:28px;line-height:28px;border:1px solid #c6c6c6;color:#444;white-space:nowrap;}
 .pro_box .pb_info h3{padding:0 0 7px 10px;height:22px;line-height:22px;font-size:14px;color:#545454;}
 .pro_box .pb_info .pb_intro{background-color:#fafafa;border-top:1px solid #cacfd6;padding:12px 0 9px 0;display:none;}
 .pro_box .pb_info .pb_intro dl{float:left;text-align:center;height:42px;margin-bottom:16px;}
