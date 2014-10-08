@@ -45,11 +45,12 @@ h3.main_header3{line-height:32px;font-size:16px;color:#40b1e6;}
 #loginForm .form_div .forgetPsw:hover{text-decoration:underline;}
 #login_submit{display:block;width:205px;height:36px;line-height:36px;padding:0;margin:0 auto;border:none;background-color:#fac03d;color:#fff;font-size:14px;cursor:pointer;}
 
-#userBox{float:right;width:147px;height:48px;position:relative;z-index:11;top:-1px;border:1px solid #40b1e6;}
+#userBox{float:right;width:119px;height:48px;position:relative;z-index:11;top:-1px;border:1px solid #40b1e6;}
 #userBox .userAvatar{margin:9px 3px;width:30px;height:30px;overflow:hidden;line-height:0;}
+#userBox .userMessageUnread{width:29px;height:31px;padding-top:30px;text-align:center;color:#fff;font-size:10px;position:absolute;right:-29px;top:0;background-image:url(../images/userMessageUnread.png);}
 #userBox .userAvatar img{width:30px;height:30px;}
-#userBox .username{line-height:48px;color:#5d5e6f;font-size:14px;width:60px;margin-right:3px;overflow:hidden;}
-#userBox .logout{display:block;margin-top:14px;width:40px;height:20px;text-align:center;line-height:20px;color:#fff;background-color:#40b1e6;font-size:12px;}
+#userBox .username{line-height:18px;padding-top:20px;color:#5d5e6f;font-size:12px;overflow:hidden;border-bottom:1px solid #40b1e6;}
+
 
 #main .main_partners{padding:50px 0 48px;height:60px;}
 #main .pm_btn{display:block;float:left;margin:0 8px;width:24px;height:60px;background-image:url(../images/pm_nav.png);}

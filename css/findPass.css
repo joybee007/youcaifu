@@ -1,11 +1,9 @@
+/* 找回密码 css */
 #main{padding-top:45px;}
 .find_head{background-color:#40b1e6;height:76px;}
 h1{line-height:66px;padding-left:55px;background:url(../images/find_header_03.png) 55px 55px no-repeat;color:#fff;font-size:30px;font-weight:normal;}
 .steps{height:100px;overflow:hidden;}
-
-
 .findForm{display:block;padding:34px 0 30px 0;width:630px;margin:0 auto;}
-
 .sended{display:block;float:left;padding-left:10px;font-size:12px;color:#c9c9c9;line-height:32px;}
 .successBox{padding-bottom:80px;width:380px;margin:0 auto;}
 .success1{height:48px;line-height:48px;padding-left:70px;background:url(../images/reg_cuccess_icon.png) 0 0 no-repeat;font-size:30px;color:#40b1e6;}
