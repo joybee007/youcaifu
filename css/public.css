@@ -87,7 +87,7 @@ h3.main_header3{line-height:32px;font-size:16px;color:#40b1e6;}
 #footer .copy{line-height:32px;font-size:12px;padding:10px 0 25px 0;}
 
 /* 侧边栏 */
-#sidebar{position:fixed;right:0;top:300px;z-index:100;width:49px;height:203px;background:url(../images/side_service_03.png) no-repeat;_position:absolute;_top:expression(eval(document.documentElement.scrollTop+300));}
+#sidebar{position:fixed;right:0;top:300px;z-index:100;width:49px;height:203px;background:url(../images/side_service_03.png) no-repeat;_position:absolute;_top:expression(eval(document.documentElement.scrollTop+300));overflow:hidden;}
 #sidebar .side_btns{}
 #sidebar .side_btns a{display:block;height:51px;}
 #go_top{height:50px;}

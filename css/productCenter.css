@@ -1,6 +1,20 @@
-#banner{height:349px;border-top:2px solid #40b1e6;border-bottom:1px solid #e8e8e8;}
+#banner{height:340px;border-top:2px solid #40b1e6;background-color:#c9af83;}
+.banner_content{width:982px;height:325px;padding:15px 0 0 18px;margin:0 auto;background:url(../images/product_center_banner_bg.jpg) no-repeat 367px 0;}
+#searchBox{width:308px;height:308px;border:1px solid #b5b5b5;background-color:#FFF;font-size:14px;}
+#searchBox form{display:block;width:267px;padding:29px 0 0 15px;}
+#searchBox form .searchBoxEle{height:30px;padding-bottom:20px;}
+#searchBox form .searchBox_lab{float:left;line-height:30px;width:77px;color:#8e6846;}
+#searchBox form .searchBox_select{float:left;width:190px;height:30px;cursor:default;position:relative;z-index:2;}
+#searchBox form .searchBox_select_value{height:28px;padding-left:8px;line-height:28px;border:1px solid #b1b1b1;background:#f6fcff url(../images/searchBox_select_value.png) no-repeat 167px 11px;}
+#searchBox form .searchBox_select_options{position:absolute;top:29px;left:0;width:188px;line-height:28px;background-color:#FFF;border:1px solid #b1b1b1;}
+#searchBox form .searchBox_select_options li{padding-left:8px;border-bottom:1px solid #eee;}
+#searchBox form .searchSubmit{display:block;width:268px;height:40px;background-color:#fac03d;font-size:16px;color:#fff;line-height:40px;text-align:center;margin:0 auto;}
+#searchBox .searchBox_0{float:left;height:115px;width:80px;margin-left:15px;_margin-left:7px;padding-top:15px;line-height:20px;color:#ac8868;}
+#searchBox .searchBox_1{float:left;width:200px;padding-top:15px;}
+#searchBox .searchBox_1 a{display:inline-block;height:22px;padding:0 10px;border:1px solid #ccd3d6;line-height:22px;white-space:nowrap;color:#767880;font-size:12px;margin-bottom:8px;}
+
 .stepsbox{border-bottom:1px solid #e8e8e8;}
-.steps{height:122px;background:url(../images/setps_07.png) no-repeat;}
+.steps{height:122px;background:url(../images/setps_07.png) no-repeat 0 20px;}
 
 #productList{padding-top:13px;}
 .list_left{width:600px;}
@@ -12,9 +26,8 @@
 .pro_box .pb_title .pb_title_info{float:left;font-size:14px;color:#fff;padding-top:4px;line-height:22px;}
 .pro_box .pb_title .pb_more{display:block;float:right;margin:5px 8px 0 0;width:36px;height:16px;background:url(../images/pro_list_more_02.png) no-repeat;}
 .pro_box .pb_info{border:1px solid #cacfd6;border-top:none;}
-.pro_box .pb_info .pb_benefits{padding:7px 0 7px 8px;/* overflow:hidden;height:30px; */}
-.pro_box .pb_info .pb_benefits span{display:block;float:left;margin-right:12px;_margin-right:8px;padding:0 18px;height:28px;line-height:28px;border:1px solid #c6c6c6;color:#444;white-space:nowrap;}
-.pro_box .pb_info h3{padding:0 0 7px 10px;height:22px;line-height:22px;font-size:14px;color:#545454;}
+.pro_box .pb_info .pb_benefits{padding-top:9px;margin:0 auto;width:350px;border-bottom:1px dashed #e8e8e8;line-height:28px;color:#b5b5b5;font-size:12px;}
+.pro_box .pb_info h3{padding:0 0 0 10px;height:34px;line-height:34px;font-size:14px;color:#545454;}
 .pro_box .pb_info .pb_intro{background-color:#fafafa;border-top:1px solid #cacfd6;padding:12px 0 9px 0;display:none;}
 .pro_box .pb_info .pb_intro dl{float:left;text-align:center;height:42px;margin-bottom:16px;}
 .pro_box .pb_info .pb_intro dl dd{font-size:22px;line-height:26px;height:26px;color:#ec8028;font-family:Microsoft Yahei,Arial;}
@@ -26,7 +39,7 @@
 .pro_box .pb_info .pb_intro .pb_btns{padding:0 9px;}
 .pro_box .pb_info .pb_intro .follows{background:url(../images/pb_follows_07.png) no-repeat 9px 0;height:26px;padding:0 0 0 46px;font-size:12px;line-height:26px;}
 .pro_box .pb_info .pb_intro .follows .red{font-size:14px;font-weight:bold;}
-.pro_box .pb_info .pb_intro .reserve{display:block;width:100px;height:30px;text-align:center;line-height:30px;font-size:14px;color:#fff;background-color:#40b1e6;}
+.pro_box .pb_info .pb_intro .reserve{display:block;width:100px;height:30px;text-align:center;line-height:30px;font-size:14px;color:#fff;background:url(../images/reserve_05.png) no-repeat;}
 
 #productList .pi_right{width:410px;}
 

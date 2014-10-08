@@ -37,13 +37,29 @@ $(function(){
 		}).click();
 		
 	}
+	//隐藏a标签虚线框
 	if(navigator.userAgent.indexOf('MSIE')){
 		$('a').attr('hidefocus',true);
 	}
+	//登陆后用户中心鼠标划过
 	$('#userBox').hover(function(){
 		$(this).find('.userInfoBox').toggle();
 	});
-	
+	//回到顶部
+	$(window).scroll(function(){
+		toggleGoTop();
+	});
+	toggleGoTop();
+	function toggleGoTop(){
+		if($(window).scrollTop()==0){
+			$('#sidebar').height(152);
+		}else{
+			$('#sidebar').height(203);
+		}
+	}
+	$('#go_top').click(function(){
+		$(window).scrollTop(0);
+	});
 	
 	
 });
