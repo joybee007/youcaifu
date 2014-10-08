@@ -40,4 +40,10 @@ $(function(){
 	if(navigator.userAgent.indexOf('MSIE')){
 		$('a').attr('hidefocus',true);
 	}
+	$('#userBox').hover(function(){
+		$(this).find('.userInfoBox').toggle();
+	});
+	
+	
+	
 });
