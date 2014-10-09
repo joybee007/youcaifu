@@ -6,6 +6,7 @@ a img{border:none;}
 table{border-collapse:collapse;}
 .clear{clear:both;}
 .red{color:#f36700;}
+.blue{color:#40b1e6;}
 .orange{color:#f90;}
 .blank{height:10px;}
 .nobd{border:none;}
@@ -32,6 +33,7 @@ table{border-collapse:collapse;}
 .tc{text-align:center;}
 .tr{text-align:right;}
 .bc{margin-left:0;margin-right:0;}
+.ma{margin:0 auto;}
 .fl{float:left;display:inline;}
 .fr{float:right;display:inline;}
 .cl{clear:left;}

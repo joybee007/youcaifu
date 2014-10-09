@@ -1,10 +1,3 @@
-/* 面包屑 */
-.bread{float:left;line-height:26px;font-size:14px;border-bottom:1px dashed #bebebe;padding-top:11px;}
-.bread .bread_root{color:#40b1e6;}
-.bread .bread_1{color:#bebebe;}
-.bread .bread_2{color:#878787;}
-.bread .bread_gray{color:#878787;}
-
 
 /* 表单部分 */
 .m_xiaoren{float:left;padding:22px 0 0 54px;width:212px;}

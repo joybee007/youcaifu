@@ -65,6 +65,13 @@ h3.main_header3{line-height:32px;font-size:16px;color:#40b1e6;}
 #userBox .user_quit{width:84px;padding-left:46px;margin:0 auto;height:32px;line-height:26px;background:url(../images/uib_1.png) no-repeat 11px -77px;}
 #userBox .user_quit a{color:#4c4e62;}
 
+/* 面包屑 */
+.bread{float:left;line-height:26px;font-size:14px;border-bottom:1px dashed #bebebe;padding-top:11px;}
+.bread .bread_root{color:#40b1e6;}
+.bread .bread_1{color:#bebebe;}
+.bread .bread_2{color:#878787;}
+.bread .bread_gray{color:#878787;}
+
 
 
 /* 下部合作伙伴 */
@@ -115,6 +122,17 @@ form .submit{display:block;margin:0 0 0 132px;width:250px;height:50px;background
 .ui_div_select_options{position:absolute;top:31px;left:0;width:248px;line-height:28px;background-color:#FFF;border:1px solid #b1b1b1;}
 .ui_div_select_options li{padding-left:8px;border-bottom:1px solid #eee;}
 
-
+/* 分页 */
+.main_paging{padding:23px 0 20px;font-size:12px;text-align:center;}
+.main_paging a{display:inline-block;height:26px;line-height:26px;border:1px solid #8a8a8a;color:#5d5d5d;}
+.main_paging .prev_page,.main_paging .next_page{padding:0 10px;}
+.main_paging .pages,.main_paging .prevs,.main_paging .nexts{width:26px;text-align:center;}
+.main_paging .prevs,.main_paging .nexts{background-image:url(../images/main_paging_btns.png);}
+.main_paging .prevs{background-position:0 -26px;margin-right:20px;}
+.main_paging .nexts{background-position:-26px -26px;margin-left:20px;}
+.main_paging a.disabled{border:1px solid #d9d9d9;color:#d9d9d9;}
+.main_paging a.disabled_prevs{border:1px solid #d9d9d9;background-position:0 0;}
+.main_paging a.disabled_nexts{border:1px solid #d9d9d9;background-position:-26px 0;}
+.main_paging a.active{border:1px solid #40b1e6;background-color:#40b1e6;color:#fff;}
 
 
