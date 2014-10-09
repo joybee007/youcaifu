@@ -31,7 +31,7 @@ $(function(){
 	$('ul.searchBox_select_options').on('click','li',function(){
 		$(this).parent().hide().next('select').val($(this).data('val')).end().prev('.searchBox_select_value').text($(this).text());
 	}).on('mouseover','li',function(){
-		$(this).css('background','#f6fcff');
+		$(this).css('background','#e4f1f2');
 	}).on('mouseout','li',function(){
 		$(this).css('background','none');
 	});
