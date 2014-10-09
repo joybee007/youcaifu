@@ -75,6 +75,7 @@ h3.main_header3{line-height:32px;font-size:16px;color:#40b1e6;}
 #main .pm_box ul{width:910px;}
 #main .pm_box li{width:130px;float:left;}
 #main .pm_box li a{display:block;width:118px;line-height:0;border:1px solid #e9e9e9;}
+#main .bdb1{border-bottom:1px solid #cfcfcf;}
 
 /* 底部 */
 #footer{padding-top:26px;text-align:center;background-color:#40b1e6;color:#fff;}
