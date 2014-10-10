@@ -5,12 +5,12 @@
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/public.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="css/uploadVoucher.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/myCustomer.css" media="all" />
 	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="js/kxbdSuperMarquee.js"></script>
 	<script type="text/javascript" src="js/public.js"></script>
-	<script type="text/javascript" src="js/uploadVoucher.js"></script>
+	<script type="text/javascript" src="js/myCustomer.js"></script>
 </head>
 <body class="yahei">
 	<div id="header">
@@ -76,108 +76,61 @@
 				</ul>
 			</div>
 			<div class="uc_content">
-				<div class="uc_title clearfix">
-					<h1>上传凭证</h1>
+				<div class="my_c_title clearfix">
+					<h1>我的客户</h1>
+					<a href="javascript:void(0)" class="newCustomer">新增客户</a>
 				</div>
-				<div class="uc_infos clearfix">
-					<div class="customer_info fl">
-						<form action="" id="reserve" class="">
-							<h3>投资者账号信息</h3><br />
-							<div class="ui_form_ele">
-								<label for="username"><span class="lab"><span class="red fb">*&nbsp;</span>开户行：</span><input type="text" name="username" id="username" class="ui_input" /></label>
-								<span class="valid_info clear"></span>
-							</div>
-							<div class="ui_form_ele">
-								<label for="username"><span class="lab"><span class="red fb">*&nbsp;</span>卡号：</span><input type="text" name="username" id="username" class="ui_input" /></label>
-								<span class="valid_info clear"></span>
-							</div>
-							<div class="ui_form_ele">
-								<label for="username"><span class="lab"><span class="red fb">*&nbsp;</span>开户人：</span><input type="text" name="username" id="username" class="ui_input" /></label>
-								<span class="valid_info clear"></span>
-							</div>
-							<a href="javascript:void(0)" class="submit">保存收款信息</a>
-						</form>
-					</div>
-					<div class="service_info fr">
-						<form action="" id="reserve" class="">
-							<h3>理财师账户信息</h3><br />
-							<div class="ui_form_ele">
-								<label for="username"><span class="lab"><span class="red fb">*&nbsp;</span>开户行：</span><input type="text" name="username" id="username" class="ui_input" /></label>
-								<span class="valid_info clear"></span>
-							</div>
-							<div class="ui_form_ele">
-								<label for="username"><span class="lab"><span class="red fb">*&nbsp;</span>卡号：</span><input type="text" name="username" id="username" class="ui_input" /></label>
-								<span class="valid_info clear"></span>
-							</div>
-							<div class="ui_form_ele">
-								<label for="username"><span class="lab"><span class="red fb">*&nbsp;</span>开户人：</span><input type="text" name="username" id="username" class="ui_input" /></label>
-								<span class="valid_info clear"></span>
-							</div>
-							<a href="javascript:void(0)" class="submit">保存收款信息</a>
-						</form>
-					</div>
+				<div class="searchCustomer">
+					<table>
+						<tr>
+							<td><label for="">客户名称：<input type="text" name="" id="" /></label></td>
+							<td><label for="">证件号码：<input type="text" name="" id="" /></label></td>
+						</tr>
+						<tr>
+							<td><label for="">存续规模：<input type="text" name="" id="" />-<input type="text" name="" id="" />&nbsp;万</label></td>
+							<td><label for="">信息是否开放：<input type="text" name="" id="" /></label></td>
+						</tr>
+					</table>
+					<a href="javascript:void(0)" class="search_btn">查询</a>
+					<div class="clear total">共找到&nbsp;<span>43</span>&nbsp;条客户记录</div>
 				</div>
-				<div class="uploadBox clearfix">
-					<div class="uploaded">
-						<img src="images/pingzheng_03.png" alt="" width="272" height="272" />
-						<span class="uploaded_info">渝兴建投3号打款凭证</span>
-					</div>
-					<div class="uploadForm">
-						<div class="up_title">标题</div>
-						<input type="text" name="" id="" class="up_title_ipt" />
-						<p class="up_tip">选择图片（大图片建议尺寸：900像素^500像素）</p>
-						<div class="up_btns clearfix">
-							<a href="javascript:void(0)" class="ub_btn ub_blue fl">上传打款凭证</a>
-							<a href="javascript:void(0)" class="ub_btn ub_yellow fr">手机上传打款凭证</a>
-						</div>
-						<p class="up_tip_1 pt5">提示：1.本地上传图片大小不能超过1M；</p>
-						<p class="up_tip_1 ti2">2.图片格式为png、jpg、jpeg。</p>
-						<a href="javascript:void(0)" class="ub_btn ub_blue ma mt20">保存</a>
-					</div>
-				</div>
-				<div class="up_list">
-					<ul>
-						<li>
-							<dl>
-								<dt><img src="images/pingzheng_03.png" alt="" width="253" height="253" /><span class="up_v_name">与性建设3号打款凭证</span></dt>
-								<dd>
-									<a href="javascript:void(0)" class="up_v_btn_0 fl">编辑</a><a href="javascript:void(0)" class="up_v_btn_1 fr">删除</a>
-								</dd>
-							</dl>
-						</li>
-						<li>
-							<dl>
-								<dt><img src="images/pingzheng_03.png" alt="" width="253" height="253" /><span class="up_v_name">与性建设3号打款凭证</span></dt>
-								<dd>
-									<a href="javascript:void(0)" class="up_v_btn_0 fl">编辑</a><a href="javascript:void(0)" class="up_v_btn_1 fr">删除</a>
-								</dd>
-							</dl>
-						</li>
-						<li>
-							<dl>
-								<dt><img src="images/pingzheng_03.png" alt="" width="253" height="253" /><span class="up_v_name">与性建设3号打款凭证</span></dt>
-								<dd>
-									<a href="javascript:void(0)" class="up_v_btn_0 fl">编辑</a><a href="javascript:void(0)" class="up_v_btn_1 fr">删除</a>
-								</dd>
-							</dl>
-						</li>
-						<li>
-							<dl>
-								<dt><img src="images/pingzheng_03.png" alt="" width="253" height="253" /><span class="up_v_name">与性建设3号打款凭证</span></dt>
-								<dd>
-									<a href="javascript:void(0)" class="up_v_btn_0 fl">编辑</a><a href="javascript:void(0)" class="up_v_btn_1 fr">删除</a>
-								</dd>
-							</dl>
-						</li>
-						<li>
-							<dl>
-								<dt><img src="images/pingzheng_03.png" alt="" width="253" height="253" /><span class="up_v_name">与性建设3号打款凭证</span></dt>
-								<dd>
-									<a href="javascript:void(0)" class="up_v_btn_0 fl">编辑</a><a href="javascript:void(0)" class="up_v_btn_1 fr">删除</a>
-								</dd>
-							</dl>
-						</li>
-					</ul>
+				<table class="my_customer_list">
+					<thead>
+						<tr>
+							<th>客户名称</th>
+							<th>客户类型</th>
+							<th>证件类型</th>
+							<th>证件号码</th>
+							<th>信息是否开放</th>
+							<th>操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>王家河</td>
+							<td>个人</td>
+							<td>模拟select</td>
+							<td>888888888888888888</td>
+							<td>是</td>
+							<td><a href="javascript:void(0)" class="edit">查看</a>&nbsp;&nbsp;<a href="javascript:void(0)" class="edit">修改</a>&nbsp;&nbsp;<a href="javascript:void(0)" class="edit">续存产品</a>&nbsp;&nbsp;<a href="javascript:void(0)" class="edit">交易记录</a>&nbsp;&nbsp;<a href="javascript:void(0)" class="edit">删除</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="main_paging clearfix">
+					<a href="javascript:void(0)" class="prev_page disabled">上一页</a>
+					<a href="javascript:void(0)" class="prevs disabled_prevs">&nbsp;</a>
+					<a href="javascript:void(0)" class="pages">1</a>
+					<a href="javascript:void(0)" class="pages active">2</a>
+					<a href="javascript:void(0)" class="pages">3</a>
+					<a href="javascript:void(0)" class="pages">...</a>
+					<a href="javascript:void(0)" class="pages">9</a>
+					<a href="javascript:void(0)" class="pages">10</a>
+					<a href="javascript:void(0)" class="pages">11</a>
+					<a href="javascript:void(0)" class="nexts disabled_nexts">&nbsp;</a>
+					<a href="javascript:void(0)" class="next_page">下一页</a>
+					<span class="total">共30页</span>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="toPage">到第&nbsp;<input type="text" name="" id="" class="toPageInput" />&nbsp;页</span>
+					&nbsp;&nbsp;<a href="javascript:void(0)" class="toPageBtn">确定</a>
 				</div>
 			</div>
 			<div class="clear"></div>
