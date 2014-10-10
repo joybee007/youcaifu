@@ -110,6 +110,7 @@ h3.main_header3{line-height:32px;font-size:16px;color:#40b1e6;}
 .ui_form_ele .getcheckcode{display:block;float:left;width:115px;height:34px;line-height:34px;text-align:center;background-color:#40b1e6;color:#fff;font-size:12px;}
 .ui_form_ele .valid_icon{display:block;float:left;margin:5px 0 0 10px;width:25px;height:25px;background-image:url(../images/reg_valid_icon.png);}
 .ui_form_ele .valid_info{display:block;padding-left:132px;font-size:12px;color:#ea4848;line-height:28px;}
+.ui_form_ele .remark{display: inline-block;font-size: 12px;color: #cecece;}
 
 .ui_form_ele .invalided{background-position:0 -25px;}
 .ui_form_ele .agreement_lab{padding-left:132px;line-height:20px;}
