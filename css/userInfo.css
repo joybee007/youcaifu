@@ -1,4 +1,7 @@
 @charset "utf-8";
+
+a,a:hover{text-decoration: none;}
+
 .right_main{float:left;width:810px;}
 .right_main .tab{}
 .right_main .tab_title{font-size: 14px;text-align: center;color: white;}
@@ -12,4 +15,16 @@
 .dashed_line{height: 0px;border-bottom: dashed 1px #e8e8e8;}
 
 .upload_box{}
-.upload_box .img_box{width: 335px;height: 202px;padding: 1px;border: solid 1px #cecece;background: url("../images/userInfo_01.jpg") no-repeat center center;}
+.upload_box .img_box{position: relative;z-index: 0;width: 335px;height: 202px;padding: 1px;border: solid 1px #cecece;}
+.upload_box .img_box img{width: 335px;height: 202px;position: absolute;z-index: 1;left: 1px;top: 1px;}
+.upload_box .img_box .loading{width: 335px;height:32px;line-height: 32px;padding-top: 10px;position: absolute;z-index: 2;left: 1px;top: 83px;background: url("../images/userInfo_03.png") no-repeat center top;text-align: center;color: #40b1e6;}
+.upload_box .img_box .title{width: 335px;height: 32px;line-height: 32px;position: absolute;z-index: 2;left: 1px;bottom: 1px;background-color: #000;text-align: center;opacity:0.6; filter:alpha(opacity=60);color: #fff;}
+
+
+
+.btn_box{}
+.btn_blue{height: 50px;line-height: 50px;font-size: 16px;color: white;background-color: #40b1e6;}
+.btn_orange{height: 50px;line-height: 50px;font-size: 16px;color: white;background-color: #fac03d;}
+.btn_box em{display: inline-block;}
+.icon1{width: 19px;height: 50px;line-height: 50px;background: url("../images/userInfo_04.png") no-repeat center center;}
+.icon2{width: 28px;height: 50px;line-height: 50px;background: url("../images/userInfo_05.png") no-repeat center center;}

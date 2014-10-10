@@ -9,11 +9,4 @@ $(function(){
 		$('#emailFind').show();
 	});
 
-
-
-
-
-
-
-
 });

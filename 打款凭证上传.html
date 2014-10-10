@@ -4,14 +4,13 @@
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="css/base.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/public.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="css/userInfo.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/uploadVoucher.css" media="all" />
 	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="js/kxbdSuperMarquee.js"></script>
 	<script type="text/javascript" src="js/public.js"></script>
-	<script type="text/javascript" src="js/userInfo.js"></script>
+	<script type="text/javascript" src="js/uploadVoucher.js"></script>
 </head>
 <body class="yahei">
 	<div id="header">
@@ -52,12 +51,12 @@
 	</div>
 	<div id="main">
 		<div class="mainwrap">
-			<div class="bread"><span class="bread_root fb">我的优财富</span><span class="bread_root">&nbsp;&gt;&nbsp;</span><span class="bread_1">账户管理</span><span class="bread_gray">&nbsp;&gt;&nbsp;</span><span class="bread_2">基本信息</span></div>
+			<div class="bread"><span class="bread_root fb">产品中心</span><span class="bread_root">&nbsp;&gt;&nbsp;</span><span class="bread_1">四川信托-锦恒6号四川信托</span><span class="bread_gray">&nbsp;&gt;&nbsp;</span><span class="bread_2">完成预约</span></div>
 			<div class="clear pb20"></div>
 			<div class="user_menu">
 				<ul>
 					<li class="title">我的交易</li>
-					<li><a href="javascript:void(0)">我的订单</a></li>
+					<li class="active"><a href="javascript:void(0)">我的订单</a></li>
 					<li><a href="javascript:void(0)">打款凭证</a></li>
 					<li><a href="javascript:void(0)">我的合同</a></li>
 					<li><a href="javascript:void(0)">我的顾问费</a></li>
@@ -67,7 +66,7 @@
 					<li><a href="javascript:void(0)">我的消息</a></li>
 					<li><a href="javascript:void(0)">我的收藏夹</a></li>
 					<li class="title">账户管理</li>
-					<li class="active"><a href="javascript:void(0)">基本信息</a></li>
+					<li><a href="javascript:void(0)">基本信息</a></li>
 					<li><a href="javascript:void(0)">账户安全设置</a></li>
 					<li><a href="javascript:void(0)">打款账户</a></li>
 					<li><a href="javascript:void(0)">收货地址</a></li>
@@ -76,120 +75,12 @@
 					<li><a href="javascript:void(0)">会员注销</a></li>
 				</ul>
 			</div>
-			<div class="right_main">
-				<div class="tab">
-					<ul class="tab_title">
-						<li class="active">
-							<a href="javascript:void(0)">个人资料</a>
-							<span class="solid_line"></span>
-						</li>
-						<li>
-							<a href="javascript:void(0)">联系方式</a>
-							<span class="solid_line"></span>
-						</li>
-						<li>
-							<a href="javascript:void(0)">我的头像</a>
-						</li>
-					</ul>
-					<div class="clear"></div>
-					<ol class="tab_content">
-						<li>
-							<div class="lh-32">[<span class="red">*</span> 为必填项]</div>
-							<div class="dashed_line"></div>
-							<form action="" class="mt-35">
-								<div class="ui_form_ele">
-									<label>
-										<span class="lab"><span class="red fb">*&nbsp;</span>姓名：</span>
-										<input type="text" name="realName" class="ui_input">
-									</label>
-									<span class="remark lh-32 ml-10">使用本网站的金融产品推介服务需要实名认证，请您填写真实的身份资料。</span>
-									<span class="valid_info clear"></span>
-								</div>
-								<div class="ui_form_ele">
-									<label>
-										<span class="lab"><span class="red fb">*&nbsp;</span>昵称：</span>
-										<input type="text" name="nickname" class="ui_input">
-									</label>
-									<span class="valid_info clear"></span>
-								</div>
-								<div class="ui_form_ele">
-									<label><span class="lab"><span class="red fb">*&nbsp;</span>性别：</span>
-										<span class="lh-32"><input type="radio" name="sex" value="0" checked />男</span>
-										<span class="lh-32 ml-30"><input type="radio" name="sex" value="1" />女</span>
-										<span class="lh-32 ml-30"><input type="radio" name="sex" value="2" />保密</span>
-									</label>
-									<span class="valid_info clear"></span>
-								</div>
-								<div class="ui_form_ele">
-									<label>
-										<span class="lab"><span class="red fb">*&nbsp;</span>省份：</span>
-										<div class="ui_div_select">
-											<div class="ui_div_select_value"></div>
-											<ul class="ui_div_select_options none"></ul>
-											<select name="province" class="none">
-												<option value="1">辽宁省</option>
-												<option value="2">河北省</option>
-												<option value="3">河南省</option>
-											</select>
-										</div>
-									</label>
-									<span class="valid_info clear"></span>
-								</div>
-								<div class="ui_form_ele">
-									<label>
-										<span class="lab"><span class="red fb">*&nbsp;</span>城市：</span>
-										<div class="ui_div_select">
-											<div class="ui_div_select_value"></div>
-											<ul class="ui_div_select_options none"></ul>
-											<select name="city" class="none">
-												<option value="1">沈阳市</option>
-											</select>
-										</div>
-									</label>
-									<span class="remark lh-32 ml-10">使用本网站的金融产品推介服务需要实名认证，请您填写真实的身份资料。</span>
-									<span class="valid_info clear"></span>
-								</div>
-								<div class="ui_form_ele">
-									<label>
-										<span class="lab"><span class="red fb">*&nbsp;</span>身份证：</span>
-										<input type="text" name="idCard" class="ui_input">
-									</label>
-									<span class="valid_info clear"></span>
-								</div>
-								<div class="ui_form_ele">
-									<label class="fl-l cs-a">
-										<span class="lab">认证附件：</span>
-										<div class="upload_box fl-l">
-											<div class="img_box">
-												<img src="images/userInfo_01.jpg" alt="" />
-												<div class="loading">加载完成</div>
-												<div class="title">身份验证</div>
-											</div>
-											<div class="btn_box mt-10">
-												<a href="javascript:void(0)" class="btn_blue w-170 ta-c"><span class="clearfix"><em class="icon1 fl-l"></em><span class="fl-l ml-10">附件</span></span></a>
-												<a href="javascript:void(0)" class="btn_orange w-170 ta-c"><span class="clearfix"><em class="icon2 fl-l"></em><span class="fl-l ml-10">手机图片上传</span></span></a>
-											</div>
-										</div>
-									</label>
-									<span class="remark fl-l w-300 lh-32 ml-10">使用本网站的金融产品推介服务需要实名认证，请您填写真实的身份资料。</span>
-									<span class="valid_info clear"></span>
-								</div>
-								<div class="clear"></div>
-								<div class="dashed_line mt-25 mb-25"></div>
-								<div class="ui_form_ele">
-									<label class="fl-l cs-a">
-										<span class="lab">&nbsp;</span>
-										<a href="javascript:void(0)" class="btn_orange w-250 ta-c mb-40">认证</a>
-									</label>
-									<span class="valid_info clear"></span>
-								</div>
-							</form>
-						</li>
-					</ol>
-				</div>
+			<div class="uc_content">
+				
 			</div>
 			<div class="clear"></div>
 		</div>
+		<br /><br />
 		<div class="bdb1"></div>
 		<div class="main_partners mainwrap">
 			<div class="mainwrap clearfix">
@@ -215,6 +106,53 @@
 		<p class="hotline_num bdb">400-111-5800</p>
 		<p class="links bdb"><a href="javascript:void(0)">首页</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:void(0)">产品中心</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:void(0)">会员中心</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:void(0)">资讯中心</a><br /><a href="javascript:void(0)">关于我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:void(0)">联系我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:void(0)">法律声明</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:void(0)">垂询热线</a></p>
 		<p class="copy">优财富（bestwealth）版权归北京财富圈科技发展有限公司所有<br />人工服务：9:00-18:00<br />京ICP备14036440号</p>
+	</div>
+	<div id="sidebar">
+		<div class="side_btns">
+			<a href="javascript:void(0)" id="service_qq"></a>
+			<a href="javascript:void(0)" id="service_online"></a>
+			<a href="javascript:void(0)" id="go_top"></a>
+		</div>
+	</div>
+	<div id="edit_links" class="none">
+		<div class="el_pointer"></div>
+		<div class="btns"><a href="javascript:void(0)">修改</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:void(0)" id="cancle_order">撤销</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:void(0)" id="customer_account_edit">客户汇款账户</a><br /><a href="javascript:void(0)">募集账户查看</a>&nbsp;|&nbsp;<a href="javascript:void(0)">回寄信息查看</a></div>
+	</div>
+	<div id="confirm_cancle" class="yellow_tip none">
+		<div class="title">您确定要撤销该订单吗？</div>
+		<p class="tips">撤销订单后，不能恢复。</p>
+		<div class="btns clearfix">
+			<a href="javascript:void(0)" class="confirm fl" id="confirm_cancle_btn">确定</a>
+			<a href="javascript:void(0)" class="cancle fl" id="cancle_cancle_btn">取消</a>
+		</div>
+	</div>
+	<div id="customerForm" class="yellow_tip none">
+		<div class="title">客户收益银行账户信息</div>
+		<form action="">
+			<div class="ui_form_ele">
+				<label for=""><span class="lab">客户姓名：</span><span class="lab gray">赵宝刚</span></label>
+				<span class="valid_info clear"></span>
+			</div>
+			<div class="ui_form_ele">
+				<label for=""><span class="lab"><span class="blue fb">*&nbsp;</span>开户姓名：</span><input type="text" name="" id="" class="ui_input" /></label>
+				<span class="valid_info clear"></span>
+			</div>
+			<div class="ui_form_ele">
+				<label for=""><span class="lab"><span class="blue fb">*&nbsp;</span>开户行：</span><input type="text" name="" id="" class="ui_input" /></label>
+				<span class="valid_info clear"></span>
+			</div>
+			<div class="ui_form_ele">
+				<label for=""><span class="lab"><span class="blue fb">*&nbsp;</span>账号：</span><input type="text" name="" id="" class="ui_input" /></label>
+				<span class="valid_info clear"></span>
+			</div>
+		</form>
+		<div class="btns">
+			<a href="javascript:void(0)" class="confirm ma" id="customer_account_submit">提交</a>
+		</div>
+	</div>
+	<div id="submitSuccess" class="yellow_tip none">
+		<div class="title">客户受益银行账户信息</div>
+		<p class="tips">订单提交成功！</p>
 	</div>
 </body>
 </html>
