@@ -7,7 +7,7 @@ h3.main_header3{line-height:32px;font-size:16px;color:#40b1e6;}
 #header .logo{display:block;float:left;margin:20px 55px 0 0;width:296px;height:50px;overflow:hidden;}
 #header .nav{margin-top:30px;}
 #header .nav li{float:left;height:56px;line-height:56px;}
-#header .nav li a{display:block;padding:0 22px 0 46px;color:#4c4e62;background-image:url(../images/index_nav_01.png);}
+#header .nav li a{display:block;float: left;padding:0 22px 0 46px;color:#4c4e62;background-image:url(../images/index_nav_01.png);}
 #header .nav li .nav_0{background-position:10px 16px;}
 #header .nav li .nav_1{background-position:-105px 16px;}
 #header .nav li .nav_2{background-position:-229px 16px;}

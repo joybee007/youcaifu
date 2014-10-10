@@ -1,6 +1,8 @@
 @charset "utf-8";
 
 a,a:hover{text-decoration: none;}
+.ui_form_ele{height:auto;min-height: 68px;font-size:14px;color:#616161;}
+
 
 .right_main{float:left;width:810px;}
 .right_main .tab{}

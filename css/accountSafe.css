@@ -2,6 +2,7 @@
 
 a,a:hover{text-decoration: none;}
 .c-blue{color: #40b1e6;}
+.ui_form_ele{height:auto;min-height: 68px;font-size:14px;color:#616161;}
 
 .right_main{float:left;width:810px;}
 .right_main .tab{}
@@ -26,7 +27,6 @@ a,a:hover{text-decoration: none;}
 .icon_no{width: 48px;height: 48px;background: url("../images/reg_cuccess_icon.png") no-repeat 0 -48px;}
 
 .address_list{width:100%;border:1px solid #cecece;text-align:center;font-size:14px;}
-.address_list tbody tr{color:#3e3e3e;border-bottom: 1px solid #cecece;}
-.address_list tbody tr td{height: 110px;line-height:24px;}
+.address_list tbody tr td{height: 110px;line-height:24px;color:#3e3e3e;border-bottom: 1px solid #cecece;}
 .address_list tbody tr td.bdr{border-right: 1px solid #cecece;}
 .address_list tbody tr td .edit{display:block;margin:0 auto;width:55px;height:20px;line-height:20px;text-align:center;color:#fff;background-color:#40b1e6;font-size:12px;}
