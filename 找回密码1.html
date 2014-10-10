@@ -56,17 +56,20 @@
 		<div class="steps mainwrap"><img src="images/findPass_steps/1.png" alt="" /></div>
 		<form action="" id="find" class="findForm">
 			<div class="ui_form_ele">
+				<span class="lab">密码找回方式：</span><label for="mobile" class="ui_check mr20"><input type="radio" name="aa" id="mobile" class="" value="0" checked="checked" />&nbsp;手机</label><label for="email" class="ui_check"><input type="radio" name="aa" id="email" class="" value="1" />&nbsp;邮箱</label>
+			</div>
+			<div class="ui_form_ele">
 				<label for="username"><span class="lab">帐户名：</span><input type="text" name="a" id="username" class="ui_input" /></label>
 				<span class="valid_icon valided"></span>
 				<span class="valid_info clear"></span>
 			</div>
-			<div class="ui_form_ele">
+			<div class="ui_form_ele" id="mobileFind">
 				<label for="checkcode"><span class="lab">手机验证码：</span><input type="text" name="checkcode" id="checkcode" class="ui_input ui_check_input" /></label>
 				<a href="javascript:void(0)" class="getcheckcode">获取手机验证码</a>
 				<span class="sended">信息已发送，60秒后可再次发送。</span>
 				<span class="valid_info clear"></span>
 			</div>
-			<div class="ui_form_ele">
+			<div class="ui_form_ele none" id="emailFind">
 				<label for="checkcode"><span class="lab">邮箱验证码：</span><input type="text" name="checkcode" id="checkcode" class="ui_input ui_check_input" /></label>
 				<a href="javascript:void(0)" class="getcheckcode">邮箱手机验证码</a>
 				<span class="valid_info clear"></span>
