@@ -1,15 +1,19 @@
 
 .order_wrap{float:left;width:808px;border:1px solid #e2e2e2;}
 
+.ow_title{line-height:38px;background-color:#f6f6f7;font-size:12px;}
+.ow_title h1{float:left;font-size:14px;color:#40b1e6;padding-left:10px;font-weight:normal;}
+.editBtns{float:right;padding-right:28px;color:#5d5d5d;}
+.editBtns a{color:#5d5d5d;}
+.editBtns a:hover{color:#40b1e6;}
+.ow_content{padding:0 65px;}
+.ow_content h2{padding-top:10px;font-size:18px;font-weight:normal;color:#40b1e6;}
+.ow_table{font-size:12px;border:none;}
+.ow_table td{height:34px;color:#616161;padding-right:39px;}
+.ow_table td.ow_table_title{padding:0;color:#a6a6a6;text-align:right;}
+.ow_hr{border-bottom:1px dashed #d1d1d1;padding-top:15px;}
 
-
-
-
-
-
-
-
-
+.submit{display:block;width:250px;height:50px;background-color:#fac03d;text-align:center;line-height:50px;font-size:16px;color:#fff;}
 
 
 
