@@ -61,7 +61,7 @@ $(function(){
 		$(window).scrollTop(0);
 	});
 	//模拟select
-	if($('.ui_div_select select').length){
+	if($('.ui_div_select').length){
 		$('.ui_div_select select').each(function(i,a){
 			$(a).parent().css('z-index',10-i).end().find('option').each(function(j,b){
 				var li=$('<li />');
@@ -81,8 +81,13 @@ $(function(){
 			$(this).css('border-color','#40b1e6');
 		},function(){
 			$(this).css('border-color','#b1b1b1');
-		}).click(function(){
-			$(this).next().show();
+		}).click(function(evt){
+			$(this).next().toggle();
+			evt.stopPropagation();
+			evt.preventDefault();
+		});
+		$(document).click(function(){
+			$('.ui_div_select_options').hide();
 		});
 	}
 	
