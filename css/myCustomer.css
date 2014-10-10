@@ -6,20 +6,22 @@
 .searchCustomer{}
 .searchCustomer_icon{height:60px;padding-left:82px;line-height:60px;font-size:16px;color:#fac03d;background:url(../images/searchCustomer.png) no-repeat 23px 12px;}
 
-.searchCustomer table{}
-
-
-
-
-
-
-
-
-
-
-
-
-
+.searchCustomer table{float:left;width:650px;color:#5d5d5d;font-size:14px;margin-left:10px;_margin-left:5px;}
+.searchCustomer table td{height:52px;}
+.searchCustomer table td input{width:220px;height:30px;line-height:30px;border:1px solid #cecece;background:#f6f7f7;vertical-align:middle;}
+.searchCustomer table td input.ui_input_short{width:90px;}
+.searchCustomer table td .ui_div_select{float:left;width:190px;height:30px;cursor:default;position:relative;z-index:2;}
+.searchCustomer table td .ui_div_select_value{height:28px;padding-left:8px;line-height:28px;border:1px solid #cecece;background:#fcfcfc url(../images/ui_div_select_value.png) no-repeat 165px 12px;}
+.searchCustomer table td .ui_div_select_options{position:absolute;top:29px;left:0;width:188px;line-height:28px;background-color:#FFF;border:1px solid #b1b1b1;}
+.searchCustomer table td .ui_div_select_options li{padding-left:8px;width:180px;border-bottom:1px solid #eee;}
+.searchCustomer table td .lab{line-height:32px;}
+.search_btn{float:right;display:block;width:150px;height:50px;line-height:50px;text-align:center;font-size:16px;color:#fff;background-color:#fac03d;margin-top:27px;}
+.searchCustomer .total{line-height:44px;padding-left:10px;padding-top:2px;font-size:12px;color:#5d5d5d;}
+.searchCustomer .total span{font-size:14px;font-weight:bold;color:#40b1e6;}
+.my_customer_list{border:1px solid #e8e8e8;width:100%;color:#484848;}
+.my_customer_list thead th{height:48px;border-bottom:1px solid #e8e8e8;background-color:#f6f7f7;font-size:12px;text-align:center;font-weight:normal;}
+.my_customer_list td{text-align:center;border-bottom:1px dashed #e8e8e8;font-size:14px;height:54px;color:#3e3e3e;}
+.my_customer_list td a{color:#40b1e6;}
 
 
 

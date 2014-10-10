@@ -39,10 +39,14 @@ $(function(){
 		$(this).css('border-color','#40b1e6');
 	},function(){
 		$(this).css('border-color','#b1b1b1');
-	}).click(function(){
-		$(this).next().show();
+	}).click(function(evt){
+		$(this).next().toggle();
+		evt.stopPropagation();
+		evt.preventDefault();
 	});
-	
+	$(document).click(function(){
+		$('.searchBox_select_options').hide();
+	});
 	
 	
 	
