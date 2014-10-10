@@ -134,7 +134,7 @@ form .submit{display:block;margin:0 0 0 132px;width:250px;height:50px;background
 .main_paging a.disabled_prevs{border:1px solid #d9d9d9;background-position:0 0;}
 .main_paging a.disabled_nexts{border:1px solid #d9d9d9;background-position:-26px 0;}
 .main_paging a.active{border:1px solid #40b1e6;background-color:#40b1e6;color:#fff;}
-.main_paging .toPageInput{width:28px;height:28px;line-height:26px;text-align:center;border:1px solid #d9d9d9;}
+.main_paging .toPageInput{width:28px;height:28px;line-height:26px;text-align:center;border:1px solid #d9d9d9;vertical-align:middle;}
 .main_paging .toPageBtn{width:58px;height:28px;border:none;background-color:#40b1e6;color:#fff;text-align:center;line-height:28px;}
 
 /* 用户中心菜单部分 */
