@@ -1,4 +1,7 @@
 @charset "utf-8";
+
+a,a:hover{text-decoration: none;}
+
 .right_main{float:left;width:810px;}
 .right_main .tab{}
 .right_main .tab_title{font-size: 14px;text-align: center;color: white;}
@@ -13,3 +16,10 @@
 
 .upload_box{}
 .upload_box .img_box{width: 335px;height: 202px;padding: 1px;border: solid 1px #cecece;background: url("../images/userInfo_01.jpg") no-repeat center center;}
+
+.btn_box{}
+.btn_blue{height: 50px;line-height: 50px;font-size: 16px;color: white;background-color: #40b1e6;}
+.btn_orange{height: 50px;line-height: 50px;font-size: 16px;color: white;background-color: #fac03d;}
+.btn_box em{display: inline-block;}
+.icon1{width: 19px;height: 50px;line-height: 50px;background: url("../images/userInfo_04.png") no-repeat center center;}
+.icon2{width: 28px;height: 50px;line-height: 50px;background: url("../images/userInfo_05.png") no-repeat center center;}

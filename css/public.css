@@ -101,7 +101,7 @@ h3.main_header3{line-height:32px;font-size:16px;color:#40b1e6;}
 #go_top{height:50px;}
 
 /* 表单部分 */
-.ui_form_ele{height:68px;}
+.ui_form_ele{min-height:68px;}
 .ui_form_ele label{display:block;float:left;color:#616161;font-size:14px;}
 .ui_form_ele label .lab{display:block;float:left;width:132px;text-align:right;line-height:32px;}
 .ui_form_ele label .ui_input{display:block;float:left;width:248px;height:32px;line-height:32px;background-color:#fcfcfc;border:1px solid #b1b1b1;color:#616161;}
