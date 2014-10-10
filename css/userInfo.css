@@ -20,8 +20,6 @@ a,a:hover{text-decoration: none;}
 .upload_box .img_box .loading{width: 335px;height:32px;line-height: 32px;padding-top: 10px;position: absolute;z-index: 2;left: 1px;top: 83px;background: url("../images/userInfo_03.png") no-repeat center top;text-align: center;color: #40b1e6;}
 .upload_box .img_box .title{width: 335px;height: 32px;line-height: 32px;position: absolute;z-index: 2;left: 1px;bottom: 1px;background-color: #000;text-align: center;opacity:0.6; filter:alpha(opacity=60);color: #fff;}
 
-
-
 .btn_box{}
 .btn_blue{height: 50px;line-height: 50px;font-size: 16px;color: white;background-color: #40b1e6;}
 .btn_orange{height: 50px;line-height: 50px;font-size: 16px;color: white;background-color: #fac03d;}
