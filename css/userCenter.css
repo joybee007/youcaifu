@@ -1,5 +1,67 @@
 
 .uc_content{float:left;width:810px;}
+.user_info{background-color:#f6f6f7;margin-bottom:10px;padding:10px 0;font-size:12px;}
+.user_info_0,.user_info_1,.user_info_2{float:left;}
+.user_info_0,.user_info_1{border-right:1px solid #cacaca;}
+.user_info_0{width:216px;}
+.user_info_1{width:148px;text-align:center;}
+.user_info_2{width:140px;text-align:center;}
+.user_avatar{padding:0 0 0 8px;width:87px;}
+.user_avatar .logout{display:block;width:50px;height:22px;color:#606060;background:url(../images/user_center_logout.png) no-repeat;line-height:22px;text-align:center;margin:0 auto;margin-top:12px;_margin-top:6px;}
+.user_info_0_1{width:120px;overflow:hidden;}
+.uc_username{font-size:16px;color:#373737;line-height:18px;margin-bottom:5px;}
+
+.uc_vip{padding:0 0 5px 18px;width:104px;background:url(../images/uib_0.png) 1px 0 no-repeat;line-height:15px;color:#3b9740;margin-bottom:10px;}
+.user_info .edit_btn{display:block;width:83px;height:18px;border:1px solid #a8a8a8;color:#606060;text-align:center;line-height:18px;margin-bottom:5px;}
+.user_info_1_0{line-height:26px;color:#565656;}
+.user_info_money{line-height:48px;font-size:30px;color:#ec8028;font-weight:bold;margin-bottom:5px;}
+.user_info .edit_btn_1{display:block;width:72px;height:22px;border:1px solid #a8a8a8;color:#606060;text-align:center;line-height:22px;margin:0 auto;}
+.user_info_money_1{line-height:68px;font-size:30px;color:#ec8028;font-weight:bold;margin-bottom:5px;}
+
+.user_orders{padding-top:9px;border-top:1px solid #e2e2e2;}
+.newOrder{display:block;line-height:18px;width:79px;border-right:1px solid #e8e8e8;font-size:12px;color:#40b1e6;text-align:center;margin-right:8px;}
+.order_filter{display:block;width:83px;line-height:18px;text-align:center;background-color:#40b1e6;color:#fff;font-size:12px;margin-right:8px;}
+.order_list{width:100%;border:1px solid #e8e8e8;text-align:center;font-size:14px;}
+.order_list thead{background-color:#f6f7f7;}
+.order_list thead tr{border-bottom:1px solid #e8e8e8;font-size:12px;color:#484848;}
+.order_list thead tr th{padding:10px 0;font-weight:normal;}
+.order_list tbody tr{border-bottom:1px dashed #e8e8e8;color:#3e3e3e;}
+.order_list tbody tr td{padding:10px 0;line-height:24px;}
+.order_list tbody tr td .edit{display:block;margin:0 auto;width:55px;height:20px;line-height:20px;text-align:center;color:#fff;background-color:#40b1e6;font-size:12px;}
+.uc_more{display:block;color:#6e6e6e;height:14px;line-height:14px;padding-right:11px;background:url(../images/uc_more.png) no-repeat right center;font-size:12px;}
+
+.user_collect{border:1px solid #e8e8e8;}
+.user_collect_title{height:32px;border-bottom:1px solid #e8e8e8;}
+.user_collect_title h3{height:32px;line-height:32px;padding-left:10px;font-size:14px;color:#40b1e6;}
+.user_collect .uc_more{margin-top:7px;_margin-top:10px;}
+.user_collect_content{}
+.user_collect_content ul{padding:15px 0 5px 0;}
+.user_collect_content li{float:left;width:200px;height:190px;}
+.user_collect_content li a{display:block;width:178px;height:178px;border:1px solid #e4dfdf;margin:0 auto;position:relative;z-index:2;}
+.user_collect_content li a span{display:block;width:166px;height:28px;padding-left:12px;line-height:28px;font-size:14px;background-color:#000;color:#fff;position:absolute;left:0px;bottom:0px;opacity:.6;filter:alpha(opacity=60);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
