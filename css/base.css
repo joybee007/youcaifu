@@ -11,7 +11,7 @@ input,button{vertical-align:middle}
 body,th,td,button,input,select,textarea{-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased}
 span,a,em{display:inline-block}
 a{text-decoration:none}
-a:hover{text-decoration:underline}
+/* a:hover{text-decoration:underline} */
 a.ie6:hover{zoom:1}
 a:focus{outline:thin dotted}
 a:hover,a:active{outline:0}
