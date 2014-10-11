@@ -754,6 +754,7 @@ svg:not(:root){overflow:hidden}/* ======================样式==================
 .mb-190{margin-bottom:190px}
 .mb-195{margin-bottom:195px}
 .mb-200{margin-bottom:200px}
+.ml-a{margin-left:auto}
 .ml-0{margin-left:0}
 .ml-1{margin-left:1px}
 .ml-2{margin-left:2px}
@@ -803,6 +804,7 @@ svg:not(:root){overflow:hidden}/* ======================样式==================
 .ml-190{margin-left:190px}
 .ml-195{margin-left:195px}
 .ml-200{margin-left:200px}
+.mr-a{margin-right:auto}
 .mr-0{margin-right:0}
 .mr-1{margin-right:1px}
 .mr-2{margin-right:2px}

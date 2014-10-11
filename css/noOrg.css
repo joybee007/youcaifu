@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+a,a:hover{text-decoration: none;}
+.c-blue{color: #40b1e6;}
+.ui_form_ele{height:auto;min-height: 68px;font-size:14px;color:#616161;}
+
+.right_main{float:left;width:810px;}
+.right_main .page_title{height: 39px;line-height: 39px;color: #40b1e6;font-size: 14px;}
+
+.dashed_line{height: 0px;border-bottom: dashed 1px #bebebe;}
+.solid_line{height: 0px;border-bottom: solid 1px #727272;}
+
+.btn_blue{width: 250px;text-align:center;height:50px;line-height:50px;font-size: 16px;color: white;background-color: #40b1e6;}
+.btn_orange{width: 250px;text-align:center;height: 50px;line-height: 50px;font-size: 16px;color: white;background-color: #fac03d;}
+
+.icon1{width: 19px;height: 22px;background: url("../images/orgInfo_01.png") no-repeat;}
