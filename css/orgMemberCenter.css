@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+a,a:hover{text-decoration: none;}
+.c-blue{color: #40b1e6;}
+.ui_form_ele{height:auto;min-height: 68px;font-size:14px;color:#616161;}
+
+.right_main{float:left;width:810px;}
+
+.btn_blue{width: 250px;text-align:center;height:50px;line-height:50px;font-size: 16px;color: white;background-color: #40b1e6;}
+
+.no-bdr{border-right: none 0;}
+
+.chart_box{width: 730px;height: 280px;margin: 10px auto;}
+.member_box{}
+.member_box li{width: 72px;float: left;margin: 0 13px;color: #8f8f8f;font-size: 12px;}
+.member_box li img{width: 70px;height: 80px;border: solid 1px #eaeaea;margin-bottom: 5px;}
