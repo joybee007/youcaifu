@@ -6,12 +6,12 @@
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/base.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/public.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="css/userInfo.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/addCustomer.css" media="all" />
 	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="js/kxbdSuperMarquee.js"></script>
 	<script type="text/javascript" src="js/public.js"></script>
-	<script type="text/javascript" src="js/userInfo.js"></script>
+	<script type="text/javascript" src="js/addCustomer.js"></script>
 </head>
 <body class="yahei">
 	<div id="header">
@@ -77,120 +77,131 @@
 				</ul>
 			</div>
 			<div class="right_main">
-				<div class="tab">
-					<ul class="tab_title">
-						<li class="active">
-							<a href="javascript:void(0)">个人资料</a>
-							<span class="solid_line"></span>
-						</li>
-						<li>
-							<a href="javascript:void(0)">联系方式</a>
-							<span class="solid_line"></span>
-						</li>
-						<li>
-							<a href="javascript:void(0)">我的头像</a>
-						</li>
-					</ul>
-					<div class="clear"></div>
-					<ol class="tab_content">
-						<li>
-							<div class="lh-32">[<span class="red">*</span> 为必填项]</div>
-							<div class="dashed_line"></div>
-							<form action="" class="mt-35">
-								<div class="ui_form_ele">
-									<label>
-										<span class="lab"><span class="red fb">*&nbsp;</span>姓名：</span>
-										<input type="text" name="realName" class="ui_input">
-									</label>
-									<span class="remark lh-32 ml-10">使用本网站的金融产品推介服务需要实名认证，请您填写真实的身份资料。</span>
-									<span class="valid_info clear"></span>
-								</div>
-								<div class="ui_form_ele">
-									<label>
-										<span class="lab"><span class="red fb">*&nbsp;</span>昵称：</span>
-										<input type="text" name="nickname" class="ui_input">
-									</label>
-									<span class="valid_info clear"></span>
-								</div>
-								<div class="ui_form_ele">
-									<!-- <label><span class="lab"><span class="red fb">*&nbsp;</span>性别：</span>
-										<span class="lh-32"><input type="radio" name="sex" value="0" checked />男</span>
-										<span class="lh-32 ml-30"><input type="radio" name="sex" value="1" />女</span>
-										<span class="lh-32 ml-30"><input type="radio" name="sex" value="2" />保密</span>
-									</label> -->
-									<span class="lab"><span class="red fb">*&nbsp;</span>性别：</span><label for="nan" class="ui_check mr20"><input type="radio" name="aa" id="nan" class="" value="0" checked="checked" />&nbsp;男</label><label for="nv" class="ui_check mr20"><input type="radio" name="aa" id="nv" class="" value="1" />&nbsp;女</label><label for="baomi" class="ui_check mr20"><input type="radio" name="aa" id="baomi" class="" value="1" />&nbsp;保密</label>
-									<span class="valid_info clear"></span>
-								</div>
-								<div class="ui_form_ele">
-									<label>
-										<span class="lab"><span class="red fb">*&nbsp;</span>省份：</span>
-										<div class="ui_div_select">
-											<div class="ui_div_select_value"></div>
-											<ul class="ui_div_select_options none"></ul>
-											<select name="province" class="none">
-												<option value="1">辽宁省</option>
-												<option value="2">河北省</option>
-												<option value="3">云南省</option>
-											</select>
-										</div>
-									</label>
-									<span class="valid_info clear"></span>
-								</div>
-								<div class="ui_form_ele">
-									<label>
-										<span class="lab"><span class="red fb">*&nbsp;</span>城市：</span>
-										<div class="ui_div_select">
-											<div class="ui_div_select_value"></div>
-											<ul class="ui_div_select_options none"></ul>
-											<select name="city" class="none">
-												<option value="1">沈阳市</option>
-											</select>
-										</div>
-									</label>
-									<span class="remark lh-32 ml-10">使用本网站的金融产品推介服务需要实名认证，请您填写真实的身份资料。</span>
-									<span class="valid_info clear"></span>
-								</div>
-								<div class="ui_form_ele">
-									<label>
-										<span class="lab"><span class="red fb">*&nbsp;</span>身份证：</span>
-										<input type="text" name="idCard" class="ui_input">
-									</label>
-									<span class="valid_info clear"></span>
-								</div>
-								<div class="ui_form_ele">
-									<label class="fl-l cs-a">
-										<span class="lab">认证附件：</span>
-										<div class="upload_box fl-l">
-											<div class="img_box">
-												<img src="images/userInfo_01.jpg" alt="" />
-												<div class="loading">加载完成</div>
-												<div class="title">身份验证</div>
-											</div>
-											<div class="btn_box mt-10">
-												<a href="javascript:void(0)" class="btn_blue w-170 ta-c"><span class="clearfix"><em class="icon1 fl-l"></em><span class="fl-l ml-10">附件</span></span></a>
-												<a href="javascript:void(0)" class="btn_orange w-170 ta-c"><span class="clearfix"><em class="icon2 fl-l"></em><span class="fl-l ml-10">手机图片上传</span></span></a>
-											</div>
-										</div>
-									</label>
-									<span class="remark fl-l w-300 lh-32 ml-10">使用本网站的金融产品推介服务需要实名认证，请您填写真实的身份资料。</span>
-									<span class="valid_info clear"></span>
-								</div>
-								<div class="clear"></div>
-								<div class="dashed_line mt-25 mb-25"></div>
-								<div class="ui_form_ele">
-									<label class="fl-l cs-a">
-										<span class="lab">&nbsp;</span>
-										<a href="javascript:void(0)" class="btn_orange w-250 ta-c mb-40">认证</a>
-									</label>
-									<span class="valid_info clear"></span>
-								</div>
-							</form>
-						</li>
-					</ol>
+				<div class="clearfix mb10">
+					<h1>新增客户</h1>
+					<div class="bddashed"></div>
 				</div>
+				<div class="customer_info">
+					<h2>客户基本信息（<span class="red">*</span>为必填项）</h2>
+					<form action="" class="mt-15">
+						<div class="ui_form_ele">
+							<span class="lab"><span class="red fb">*&nbsp;</span>客户类型：</span><label for="nan" class="ui_check mr20"><input type="radio" name="aa" id="nan" class="" value="0" checked="checked" />&nbsp;个人</label><label for="nv" class="ui_check mr20"><input type="radio" name="aa" id="nv" class="" value="1" />&nbsp;企业</label>
+							<span class="valid_info clear"></span>
+						</div>
+						<div class="ui_form_ele">
+							<label>
+								<span class="lab"><span class="red fb">*&nbsp;</span>客户姓名：</span>
+								<input type="text" name="realName" class="ui_input">
+							</label>
+							<span class="valid_info clear"></span>
+						</div>
+						<div class="ui_form_ele">
+							<label>
+								<span class="lab"><span class="red fb">*&nbsp;</span>证件类型：</span>
+								<input type="text" name="nickname" class="ui_input">
+							</label>
+							<span class="valid_info clear"></span>
+						</div>
+						<div class="ui_form_ele">
+							<label>
+								<span class="lab"><span class="red fb">*&nbsp;</span>证件号码：</span>
+								<input type="text" name="nickname" class="ui_input">
+							</label>
+							<span class="valid_info clear"></span>
+						</div>
+						<div class="ui_form_ele">
+							<label>
+								<span class="lab">证件有效期：</span>
+								<input type="text" name="nickname" class="ui_input">
+							</label>
+							<span class="valid_info clear"></span>
+						</div>
+						<div class="ui_form_ele">
+							<span class="lab"><span class="red fb">*&nbsp;</span>信息是否开放：</span><label for="nan" class="ui_check mr20"><input type="radio" name="aa" id="nan" class="" value="0" checked="checked" />&nbsp;是</label><label for="nv" class="ui_check mr20"><input type="radio" name="aa" id="nv" class="" value="1" />&nbsp;否</label>
+							<span class="valid_info clear"></span>
+						</div>
+					</form>
+				</div>
+				<h2>补充客户信息</h2>
+				<form action="" class="mt-35">
+					<div class="ui_form_ele">
+						<span class="lab"><span class="red fb">*&nbsp;</span>客户性别：</span><label for="nan" class="ui_check mr20"><input type="radio" name="aa" id="nan" class="" value="0" checked="checked" />&nbsp;男</label><label for="nv" class="ui_check mr20"><input type="radio" name="aa" id="nv" class="" value="1" />&nbsp;女</label>
+						<span class="valid_info clear"></span>
+					</div>
+					<div class="ui_form_ele">
+						<span class="lab"><span class="red fb">*&nbsp;</span>婚姻状况：</span><label for="nan" class="ui_check mr20"><input type="radio" name="aa" id="nan" class="" value="0" checked="checked" />&nbsp;已婚</label><label for="nv" class="ui_check mr20"><input type="radio" name="aa" id="nv" class="" value="1" />&nbsp;未婚</label>
+						<span class="valid_info clear"></span>
+					</div>
+					<div class="ui_form_ele">
+						<label>
+							<span class="lab">生日：</span>
+							<input type="text" name="realName" class="ui_input">
+						</label>
+						<span class="valid_info clear"></span>
+					</div>
+					<div class="ui_form_ele">
+						<label>
+							<span class="lab">手机号码：</span>
+							<input type="text" name="nickname" class="ui_input">
+						</label>
+						<span class="valid_info clear"></span>
+					</div>
+					<div class="ui_form_ele">
+						<label>
+							<span class="lab">电话号码：</span>
+							<input type="text" name="nickname" class="ui_input">
+						</label>
+						<span class="valid_info clear"></span>
+					</div>
+					<div class="ui_form_ele">
+						<label>
+							<span class="lab">电子邮箱：</span>
+							<input type="text" name="nickname" class="ui_input">
+						</label>
+						<span class="valid_info clear"></span>
+					</div>
+					<div class="ui_form_ele">
+						<label>
+							<span class="lab">联系地址：</span>
+							<input type="text" name="nickname" class="ui_input ui-input-long">
+						</label>
+						<span class="valid_info clear"></span>
+					</div>
+					<div class="ui_form_ele">
+						<label>
+							<span class="lab">邮编：</span>
+							<input type="text" name="nickname" class="ui_input">
+						</label>
+						<span class="valid_info clear"></span>
+					</div>
+					<div class="ui_form_ele">
+						<label>
+							<span class="lab">风险偏好：</span>
+							<input type="text" name="nickname" class="ui_input ui-input-long">
+						</label>
+						<span class="valid_info clear"></span>
+					</div>
+					<div class="ui_form_ele">
+						<label>
+							<span class="lab">意向产品：</span>
+							<input type="text" name="nickname" class="ui_input ui-input-long">
+						</label>
+						<span class="valid_info clear"></span>
+					</div>
+					<div class="ui_form_ele">
+						<label>
+							<span class="lab">目前投资情况：</span>
+							<input type="text" name="nickname" class="ui_input ui-input-long">
+						</label>
+						<span class="valid_info clear"></span>
+					</div>
+					<br />
+					<a href="javascript:void(0)" class="submit">保存</a>
+				</form>
 			</div>
 			<div class="clear"></div>
 		</div>
+		<br /><br />
 		<div class="bdb1"></div>
 		<div class="main_partners mainwrap">
 			<div class="mainwrap clearfix">
