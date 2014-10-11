@@ -79,7 +79,38 @@
 			<div class="right_main">
 				<div class="page_title">修改密码<em class="icon1 ml-10"></em></div>
 				<div class="solid_line"></div>
-				<div>1111111111111111</div>
+				<ul class="steps step1 mt-10">	<!--步骤2的class为"steps step2",步骤3的class为"steps step3"-->
+					<li class="w-300">验证身份</li>
+					<li class="w-255">修改登录密码</li>
+					<li class="w-255">完成</li>
+				</ul>
+				<form action="" id="find" class="findForm">
+					<div class="ui_form_ele mt-35 clearfix">
+						<span class="lab">已验证手机：</span>
+						<label class="ui_check cs-a">
+							<div class="fs-18 fw-b">133*****335</div>
+							<a href="javascript:void(0)" class="getcheckcode mt-20">获取手机验证码</a>
+						</label>
+					</div>
+
+					<div class="ui_form_ele mt-55">
+						<label for="username"><span class="lab">填写手机校验码：</span>
+							<input type="text" name="" id="" class="ui_input" />
+						</label>
+						<span class="valid_icon valided"></span>
+						<span class="valid_info clear"></span>
+					</div>
+					<div class="ui_form_ele" id="mobileFind">
+						<label for="checkcode">
+							<span class="lab">验证码：</span>
+							<input type="text" name="" id="" class="ui_input" />
+							<img src="images/revisePassword_02.jpg" alt="" class="imgVcode ml-10" />
+							<a href="javascript:void(0)" class="c-gray40 ml-5">看不清楚？换一张</a>
+						</label>
+						<span class="valid_info clear"></span>
+					</div>
+					<a href="javascript:void(0)" class="submit">下一步</a>
+				</form>
 			</div>
 			<div class="clear"></div>
 		</div>
