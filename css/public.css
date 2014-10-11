@@ -122,7 +122,7 @@ form .submit{display:block;margin:0 0 0 132px;width:250px;height:50px;background
 .ui_div_select_value{height:30px;padding-left:8px;line-height:30px;border:1px solid #b1b1b1;background:#fcfcfc url(../images/ui_div_select_value.png) no-repeat 220px 12px;}
 .ui_div_select_options{position:absolute;top:31px;left:0;width:248px;line-height:28px;background-color:#FFF;border:1px solid #b1b1b1;}
 .ui_div_select_options li{padding-left:8px;width:240px;border-bottom:1px solid #eee;}
-.ui_check{height:34px;line-height:34px;}
+.ui_check{height:32px;line-height:32px;_padding-top:6px;}
 .ui_check input{vertical-align:middle;}
 
 /* 分页 */
