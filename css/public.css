@@ -149,6 +149,9 @@ form .submit{display:block;margin:0 0 0 132px;width:250px;height:50px;background
 .user_menu ul li.active a{background-color:#40b1e6;color:#fff;}
 .user_menu ul li.title{padding-left:17px;background:url(../images/user_menu_title.png) no-repeat 160px 17px;}
 
-
+/* 消息提示 */
+#mainTip{width:998px;height:26px;line-height:26px;border:1px solid #bababa;background-color:#FFF;position:fixed;_position:absolute;bottom:0;_bottom:auto;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-28));left:50%;margin-left:-500px;}
+#mainTip a.tipContent{float:left;padding-left:30px;background:url(../images/mainTip.png) no-repeat 7px center;font-size:14px;color:#484851;}
+#mainTip a.tipClose{display:block;float:right;width:20px;height:26px;background:url(../images/tipClose.png) no-repeat center center;}
 
 

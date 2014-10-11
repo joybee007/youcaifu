@@ -91,7 +91,9 @@ $(function(){
 		});
 	}
 	
-	
+	$('#mainTip .tipClose').click(function(){
+		$('#mainTip').fadeOut();
+	});
 	
 	
 	
