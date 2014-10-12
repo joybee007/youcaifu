@@ -94,7 +94,12 @@ $(function(){
 	$('#mainTip .tipClose').click(function(){
 		$('#mainTip').fadeOut();
 	});
-	
+	if($('.user_menu').length){
+		$('.user_menu li.title').click(function(){
+			$(this).nextUntil('.title').slideToggle('fast');
+			$(this).toggleClass('slideDown');
+		});
+	}
 	
 	
 });

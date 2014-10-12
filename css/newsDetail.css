@@ -1,0 +1,43 @@
+.right_main{width:810;float:left;}
+.news{width:808px;height:868px;border:1px solid #e8e8e8;position:relative;z-index:2;}
+.right_con{width:83px;height:96px;background:url(../images/newsDetail.png) no-repeat;position:absolute;top:-1px;right:-1px;}
+h1{line-height:46px;padding-top:17px;font-size:20px;color:#5d5d5d;font-weight:normal;text-align:center;}
+.news_data{color:#cecece;font-size:12px;text-align:center;line-height:32px;padding-bottom:12px;border-bottom:1px solid #e8e8e8;}
+.news_content{padding:15px 60px;height:660px;overflow:hidden;border-bottom:1px solid #e8e8e8;}
+.about_news{font-size:12px;color:#727272;}
+.about_list{border:1px solid #e8e8e8;float:left;width:647px;height:184px;}
+.keywords{float:right;height:184px;width:149px;border:1px solid #e8e8e8;}
+.about_list_title{line-height:32px;padding-left:65px;border-bottom:1px solid #e8e8e8;}
+.about_list ul{padding-left:60px;padding-top:13px;width:528px;}
+.about_list ul li{height:29px;border-bottom:1px dotted #d1d6e3;line-height:28px;}
+.about_list ul li a.news_link{display:block;float:left;width:440px;height:28px;color:#5b5b5b;line-height:28px;padding-left:8px;background:url(../images/dotted_30.png) no-repeat 1px center;overflow:hidden;}
+.about_list ul li a.news_link img{_vertical-align:middle;}
+.about_list ul li a.news_link:hover{text-decoration:underline;}
+.about_list ul li a.news_date{display:block;float:right;width:70px;height:28px;color:#c4c4c4;}
+.keywords_title{line-height:32px;padding-left:17px;}
+.keywords_list{width:114px;margin:0 auto;padding-top:12px;}
+.keywords_list li{height:30px;}
+.keywords_list li a{display:block;width:112px;height:24px;border:1px solid #e8e8e8;background-color:#f6f7f7;color:#727272;font-size:12px;text-align:center;line-height:24px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

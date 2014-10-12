@@ -150,6 +150,7 @@ form .submit{display:block;margin:0 0 0 132px;width:250px;height:50px;background
 .user_menu ul li a:hover{background-color:#40b1e6;color:#fff;}
 .user_menu ul li.active a{background-color:#40b1e6;color:#fff;}
 .user_menu ul li.title{padding-left:17px;background:url(../images/user_menu_title.png) no-repeat 160px 17px;}
+.user_menu ul li.slideDown{background-position:160px -16px;}
 
 /* 消息提示 */
 #mainTip{width:998px;height:26px;line-height:26px;border:1px solid #bababa;background-color:#FFF;position:fixed;_position:absolute;bottom:0;_bottom:auto;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-28));left:50%;margin-left:-500px;}
