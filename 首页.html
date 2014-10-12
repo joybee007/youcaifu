@@ -28,7 +28,7 @@
 				</ul>
 			</div>
 			<!-- 根据是否登录切换#loginBox和#userBox的显示。 -->
-			<div id="loginBox" class="none">
+			<div id="loginBox">
 				<div class="login_btns">
 					<a href="javascript:void(0)" id="login_btn">登录</a>
 					<a href="javascript:void(0)">注册</a>
@@ -53,7 +53,7 @@
 					</form>
 				</div>
 			</div>
-			<div id="userBox">
+			<div id="userBox" class="none">
 				<div class="userMessageUnread">+99</div>
 				<div class="userAvatar fl"><img src="images/userAvatar_03.png" alt="" /></div>
 				<div class="username fl">王某某</div>
@@ -72,9 +72,10 @@
 	<div id="banner">
 		<div class="marqueeBox">
 			<ul id="banner_marquee">
-				<li class="mar_0"><img src="images/banner/1.png" alt="" /></li>
-				<li class="mar_1"><img src="images/banner/1.png" alt="" /></li>
-				<li class="mar_2"><img src="images/banner/1.png" alt="" /></li>
+				<!-- 为了跟轮播图片融合，所有轮播的<li>需要自定义背景颜色。颜色由运营人员根据图片背景颜色指定。 -->
+				<li style="background-color:#e9e9e9"><img src="images/banner/1.png" alt="" /></li>
+				<li style="background-color:#00ee00"><img src="images/banner/1.png" alt="" /></li>
+				<li style="background-color:#aa0022"><img src="images/banner/1.png" alt="" /></li>
 			</ul>
 		</div>
 		<ul class="marqueeNav" id="marqueeNav"></ul>
@@ -84,6 +85,7 @@
 		<ul class="main_nav mainwrap clearfix fadeImg">
 			<li>
 				<dl>
+					<!-- 前端没有图片去色功能，实现方式为容器指定一个有色的图片，上面放上去色的图片遮罩。去色的图片名称中有_black -->
 					<dt style="background:url(images/main_nav_03.png) no-repeat;"><img src="images/main_nav_black_03.png" alt="" /></dt>
 					<dd>产品种类丰富，严格筛选，择优上线，充分满足您多样化的资产配置需求。</dd>
 				</dl>
@@ -108,7 +110,7 @@
 			</li>
 		</ul>
 		<!-- 热销产品 -->
-		<div class="hot">
+		<div class="hot pt15">
 			<div class="mainwrap">
 				<div class="hotwrap clearfix mb15">
 					<div class="hot_list fl">
@@ -375,6 +377,7 @@
 				</ul>
 			</div>
 		</div>
+		<br />
 		<!-- 合作商家 -->
 		<div class="bdb1"></div>
 		<div class="main_partners">
@@ -415,7 +418,7 @@
 	</div>
 	<!-- 消息提示 -->
 	<div id="mainTip">
-		<a href="javascript:void(0)" class="tipContent">诉讼萨阿打算大苏打速度送达阿斯达</a>
+		<p class="tipContent">诉讼萨阿打算大苏打速度送达阿斯达</p>
 		<a href="javascript:void(0)" class="tipClose"></a>
 	</div>
 </body>

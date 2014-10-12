@@ -2,12 +2,14 @@
 .errorPage{padding:130px 0;}
 .xiaoren{width:296px;height:300px;float:left;background:url(../images/xiaoren_03.jpg) no-repeat 119px 0;}
 
-
-
-
-
-
-
+.errorContent{float:left;width:582px;background:url(../images/errorText.png) no-repeat;}
+.errorText{height:128px;padding-left:54px;padding-top:15px;text-align:center;color:#40b1e6;}
+.errorMessage{padding-left:54px;text-align:center;font-size:12px;color:#c9c9c9;line-height:34px;}
+.errorTip{padding-left:54px;text-align:center;color:#40b1e6;font-size:20px;line-height:44px;padding-bottom:15px;}
+.errorBtns{padding-left:54px;}
+.errorBtns a{display:block;width:250px;height:50px;line-height:50px;text-align:center;font-size:16px;color:#fff;}
+.errorBtns .forward{background-color:#fac03d;}
+.errorBtns .back{background-color:#40b1e6;}
 
 
 

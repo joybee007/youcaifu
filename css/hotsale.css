@@ -1,9 +1,14 @@
 /* 热销产品列表 css */
-.list_title{height:25px;border-bottom:1px solid #f14d2c;}
+.list_title{height:25px;border-bottom:1px solid #f14d2c;overflow:hidden;}
 .list_title h2{float:left;color:#fff;font-size:16px;line-height:25px;padding:0 7px;background-color:#f14d2c;}
 .list_title .lt_co{float:left;width:10px;height:25px;background-image:url(../images/pro_list_title.png);}
 .list_title .lt_info{float:left;padding:3px 0 0 15px;font-size:14px;color:#8f8f8f;line-height:22px;}
 .list_title .list_more{display:block;float:right;width:36px;height:16px;margin-top:9px;background:url(../images/pro_list_more_03.png) 0 0 no-repeat;}
+.list_title_purple{border-bottom:1px solid #935bd9;}
+.list_title_purple h2{background-color:#935bd9;}
+.list_title_purple .lt_co{background-image:url(../images/pro_list_title_purple.png);}
+.list_title_purple .list_more{background:url(../images/pro_list_more_purple_03.png) 0 0 no-repeat;}
+
 .pro_info{padding:15px 0;border-bottom:1px dotted #cfcfcf;}
 .pro_info .pi_left{width:163px;height:156px;padding:11px 8px;margin-right:9px;border:1px solid #e4dfdf;}
 .pro_info .pi_right{}

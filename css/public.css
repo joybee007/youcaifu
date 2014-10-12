@@ -50,7 +50,7 @@ h3.main_header3{line-height:32px;font-size:16px;color:#40b1e6;}
 #userBox{float:right;width:119px;height:48px;position:relative;z-index:11;top:-1px;border:1px solid #40b1e6;}
 #userBox .userAvatar{margin:9px 3px;width:30px;height:30px;overflow:hidden;line-height:0;}
 #userBox .userAvatar img{width:30px;height:30px;}
-#userBox .userMessageUnread{width:29px;height:31px;padding-top:30px;text-align:center;color:#fff;font-size:10px;position:absolute;right:-29px;_right:-30px;top:0;z-index:3;background-image:url(../images/userMessageUnread.png);}
+#userBox .userMessageUnread{width:29px;height:31px;padding-top:30px;text-align:center;color:#fff;font-size:10px;position:absolute;right:-29px;_right:-30px;top:0;z-index:3;background-image:url(../images/userMessageUnread.gif);}
 #userBox .username{line-height:18px;padding-top:20px;color:#5d5e6f;font-size:12px;overflow:hidden;border-bottom:1px solid #40b1e6;}
 #userBox .userInfoBox{display:none;width:147px;border:1px solid #40b1e6;font-size:12px;background-color:#FFF;position:absolute;top:48px;left:-1px;z-index:2;}
 #userBox .userInfoBox a:hover{color:#40b1e6;}
@@ -105,9 +105,11 @@ h3.main_header3{line-height:32px;font-size:16px;color:#40b1e6;}
 .ui_form_ele label{display:block;float:left;}
 .ui_form_ele .lab{display:block;float:left;width:132px;text-align:right;line-height:32px;}
 .ui_form_ele .ui_input{display:block;float:left;width:248px;height:32px;line-height:32px;background-color:#fcfcfc;border:1px solid #b1b1b1;color:#616161;}
+.ui_form_ele .ui_input_long{width:500px;}
 .ui_form_ele .ui_input_invalid{border-color:#ea4848;}
 .ui_form_ele .ui_check_input{width:134px;border-right:none;}
 .ui_form_ele .getcheckcode{display:block;float:left;width:115px;height:34px;line-height:34px;text-align:center;background-color:#40b1e6;color:#fff;font-size:12px;}
+.ui_form_ele .getcheckcode_disabled{background-color:gray;}
 .ui_form_ele .valid_icon{display:block;float:left;margin:5px 0 0 10px;width:25px;height:25px;background-image:url(../images/reg_valid_icon.png);}
 .ui_form_ele .valid_info{display:block;padding-left:132px;font-size:12px;color:#ea4848;line-height:28px;}
 .ui_form_ele .remark{display: inline-block;font-size: 12px;color: #cecece;}
@@ -151,7 +153,7 @@ form .submit{display:block;margin:0 0 0 132px;width:250px;height:50px;background
 
 /* 消息提示 */
 #mainTip{width:998px;height:26px;line-height:26px;border:1px solid #bababa;background-color:#FFF;position:fixed;_position:absolute;bottom:0;_bottom:auto;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-28));left:50%;margin-left:-500px;}
-#mainTip a.tipContent{float:left;padding-left:30px;background:url(../images/mainTip.png) no-repeat 7px center;font-size:14px;color:#484851;}
+#mainTip .tipContent{float:left;padding-left:30px;background:url(../images/mainTip.png) no-repeat 7px center;font-size:14px;color:#484851;}
 #mainTip a.tipClose{display:block;float:right;width:20px;height:26px;background:url(../images/tipClose.png) no-repeat center center;}
 
 

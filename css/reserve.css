@@ -11,7 +11,7 @@
 .reserve_pro_info_img{display:block;float:left;width:178px;height:178px;margin-left:55px;border:1px solid #e4dfdf;}
 .reserve_pro_info_img img{width:178px;height:178px;}
 .reserve_pro_info_table{display:block;float:left;line-height:42px;font-size:14px;color:#616161;}
-.reserve_pro_info_table .tar{padding:0 20px 0 35px;}
+.reserve_pro_info_table .tar{padding:0 20px 0 35px;text-align:right;}
 
 
 /* 预约成功部分 */
