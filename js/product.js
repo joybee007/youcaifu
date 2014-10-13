@@ -48,11 +48,24 @@ $(function(){
 	function pageScroll(top){
 		var target=top-50
 		isTab=false;
-		//window.scrollBy(0,-50);
-		//var scrolldelay=setTimeout(arguments.callee,10);
-		//top==scrollTop&&clearTimeout(scrolldelay);
 		$('html,body').animate({scrollTop:target},300,function(){isTab=true;});
 	}
+	
+	var pd_time_links=$('.pd_time .pd_time_link');
+	pd_time_links.click(function(){
+		pd_time_links.removeClass('active');
+		$(this).addClass('active');
+	});
+	
+	//显示，隐藏视频浮层。
+	function showVideo(){
+		$('#mask,#videoPop').show();
+	}
+	function hideVideo(){
+		$('#mask,#videoPop').hide();
+	}
+	
+	
 });
 
 

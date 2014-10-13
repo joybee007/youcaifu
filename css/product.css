@@ -33,7 +33,7 @@ h1 img{vertical-align:middle;}
 .pd_right .pd_time,.pd_right .pd_money{height:46px;line-height:46px;}
 .pd_right .pd_time span{display:block;float:left;}
 .pd_right .pd_time a{display:block;float:left;height:28px;padding:0 15px;margin-top:9px;margin-right:10px;line-height:28px;border:1px solid #c6c6c6;font-size:16px;color:#444;}
-.pd_right .pd_time a.active{border:1px solid #40b1e6;background-color:#40b1e6;color:#fff;}
+.pd_right .pd_time a.active{border:1px solid #40b1e6;background-image:url(../images/product_select_prop.png);background-repeat:no-repeat;background-position:right bottom;}
 .pd_right .pd_money{height:56px;line-height:56px;margin-bottom:10px;}
 .pd_right .pd_money span{display:block;float:left;}
 .pd_right .pd_money input{display:block;float:left;width:180px;height:40px;line-height:40px;margin:8px 5px 0 0;border:1px solid #c6c6c6;font-size:20px;text-align:right;}
