@@ -56,7 +56,7 @@ h1 img{vertical-align:middle;}
 .pro_information ul li a.news_link{display:block;float:left;width:200px;color:#5b5b5b;padding-left:8px;background:url(../images/dotted_30.png) no-repeat 1px center;}
 .pro_information ul li a.news_link:hover{text-decoration:underline;}
 .pro_information ul li a.news_date{display:block;float:right;width:70px;color:#c4c4c4;}
-.pro_information .logo{display:block;float:left;width:148px;height:148px;border:1px solid #c7c7c7;margin-right:60px;}
+/* .pro_information .logo{display:block;float:left;width:148px;height:148px;border:1px solid #c7c7c7;margin-right:60px;} */
 .pro_information .list_l{float:left;width:293px;height:150px;padding-right:64px;border-right:1px solid #d9d9d9;}
 .pro_information .list_r{float:left;padding-left:49px;width:292px;height:150px;}
 .pro_videos{}
