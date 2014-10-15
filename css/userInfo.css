@@ -28,3 +28,8 @@ a,a:hover{text-decoration: none;}
 .btn_box em{display: inline-block;}
 .icon1{width: 19px;height: 50px;line-height: 50px;background: url("../images/userInfo_04.png") no-repeat center center;}
 .icon2{width: 28px;height: 50px;line-height: 50px;background: url("../images/userInfo_05.png") no-repeat center center;}
+
+.regP_success{padding: 175px 0 140px 195px;background: #fff url(../images/xiaoren_03.jpg) 42px 94px no-repeat;}
+
+
+
