@@ -63,14 +63,11 @@ $(function(){
 	//模拟select
 	if($('.ui_div_select').length){
 		$('.ui_div_select select').each(function(i,a){
-			$(a).parent().css('z-index',10-i).end().find('option').each(function(j,b){
-				var li=$('<li />');
-				li.data('val',$(b).val()).text($(b).text()).attr('title',$(b).text());
-				$(a).parent().find('ul.ui_div_select_options').append(li);
-			});
+			$(a).parent().css('z-index',10-i);
+			initSelect(a);
 		});
 		$('ul.ui_div_select_options').on('click','li',function(){
-			$(this).parent().hide().next('select').val($(this).data('val')).end().prev('.ui_div_select_value').text($(this).text());
+			$(this).parent().hide().next('select').val($(this).data('val')).trigger('change').end().prev('.ui_div_select_value').text($(this).text());
 		}).on('mouseover','li',function(){
 			$(this).css('background','#e4f1f2');
 		}).on('mouseout','li',function(){
@@ -88,8 +85,20 @@ $(function(){
 		$(document).click(function(){
 			$('.ui_div_select_options').hide();
 		});
+		function initSelect(ele){
+			var ul=$(ele).parent().find('ul.ui_div_select_options');
+			ul.empty();
+			$(ele).find('option').each(function(j,b){
+				var li=$('<li />');
+				li.data('val',$(b).val()).text($(b).text()).attr('title',$(b).text());
+				ul.append(li);
+			});
+		}
+		window.initSelect=initSelect;
 	}
-	
+	$('select').change(function(){
+		alert($(this).val());
+	});
 	$('#mainTip .tipClose').click(function(){
 		$('#mainTip').fadeOut();
 	});
