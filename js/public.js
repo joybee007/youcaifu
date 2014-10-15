@@ -65,8 +65,7 @@ $(function(){
 		$('.ui_div_select select').each(function(i,a){
 			$(a).parent().css('z-index',10-i).end().find('option').each(function(j,b){
 				var li=$('<li />');
-				li.data('val',$(b).val());
-				li.text($(b).text());
+				li.data('val',$(b).val()).text($(b).text()).attr('title',$(b).text());
 				$(a).parent().find('ul.ui_div_select_options').append(li);
 			});
 		});
@@ -100,6 +99,25 @@ $(function(){
 			$(this).toggleClass('slideDown');
 		});
 	}
-	
-	
+	//显示+1
+	function followProduct(evt){	//请传入evt对象
+		var followTip;
+		if(!$('#followTip').length){
+			followTip=$('<div id="followTip"></div>');
+			followTip.text('+1').appendTo(document.body);
+		}else{
+			followTip=$('#followTip');
+		}
+		followTip.stop(true,true).show().css({
+			top:evt.pageY-12,
+			left:evt.pageX-15
+		}).animate({
+			top:parseInt(followTip.css('top'))-10,
+			opacity:0
+		},700,function(){
+			followTip.hide().css('opacity',1);
+		});
+	}
+	//示例，请删除
+	$(document).click(followProduct);
 });

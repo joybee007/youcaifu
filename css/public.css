@@ -121,9 +121,9 @@ h3.main_header3{line-height:32px;font-size:16px;color:#40b1e6;}
 .ui_form_ele .agreement_lab a:hover{color:#40b1e6;}
 form .submit{display:block;margin:0 0 0 132px;width:250px;height:50px;background-color:#fac03d;text-align:center;line-height:50px;font-size:16px;color:#fff;}
 .ui_div_select{float:left;width:250px;height:32px;cursor:default;position:relative;z-index:2;}
-.ui_div_select_value{height:30px;padding-left:8px;line-height:30px;border:1px solid #b1b1b1;background:#fcfcfc url(../images/ui_div_select_value.png) no-repeat 220px 12px;}
-.ui_div_select_options{position:absolute;top:31px;left:0;width:248px;line-height:28px;background-color:#FFF;border:1px solid #b1b1b1;}
-.ui_div_select_options li{padding-left:8px;width:240px;border-bottom:1px solid #eee;}
+.ui_div_select_value{height:30px;padding-left:8px;line-height:30px;border:1px solid #b1b1b1;background:#fcfcfc url(../images/ui_div_select_value.png) no-repeat 220px 12px;overflow:hidden;}
+.ui_div_select_options{position:absolute;top:31px;left:0;width:248px;line-height:28px;background-color:#FFF;border:1px solid #b1b1b1;max-height:174px;overflow-y:auto;overflow-x:hidden;_height:expression(Math.min(this.offsetHeight,174));}
+.ui_div_select_options li{padding-left:8px;height:28px;border-bottom:1px solid #eee;overflow:hidden;}
 .ui_check{height:32px;line-height:32px;_padding-top:6px;}
 .ui_check input{vertical-align:middle;}
 
@@ -162,4 +162,4 @@ form .submit{display:block;margin:0 0 0 132px;width:250px;height:50px;background
 #videoPop h3{line-height:54px;font-size:18px;color:#474747;padding-left:20px;font-weight:normal;padding-bottom:20px;}
 #videoBox{width:480px;height:400px;margin:0 auto;}
 
-
+#followTip{width:30px;height:24px;color:red;font-weight:bold;font-size:14px;position:absolute;text-align:center;z-index:900;line-height:24px;cursor:default;}
