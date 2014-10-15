@@ -3,7 +3,7 @@ h3.main_header3{line-height:32px;font-size:16px;color:#40b1e6;}
 .mainwrap{width:1000px;margin:0 auto;}
 .more{display:block;width:38px;height:16px;line-height:0;font-size:0;background:url(../images/more_20.png) no-repeat;}
 /* 头部 */
-#header{height:88px;background-color:#f8f8f8;}
+#header{height:88px;background-color:#f8f8f8;border-bottom:2px solid #40b1e6;}
 #header .logo{display:block;float:left;margin:20px 55px 0 0;width:296px;height:50px;overflow:hidden;}
 #header .nav{margin-top:30px;}
 #header .nav li{float:left;height:56px;line-height:56px;}

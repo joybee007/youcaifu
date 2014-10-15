@@ -31,5 +31,11 @@ a,a:hover{text-decoration: none;}
 
 .regP_success{padding: 175px 0 140px 195px;background: #fff url(../images/xiaoren_03.jpg) 42px 94px no-repeat;}
 
+#mainInfo{position:relative;z-index:2;}
+#user_Authentication{width:104px;height:104px;position:absolute;top:15px;left:736px;z-index:2;background-image:url(../images/user_Authentication.png);background-repeat:no-repeat;}
+.authentication1{background-position:0 0;}
+.authentication2{background-position:0 -104px;}
+.authentication3{background-position:0 -208px;}
+
 
 

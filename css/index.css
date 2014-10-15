@@ -1,6 +1,6 @@
 
 
-#banner{height:340px;border-top:2px solid #40b1e6;position:relative;z-index:2;}
+#banner{height:340px;position:relative;z-index:2;}
 #banner .marqueeBox{overflow:hidden;height:340px;width:100%;position:relative;z-index:3;}
 #banner .marqueeBox ul{}
 #banner .marqueeBox ul li{position:absolute;top:0;left:0;z-index:2;width:100%;text-align:center;line-height:0;}
