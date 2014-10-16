@@ -8,6 +8,8 @@
 .order_list thead tr th{padding:10px 0;font-weight:normal;}
 .order_list tbody tr{border-bottom:1px dashed #e8e8e8;color:#3e3e3e;}
 .order_list tbody tr td{padding:10px 0;line-height:24px;}
+.order_list tbody tr td a{color:inherit;}
+.order_list tbody tr td a:hover{color:#40b1e6;}
 .order_list tbody tr td .edit{display:block;margin:0 auto;width:55px;height:20px;line-height:20px;text-align:center;color:#fff;background-color:#40b1e6;font-size:12px;}
 
 #edit_links{width:199px;height:66px;position:absolute;top:100px;left:100px;z-index:100;background:url(../images/edit_links.png) no-repeat 0 -6px;}

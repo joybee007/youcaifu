@@ -27,7 +27,9 @@
 .order_list thead tr th{padding:10px 0;font-weight:normal;}
 .order_list tbody tr{border-bottom:1px dashed #e8e8e8;color:#3e3e3e;}
 .order_list tbody tr td{padding:10px 0;line-height:24px;}
-.order_list tbody tr td .edit{display:block;margin:0 auto;width:55px;height:20px;line-height:20px;text-align:center;color:#fff;background-color:#40b1e6;font-size:12px;}
+/* .order_list tbody tr td .edit{display:block;margin:0 auto;width:55px;height:20px;line-height:20px;text-align:center;color:#fff;background-color:#40b1e6;font-size:12px;} */
+.order_list tbody tr td a{color:inherit;}
+.order_list tbody tr td a:hover{color:#40b1e6;}
 .uc_more{display:block;color:#6e6e6e;height:14px;line-height:14px;padding-right:11px;background:url(../images/uc_more.png) no-repeat right center;font-size:12px;}
 
 .user_collect{border:1px solid #e8e8e8;}
