@@ -91,6 +91,9 @@ $(function(){
 			$(ele).find('option').each(function(j,b){
 				var li=$('<li />');
 				li.data('val',$(b).val()).text($(b).text()).attr('title',$(b).text());
+				if($(b).prop('selected')){
+					$(ele).parents('.ui_div_select').find('.ui_div_select_value').text($(b).text());
+				}
 				ul.append(li);
 			});
 		}
