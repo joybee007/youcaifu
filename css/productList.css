@@ -1,6 +1,6 @@
 
 h1{padding-left:10px;height:44px;line-height:42px;font-size:20px;color:#40b1e6;}
-#searchbox{height:250px;overflow:hidden;border:1px solid #e8e8e8;}
+#searchbox{height:250px;overflow:hidden;border:1px solid #e8e8e8;position:relative;zoom:1;}
 #searchbox .search_0{height:50px;line-height:50px;font-size:14px;border-bottom:1px dashed #e8e8e8;}
 #searchbox .search_0 .search_00{display:block;padding-left:17px;width:70px;color:#838383;}
 #searchbox .search_0 .search_ipt{float:left;height:30px;width:480px;margin-top:8px;border:1px solid #40b1e6;border-right:none;_overflow:hidden;}
@@ -9,10 +9,18 @@ h1{padding-left:10px;height:44px;line-height:42px;font-size:20px;color:#40b1e6;}
 #searchbox .search_0 .search_ipt input:-webkit-autofill{-webkit-box-shadow:0 0 0 100px white inset;}
 #searchbox .search_div{padding:9px 0 6px 17px;color:#535353;line-height:24px;border-bottom:1px dashed #e8e8e8;color:#535353;font-size:12px;}
 #searchbox .search_div .search_name{display:block;float:left;height:24px;}
-#searchbox .search_div .search_links{float:left;}
-#searchbox .search_div .search_links .search_link{display:block;float:left;height:24px;padding:0 12px;margin-right:10px;color:#535353;}
-#searchbox .search_div .search_links .search_link:hover{background-color:#40b1e6;color:#fff;}
-#searchbox .search_div .search_links .active{background-color:#40b1e6;color:#fff;}
+#searchbox .search_div .search_links{float:left;width:910px;position:relative;}
+#searchbox .search_div .search_links .search_link{float:left;margin-right:10px;margin-bottom:5px;}
+#searchbox .search_div .search_links .search_link a{display:block;float:left;color:#535353;padding:0 12px;height:24px;}
+#searchbox .search_div .search_links .search_link a:hover{background-color:#40b1e6;color:#fff;}
+#searchbox .search_div .search_links .active a{background-color:#40b1e6;color:#fff;}
+#searchbox .search_div .secondary_search_link{position:absolute;z-index:3;left:0;background-color:#40b1e6;padding:2px;}
+#searchbox .search_div .secondary_search_link a{display:inline-block;padding:0 12px;height:24px;margin-right:5px;color:#fff;}
+#searchbox .search_div .secondary_search_link a:hover{background-color:#FFF;color:#40b1e6;}
+#searchbox .search_div .secondary_search_link a.active{background-color:#FFF;color:#40b1e6;}
+
+
+
 .more_search{display:block;width:66px;height:20px;padding-left:19px;background-image:url(../images/more_search_03.png);margin-left:458px;margin-bottom:8px;text-align:center;font-size:12px;color:#acacac;line-height:20px;position:relative;z-index:2;top:-1px;}
 .ms_back{background-position:0 -20px;}
 

@@ -130,6 +130,4 @@ $(function(){
 			followTip.hide().css('opacity',1);
 		});
 	}
-	//示例，请删除
-	$(document).click(followProduct);
 });
