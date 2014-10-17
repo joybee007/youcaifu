@@ -12,6 +12,7 @@
 #main .main_nav{padding-top:15px;}
 #main .main_nav li{float:left;width:184px;margin-right:85px;}
 #main .main_nav li.last{margin-right:0;}
+#main .main_nav li a{display:block;}
 #main .main_nav li dl dt{line-height:0;width:109px;height:138px;margin:0 auto;overflow:hidden;}
 #main .main_nav li dl dd{padding:15px 5px 10px;font-size:12px;line-height:20px;color:#7d7d7d;}
 #main .main_news{padding:15px 0;}
