@@ -35,6 +35,12 @@ $(function(){
 			e.stopPropagation();
 			this.src='xxx.sc?_t='+new Date().getTime();//刷新验证码
 		}).click();
+		$('#login_submit').click(function(){
+			$(this).text('登录中...').css('background-color','gray');
+		});
+		
+		
+		
 		
 	}
 	//隐藏a标签虚线框

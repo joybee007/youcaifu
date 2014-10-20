@@ -45,7 +45,8 @@ h3.main_header3{line-height:32px;font-size:16px;color:#40b1e6;}
 #loginForm .form_div .forgetPsw{display:block;float:right;line-height:28px;color:#40b1e6;}
 #loginForm .form_div .forgetPsw:hover{text-decoration:underline;}
 #loginForm .login_valied_info{height:20px;font-size:12px;color:red;}
-#login_submit{display:block;width:205px;height:36px;line-height:36px;padding:0;margin:0 auto;border:none;background-color:#fac03d;color:#fff;font-size:14px;cursor:pointer;}
+#login_submit{display:block;width:205px;height:36px;line-height:36px;padding:0;margin:0 auto;border:none;background-color:#fac03d;color:#fff;font-size:14px;cursor:pointer;text-align:center;}
+
 
 /* 已登录用户中心 */
 #userBox{float:right;width:119px;height:48px;position:relative;z-index:11;top:-1px;border:1px solid #40b1e6;}

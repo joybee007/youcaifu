@@ -24,6 +24,8 @@ $(function(){
 		}
 	}
 	//显示引导
-	showXinshou();
-	
+	//showXinshou();
+	function hideXinshou(){
+		$('#mask,#xinshou').hide();
+	}
 });
