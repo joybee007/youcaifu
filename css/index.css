@@ -39,6 +39,43 @@
 .hot .hot_list{width:492px;}
 .hot .pi_right{width:302px;}
 
+/* 新手引导 */
+
+#xinshou{display:none;width:802px;height:458px;background:url(../images/xinshou.gif) no-repeat;position:fixed;top:50%;left:50%;z-index:1002;_position:absolute;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight/2));margin:-228px 0 0 -401px;}
+#xinshou .prev_btn,
+#xinshou .next_btn{width:42px;height:99px;position:absolute;z-index:2;top:164px;cursor:pointer;}
+#xinshou .prev_btn{left:0;}
+#xinshou .next_btn{right:0;}
+#xinshou .xinshou_left{float:left;padding:39px 0 0 84px;width:452px;}
+#xinshou .xinshou_right{float:left;width:173px;height:458px;background:url(../images/xiaoren_03.jpg) no-repeat 0 81px;}
+#xinshou_marquee{width:440px;height:370px;overflow:hidden;}
+#xinshou_marquee ul{width:2200px;}
+#xinshou_marquee ul li{width:440px;float:left;}
+#xinshou_marquee_nav{padding:19px 0 0 263px;}
+#xinshou_marquee_nav ul{}
+#xinshou_marquee_nav li{float:left;width:11px;height:11px;margin-right:14px;font-size:0;background:url(../images/xinshou_nav.png) no-repeat;}
+#xinshou_marquee_nav li.navOn{background-position:-25px 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
