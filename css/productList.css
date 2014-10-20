@@ -7,9 +7,9 @@ h1{padding-left:10px;height:44px;line-height:42px;font-size:20px;color:#40b1e6;}
 #searchbox .search_0 .search_ipt input{border:none;background:none;height:30px;width:470px;line-height:30px;}
 #searchbox .search_0 .search_button{display:block;width:86px;height:32px;background-color:#40b1e6;font-size:16px;color:#fff;text-align:center;line-height:32px;margin-top:8px;}
 #searchbox .search_0 .search_ipt input:-webkit-autofill{-webkit-box-shadow:0 0 0 100px white inset;}
-#searchbox .search_div{padding:9px 0 6px 17px;color:#535353;line-height:24px;border-bottom:1px dashed #e8e8e8;color:#535353;font-size:12px;}
-#searchbox .search_div .search_name{display:block;float:left;height:24px;}
-#searchbox .search_div .search_links{float:left;width:910px;position:relative;}
+#searchbox .search_div{padding:9px 0 6px 10px;color:#535353;line-height:24px;border-bottom:1px dashed #e8e8e8;color:#535353;font-size:12px;}
+#searchbox .search_div .search_name{display:block;float:left;height:24px;width:110px;text-align:right;}
+#searchbox .search_div .search_links{float:left;width:870px;position:relative;}
 #searchbox .search_div .search_links .search_link{float:left;margin-right:10px;margin-bottom:5px;}
 #searchbox .search_div .search_links .search_link a{display:block;float:left;color:#535353;padding:0 12px;height:24px;}
 #searchbox .search_div .search_links .search_link a:hover{background-color:#40b1e6;color:#fff;}
