@@ -39,12 +39,13 @@
 .confirm_submit{float:right;width:250px;height:50px;line-height:50px;margin:12px 30px;font-size:24px;font-weight:bold;text-align:center;background-color:#40b1e6;color:#fff;}
 .confirm_submit_disabled{background-color:#b1b1b1;}
 
-.old_list{padding-left:60px;}
+.old_list{padding-left:60px;padding-bottom:10px;}
 .old_list table{font-size:14px;color:#b1b1b1;}
+.old_list table tr.bg-yellow td{background-color:#fef9eb;}
 .old_list table td{height:40px;vertical-align:middle;}
-.old_list table td .edit_btn{color:#40b1e6;}
-
-
+.old_list table td .edit_btn{color:#40b1e6;display:none;}
+.add_new{display:none;}
+.saved_info{padding-left:60px;line-height:36px;padding-bottom:10px;font-size:14px;color:#616161;display:none;}
 
 
 

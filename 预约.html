@@ -85,40 +85,68 @@
 				</div>
 				<div class="rr_hr"></div>
 				<form action="" id="reserve" class="">
-					<h3>客户信息</h3><br />
-					<div class="ui_form_ele">
-						<label for="username"><span class="lab"><span class="red fb">*&nbsp;</span>客户名称：</span><input type="text" name="username" id="username" class="ui_input" /></label>
-						<span class="valid_icon valided"></span>
-						<span class="valid_info clear"></span>
+					<h3>客户信息：<a href="javascript:void(0)" class="edit_info">[修改]</a></h3><br />
+					<div class="old_list">
+						<table>
+							<tr>
+								<td width="788">
+									<label for="mobile" class="ui_check"><input type="radio" name="aa" id="mobile" class="" value="0" />&nbsp;北京市朝阳区阜荣街道106号，100010（邮编）&nbsp;&nbsp;&nbsp;&nbsp;黄炎（收）&nbsp;&nbsp;&nbsp;&nbsp;13310989706</label>
+								</td>
+								<td width="100"><a href="javascript:void(0)" class="edit_btn">编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)" class="edit_btn">删除</a></td>
+							</tr>
+							<tr>
+								<td width="788">
+									<label for="mobile1" class="ui_check"><input type="radio" name="aa" id="mobile1" class="" value="0" />&nbsp;北京市朝阳区望京阜通东大街106号，100010（邮编）&nbsp;&nbsp;&nbsp;&nbsp;胡志明（收）&nbsp;&nbsp;&nbsp;&nbsp;13833840976</label>
+								</td>
+								<td width="100"><a href="javascript:void(0)" class="edit_btn">编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)" class="edit_btn">删除</a></td>
+							</tr>
+							<tr>
+								<td width="788">
+									<label for="mobile2" class="ui_check"><input type="radio" name="aa" id="mobile2" class="add_new_radio" value="0" />&nbsp;使用新客户信息</label>
+								</td>
+								<td>&nbsp;</td>
+							</tr>
+						</table>
 					</div>
-					<div class="ui_form_ele">
-						<label for=""><span class="lab"><span class="red fb">*&nbsp;</span>证件类型：</span><div class="ui_div_select">
-							<div class="ui_div_select_value"></div>
-							<ul class="ui_div_select_options none"></ul>
-							<select name="" id="" class="none">
-								<option value="1">1万以内</option>
-								<option value="2">1-3万</option>
-								<option value="3">3-5万</option>
-								<option value="4" selected="selected">5-10万</option>
-								<option value="5">10-30万</option>
-								<option value="5">10-30万10-30万10-30万10-30万10-30万10-30万10-30万10-30万</option>
-								<option value="5">10-30万</option>
-								<option value="5">10-30万</option>
-								<option value="5">10-30万</option>
-								<option value="6">30万以上</option></select>
-						</div></label>
-						<span class="valid_icon valided"></span>
-						<span class="valid_info clear"></span>
+					<div class="add_new">
+						<div class="ui_form_ele">
+							<label for="username"><span class="lab"><span class="red fb">*&nbsp;</span>客户名称：</span><input type="text" name="username" id="username" class="ui_input" /></label>
+							<span class="valid_icon valided"></span>
+							<span class="valid_info clear"></span>
+						</div>
+						<div class="ui_form_ele">
+							<label for=""><span class="lab"><span class="red fb">*&nbsp;</span>证件类型：</span><div class="ui_div_select">
+								<div class="ui_div_select_value"></div>
+								<ul class="ui_div_select_options none"></ul>
+								<select name="" id="" class="none">
+									<option value="1">1万以内</option>
+									<option value="2">1-3万</option>
+									<option value="3">3-5万</option>
+									<option value="4" selected="selected">5-10万</option>
+									<option value="5">10-30万</option>
+									<option value="5">10-30万10-30万10-30万10-30万10-30万10-30万10-30万10-30万</option>
+									<option value="5">10-30万</option>
+									<option value="5">10-30万</option>
+									<option value="5">10-30万</option>
+									<option value="6">30万以上</option></select>
+							</div></label>
+							<span class="valid_icon valided"></span>
+							<span class="valid_info clear"></span>
+						</div>
+						<div class="ui_form_ele">
+							<label for="username"><span class="lab"><span class="red fb">*&nbsp;</span>证件号码：</span><input type="text" name="username" id="username" class="ui_input" /></label>
+							<span class="valid_icon valided"></span>
+							<span class="valid_info clear"></span>
+						</div>
+						<div class="ui_form_ele">
+							<label for="username"><span class="lab"><span class="red fb">*&nbsp;</span>预计打款时间：</span><input type="text" name="username" id="username" class="ui_input" /></label>
+							<span class="valid_icon valided"></span>
+							<span class="valid_info clear"></span>
+						</div>
+						
 					</div>
-					<div class="ui_form_ele">
-						<label for="username"><span class="lab"><span class="red fb">*&nbsp;</span>证件号码：</span><input type="text" name="username" id="username" class="ui_input" /></label>
-						<span class="valid_icon valided"></span>
-						<span class="valid_info clear"></span>
-					</div>
-					<div class="ui_form_ele">
-						<label for="username"><span class="lab"><span class="red fb">*&nbsp;</span>预计打款时间：</span><input type="text" name="username" id="username" class="ui_input" /></label>
-						<span class="valid_icon valided"></span>
-						<span class="valid_info clear"></span>
+					<div class="saved_info">
+						<p>黄炎（收）&nbsp;&nbsp;&nbsp;&nbsp;13310989706<br />北京市朝阳区阜荣街道106号，100010（邮编）</p>
 					</div>
 					<a href="javascript:void(0)" class="submit">保存客户信息</a>
 					<div class="rr_hr p10"></div>
@@ -127,26 +155,25 @@
 						<table>
 							<tr>
 								<td width="788">
-									<label for="mobile" class="ui_check"><input type="radio" name="aa" id="mobile" class="" value="0" />&nbsp;北京市朝阳区阜荣街道106号，100010（邮编）&nbsp;&nbsp;&nbsp;&nbsp;黄炎（收）&nbsp;&nbsp;&nbsp;&nbsp;13310989706</label>
+									<label for="mobile3" class="ui_check"><input type="radio" name="aa" id="mobile3" class="" value="0" />&nbsp;北京市朝阳区阜荣街道106号，100010（邮编）&nbsp;&nbsp;&nbsp;&nbsp;黄炎（收）&nbsp;&nbsp;&nbsp;&nbsp;13310989706</label>
 								</td>
-								<td><a href="javascript:void(0)" class="edit_btn">编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)" class="edit_btn">删除</a></td>
+								<td width="100"><a href="javascript:void(0)" class="edit_btn">编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)" class="edit_btn">删除</a></td>
 							</tr>
 							<tr>
 								<td width="788">
-									<label for="mobile1" class="ui_check"><input type="radio" name="aa" id="mobile1" class="" value="0" />&nbsp;北京市朝阳区望京阜通东大街106号，100010（邮编）&nbsp;&nbsp;&nbsp;&nbsp;胡志明（收）&nbsp;&nbsp;&nbsp;&nbsp;13833840976</label>
+									<label for="mobile4" class="ui_check"><input type="radio" name="aa" id="mobile4" class="" value="0" />&nbsp;北京市朝阳区望京阜通东大街106号，100010（邮编）&nbsp;&nbsp;&nbsp;&nbsp;胡志明（收）&nbsp;&nbsp;&nbsp;&nbsp;13833840976</label>
 								</td>
-								<td><a href="javascript:void(0)" class="edit_btn">编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)" class="edit_btn">删除</a></td>
+								<td width="100"><a href="javascript:void(0)" class="edit_btn">编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)" class="edit_btn">删除</a></td>
 							</tr>
 							<tr>
 								<td width="788">
-									<label for="mobile2" class="ui_check"><input type="radio" name="aa" id="mobile2" class="" value="0" />&nbsp;使用其他地址</label>
+									<label for="mobile5" class="ui_check"><input type="radio" name="aa" id="mobile5" class="add_new_radio" value="0" />&nbsp;使用其他地址</label>
 								</td>
-								<td>
-								</td>
+								<td>&nbsp;</td>
 							</tr>
 						</table>
 					</div>
-					<div class="add_new none">
+					<div class="add_new">
 						<div class="ui_form_ele">
 							<label for="username"><span class="lab"><span class="red fb">*&nbsp;</span>收件人：</span><input type="text" name="username" id="username" class="ui_input" /></label>
 							<span class="valid_icon valided"></span>
@@ -168,23 +195,53 @@
 							<span class="valid_info clear"></span>
 						</div>
 					</div>
+					<div class="saved_info">
+						<p>黄炎（收）&nbsp;&nbsp;&nbsp;&nbsp;13310989706<br />北京市朝阳区阜荣街道106号，100010（邮编）</p>
+					</div>
 					<a href="javascript:void(0)" class="submit">保存地址信息</a>
 					<div class="rr_hr p10"></div>
 					<h3>收款信息：</h3><br />
-					<div class="ui_form_ele">
-						<label for="username"><span class="lab">开户行：</span><input type="text" name="username" id="username" class="ui_input" /></label>
-						<span class="valid_icon valided"></span>
-						<span class="valid_info clear"></span>
+					<div class="old_list">
+						<table>
+							<tr>
+								<td width="788">
+									<label for="mobile6" class="ui_check"><input type="radio" name="aa" id="mobile6" class="" value="0" />&nbsp;北京市朝阳区阜荣街道106号，100010（邮编）&nbsp;&nbsp;&nbsp;&nbsp;黄炎（收）&nbsp;&nbsp;&nbsp;&nbsp;13310989706</label>
+								</td>
+								<td width="100"><a href="javascript:void(0)" class="edit_btn">编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)" class="edit_btn">删除</a></td>
+							</tr>
+							<tr>
+								<td width="788">
+									<label for="mobile7" class="ui_check"><input type="radio" name="aa" id="mobile7" class="" value="0" />&nbsp;北京市朝阳区望京阜通东大街106号，100010（邮编）&nbsp;&nbsp;&nbsp;&nbsp;胡志明（收）&nbsp;&nbsp;&nbsp;&nbsp;13833840976</label>
+								</td>
+								<td width="100"><a href="javascript:void(0)" class="edit_btn">编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)" class="edit_btn">删除</a></td>
+							</tr>
+							<tr>
+								<td width="788">
+									<label for="mobile8" class="ui_check"><input type="radio" name="aa" id="mobile8" class="add_new_radio" value="0" />&nbsp;使用其他地址</label>
+								</td>
+								<td>&nbsp;</td>
+							</tr>
+						</table>
 					</div>
-					<div class="ui_form_ele">
-						<label for=""><span class="lab">卡号：</span><input type="text" name="username" id="username" class="ui_input" /></label>
-						<span class="valid_icon valided"></span>
-						<span class="valid_info clear"></span>
+					<div class="add_new">
+						<div class="ui_form_ele">
+							<label for="username"><span class="lab">开户行：</span><input type="text" name="username" id="username" class="ui_input" /></label>
+							<span class="valid_icon valided"></span>
+							<span class="valid_info clear"></span>
+						</div>
+						<div class="ui_form_ele">
+							<label for=""><span class="lab">卡号：</span><input type="text" name="username" id="username" class="ui_input" /></label>
+							<span class="valid_icon valided"></span>
+							<span class="valid_info clear"></span>
+						</div>
+						<div class="ui_form_ele">
+							<label for="username"><span class="lab">开户人：</span><input type="text" name="username" id="username" class="ui_input" /></label>
+							<span class="valid_icon valided"></span>
+							<span class="valid_info clear"></span>
+						</div>
 					</div>
-					<div class="ui_form_ele">
-						<label for="username"><span class="lab">开户人：</span><input type="text" name="username" id="username" class="ui_input" /></label>
-						<span class="valid_icon valided"></span>
-						<span class="valid_info clear"></span>
+					<div class="saved_info">
+						<p>黄炎（收）&nbsp;&nbsp;&nbsp;&nbsp;13310989706<br />北京市朝阳区阜荣街道106号，100010（邮编）</p>
 					</div>
 					<a href="javascript:void(0)" class="submit">保存地址信息</a>
 					<br /><br />

@@ -122,6 +122,7 @@ h3.main_header3{line-height:32px;font-size:16px;color:#40b1e6;}
 .ui_form_ele .agreement_lab a{color:#616161;}
 .ui_form_ele .agreement_lab a:hover{color:#40b1e6;}
 form .submit{display:block;margin:0 0 0 132px;width:250px;height:50px;background-color:#fac03d;text-align:center;line-height:50px;font-size:16px;color:#fff;}
+form .submit_disabled{background-color:#b1b1b1;cursor:default;}
 .ui_div_select{float:left;width:250px;height:32px;cursor:default;position:relative;z-index:2;}
 .ui_div_select_value{height:30px;padding-left:8px;line-height:30px;border:1px solid #b1b1b1;background:#fcfcfc url(../images/ui_div_select_value.png) no-repeat 220px 12px;overflow:hidden;}
 .ui_div_select_options{position:absolute;top:31px;left:0;width:248px;line-height:28px;background-color:#FFF;border:1px solid #b1b1b1;max-height:174px;overflow-y:auto;overflow-x:hidden;_height:expression(Math.min(this.offsetHeight,174));}
