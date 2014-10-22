@@ -1,0 +1,10 @@
+
+.right_main{width:810;float:left;}
+.news{width:808px;border:1px solid #e8e8e8;position:relative;z-index:2;}
+.right_con{width:83px;height:96px;background:url(../images/newsDetail.png) no-repeat;position:absolute;top:-1px;right:-1px;}
+h1{font-size:24px;color:#40b1e6;height:108px;line-height:108px;font-weight:normal;border-bottom:1px solid #e8e8e8;text-align:center;}
+.ann_content{padding:36px 60px;}
+.ann_content p.text{font-size:12px;color:#727272;line-height:22px;}
+
+
+

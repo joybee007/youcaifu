@@ -1,0 +1,10 @@
+
+.right_main{width:810px;float:right;}
+h1{text-align:center;padding:10px 0;width:630px;line-height:29px;font-size:24px;color:#40b1e6;font-weight:normal;border:1px solid #40b1e6;margin:0 auto;margin-bottom:25px;}
+
+#map{height:400px;border:1px solid #40b1e6;margin-bottom:20px;}
+.address{padding-left:65px;}
+.address h2{float:left;padding:0 50px;line-height:28px;font-size:16px;color:#fff;background-color:#40b1e6;font-weight:normal;}
+.address table td{border-bottom:1px dotted #d2d2d2;padding:7px 0;font-size:12px;color:#727272;line-height:22px;vertical-align:top;}
+
+
