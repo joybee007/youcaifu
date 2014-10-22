@@ -3,6 +3,7 @@
 .m_xiaoren{float:left;padding:22px 0 0 54px;width:212px;}
 .mainBox{border:1px solid #e8e8e8;}
 .mainBox h3{height:44px;line-height:44px;padding-left:55px;font-size:18px;font-weight:bold;color:#40b1e6;}
+.mainBox h3 a{font-size:14px;color:#fac03d;font-weight:normal;}
 .reserve_info{line-height:32px;height:36px;padding-left:108px;font-size:16px;color:#40b1e6;background:url(../images/reserve_info.png) no-repeat 56px 7px;}
 .m_title{border-bottom:1px solid #e8e8e8;height:60px;padding-top:15px;line-height:48px;font-size:26px;color:#40b1e6;}
 .m_title h2{float:left;padding:0 75px 0 54px;background:url(../images/reg_cuccess_icon.png) right 0 no-repeat;font-weight:normal;font-size:26px;}
@@ -38,8 +39,10 @@
 .confirm_submit{float:right;width:250px;height:50px;line-height:50px;margin:12px 30px;font-size:24px;font-weight:bold;text-align:center;background-color:#40b1e6;color:#fff;}
 .confirm_submit_disabled{background-color:#b1b1b1;}
 
-
-
+.old_list{padding-left:60px;}
+.old_list table{font-size:14px;color:#b1b1b1;}
+.old_list table td{height:40px;vertical-align:middle;}
+.old_list table td .edit_btn{color:#40b1e6;}
 
 
 
