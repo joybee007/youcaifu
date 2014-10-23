@@ -5,7 +5,6 @@ $(function(){
 	}).each(function(i,a){
 		$(a).css('z-index',50-i);
 	});
-	//$('.c_status_pop').click(function(){});
 	
 	
 	
