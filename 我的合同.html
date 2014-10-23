@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/public.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/myOrders.css" media="all" />
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/kxbdSuperMarquee.js"></script>
+	<script type="text/javascript" src="js/public.js"></script>
+	<script type="text/javascript" src="js/myContract.js"></script>
+</head>
+<body class="yahei">
+	<div id="header">
+		<div class="mainwrap">
+			<a href="" class="logo fl"><img src="images/logo_03.png" alt="" /></a>
+			<ul class="nav clearfix fl">
+				<li><a href="javascript:void(0)" class="nav_0">首页</a></li>
+				<li><a href="javascript:void(0)" class="nav_1">产品中心</a></li>
+				<li><a href="javascript:void(0)" class="nav_2">资讯中心</a></li>
+				<li><a href="javascript:void(0)" class="nav_3">关于我们</a></li>
+			</ul>
+			<div id="loginBox">
+				<div class="login_btns">
+					<a href="javascript:void(0)" id="login_btn">登录</a>
+					<a href="javascript:void(0)">注册</a>
+				</div>
+				<div class="loginPop none" id="loginPop">
+					<h3 class="loginPop_title">优财富用户可直接登录</h3>
+					<form action="" id="loginForm">
+						<div class="form_div">
+							<label for="username" class="login_lab username"><input type="text" name="username" id="username" class="login_ipt" placeholder="登录邮箱/手机" /></label>
+						</div>
+						<div class="form_div">
+							<label for="password" class="login_lab password"><input type="password" name="password" id="password" class="login_ipt" placeholder="输入密码" /></label>
+						</div>
+						<div class="form_div">
+							<label for="checkcode" class="login_lab checkcode_lab"><input type="text" name="checkcode" id="checkcode" placeholder="输入验证码" class="login_ipt login_checkcode" /><img src="images/login_pop_09.png" alt="" /></label>
+						</div>
+						<div class="form_div clearfix">
+							<label for="autologin" class="autologin"><input type="checkbox" name="autologin" id="autologin" value="1" />&nbsp;&nbsp;下次自动登录</label>
+							<a href="javascript:void(0)" class="forgetPsw">忘记密码？</a>
+						</div>
+						<input type="submit" value="登&nbsp;录" id="login_submit" />
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="main">
+		<div class="mainwrap">
+			<div class="bread"><span class="bread_root fb">产品中心</span><span class="bread_root">&nbsp;&gt;&nbsp;</span><span class="bread_1">四川信托-锦恒6号四川信托</span><span class="bread_gray">&nbsp;&gt;&nbsp;</span><span class="bread_2">完成预约</span></div>
+			<div class="clear pb20"></div>
+			<div class="user_menu">
+				<ul>
+					<li class="title">我的交易</li>
+					<li class="active"><a href="javascript:void(0)">我的订单</a></li>
+					<li><a href="javascript:void(0)">打款凭证</a></li>
+					<li><a href="javascript:void(0)">我的合同</a></li>
+					<li><a href="javascript:void(0)">我的顾问费</a></li>
+					<li><a href="javascript:void(0)">我的产品</a></li>
+					<li><a href="javascript:void(0)">我的客户</a></li>
+					<li><a href="javascript:void(0)">私人定制产品</a></li>
+					<li><a href="javascript:void(0)">我的消息</a></li>
+					<li><a href="javascript:void(0)">我的收藏夹</a></li>
+					<li class="title">账户管理</li>
+					<li><a href="javascript:void(0)">基本信息</a></li>
+					<li><a href="javascript:void(0)">账户安全设置</a></li>
+					<li><a href="javascript:void(0)">打款账户</a></li>
+					<li><a href="javascript:void(0)">收货地址</a></li>
+					<li><a href="javascript:void(0)">网签协议</a></li>
+					<li><a href="javascript:void(0)">所属机构</a></li>
+					<li><a href="javascript:void(0)">会员注销</a></li>
+				</ul>
+			</div>
+			<div class="order_wrap">
+				<a href="javascript:void(0)" class="newOrder fl">新预约订单</a>
+				<a href="javascript:void(0)" class="order_filter fl">成功订单</a>
+				<a href="javascript:void(0)" class="order_filter fl">失败订单</a>
+				<a href="javascript:void(0)" class="order_filter fl">我的订单</a>
+				<div class="clear pb10"></div>
+				<table class="order_list">
+					<thead>
+						<tr>
+							<th>合同编号</th>
+							<th>订单号</th>
+							<th>产品名称</th>
+							<th>客户名称</th>
+							<th>用印合同状态</th>
+							<th>详情</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><a href="javascript:void(0)">1927444444444444</a></td>
+							<td>2345444444444444</td>
+							<td>余兴建投3号</td>
+							<td>王佳慧</td>
+							<td>
+								<div class="contract_status">
+									<div class="c_status c_status_0">对方寄出未用印合同</div>
+									<div class="c_status_slider"></div>
+									<div class="c_status_pop">
+										<ul class="c_status_pop_list">
+											<li class="c_status_pop_list_already"><span>1</span>对方寄出未用印合同</li>
+											<li class="c_status_pop_list_current"><span>2</span>我寄出签字未用印合同</li>
+											<li><span>3</span>对方收到签字未用印合同</li>
+											<li><span>4</span>对方寄出签字未用印合同</li>
+											<li><span>5</span>我收到未用印合同</li>
+										</ul>
+										<ul class="c_status_pop_btns">
+											<li><a href="javascript:void(0)">确认</a></li>
+											<li class="c_status_pop_btn_applicable"><a href="javascript:void(0)">确认</a></li>
+											<li><a href="javascript:void(0)">确认</a></li>
+											<li><a href="javascript:void(0)">确认</a></li>
+											<li class="c_status_pop_btn_applicable"><a href="javascript:void(0)">确认</a></li>
+										</ul>
+									</div>
+								</div>
+							</td>
+							<td><a href="javascript:void(0)">查看回寄信息</a></td>
+						</tr>
+						<tr>
+							<td><a href="javascript:void(0)">1927444444444444</a></td>
+							<td>2345444444444444</td>
+							<td>余兴建投3号</td>
+							<td>王佳慧</td>
+							<td>
+								<div class="contract_status">
+									<div class="c_status c_status_1">对方寄出未用印合同</div>
+									<div class="c_status_slider"></div>
+									<div class="c_status_pop">
+										<ul class="c_status_pop_list">
+											<li class="c_status_pop_list_already"><span>1</span>对方寄出未用印合同</li>
+											<li class="c_status_pop_list_current"><span>2</span>我寄出签字未用印合同</li>
+											<li><span>3</span>对方收到签字未用印合同</li>
+											<li><span>4</span>对方寄出签字未用印合同</li>
+											<li><span>5</span>我收到未用印合同</li>
+										</ul>
+										<ul class="c_status_pop_btns">
+											<li><a href="javascript:void(0)">确认</a></li>
+											<li class="c_status_pop_btn_applicable"><a href="javascript:void(0)">确认</a></li>
+											<li><a href="javascript:void(0)">确认</a></li>
+											<li><a href="javascript:void(0)">确认</a></li>
+											<li class="c_status_pop_btn_applicable"><a href="javascript:void(0)">确认</a></li>
+										</ul>
+									</div>
+								</div>
+							</td>
+							<td><a href="javascript:void(0)">查看回寄信息</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="main_paging clearfix">
+					<a href="javascript:void(0)" class="prev_page disabled">上一页</a>
+					<a href="javascript:void(0)" class="prevs disabled_prevs">&nbsp;</a>
+					<a href="javascript:void(0)" class="pages">1</a>
+					<a href="javascript:void(0)" class="pages active">2</a>
+					<a href="javascript:void(0)" class="pages">3</a>
+					<a href="javascript:void(0)" class="pages">...</a>
+					<a href="javascript:void(0)" class="pages">9</a>
+					<a href="javascript:void(0)" class="pages">10</a>
+					<a href="javascript:void(0)" class="pages">11</a>
+					<a href="javascript:void(0)" class="nexts disabled_nexts">&nbsp;</a>
+					<a href="javascript:void(0)" class="next_page">下一页</a>
+					<span class="total">共30页</span>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="toPage">到第&nbsp;<input type="text" name="" id="" class="toPageInput" />&nbsp;页</span>
+					&nbsp;&nbsp;<a href="javascript:void(0)" class="toPageBtn">确定</a>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="bdb1"></div>
+		<div class="main_partners mainwrap">
+			<div class="mainwrap clearfix">
+				<a href="javascript:void(0)" class="pm_btn pm_prev" id="pm_prev"></a>
+				<div class="pm_box fl" id="pm_marquee">
+					<ul>
+						<li><a href="javascript:void(0)"><img src="images/partners/p_03.png" alt="" /></a></li>
+						<li><a href="javascript:void(0)"><img src="images/partners/p_05.png" alt="" /></a></li>
+						<li><a href="javascript:void(0)"><img src="images/partners/p_07.png" alt="" /></a></li>
+						<li><a href="javascript:void(0)"><img src="images/partners/p_09.png" alt="" /></a></li>
+						<li><a href="javascript:void(0)"><img src="images/partners/p_11.png" alt="" /></a></li>
+						<li><a href="javascript:void(0)"><img src="images/partners/p_13.png" alt="" /></a></li>
+						<li><a href="javascript:void(0)"><img src="images/partners/p_15.png" alt="" /></a></li>
+					</ul>
+				</div>
+				<a href="javascript:void(0)" class="pm_btn pm_next" id="pm_next"></a>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<a href="javascript:void(0)" class="logo"><img src="images/footer_logo_25.png" alt="" /></a>
+		<p class="hotline">全国热线</p>
+		<p class="hotline_num bdb">400-111-5800</p>
+		<p class="links bdb"><a href="javascript:void(0)">首页</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:void(0)">产品中心</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:void(0)">会员中心</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:void(0)">资讯中心</a><br /><a href="javascript:void(0)">关于我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:void(0)">联系我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:void(0)">法律声明</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:void(0)">垂询热线</a></p>
+		<p class="copy">优财富（bestwealth）版权归北京财富圈科技发展有限公司所有<br />人工服务：9:00-18:00<br />京ICP备14036440号</p>
+	</div>
+	<div id="sidebar">
+		<div class="side_btns">
+			<a href="javascript:void(0)" id="service_qq"></a>
+			<a href="javascript:void(0)" id="service_online"></a>
+			<a href="javascript:void(0)" id="go_top"></a>
+		</div>
+	</div>
+	<div id="edit_links" class="none">
+		<div class="el_pointer"></div>
+		<div class="btns"><a href="javascript:void(0)">修改</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:void(0)" id="cancle_order">撤销</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:void(0)" id="customer_account_edit">客户汇款账户</a><br /><a href="javascript:void(0)">募集账户查看</a>&nbsp;|&nbsp;<a href="javascript:void(0)">回寄信息查看</a></div>
+	</div>
+	<div id="confirm_cancle" class="yellow_tip none">
+		<div class="title">您确定要撤销该订单吗？</div>
+		<p class="tips">撤销订单后，不能恢复。</p>
+		<div class="btns clearfix">
+			<a href="javascript:void(0)" class="confirm fl" id="confirm_cancle_btn">确定</a>
+			<a href="javascript:void(0)" class="cancle fl" id="cancle_cancle_btn">取消</a>
+		</div>
+	</div>
+	<div id="customerForm" class="yellow_tip none">
+		<div class="title">客户收益银行账户信息</div>
+		<form action="">
+			<div class="ui_form_ele">
+				<label for=""><span class="lab">客户姓名：</span><span class="lab gray">赵宝刚</span></label>
+				<span class="valid_info clear"></span>
+			</div>
+			<div class="ui_form_ele">
+				<label for=""><span class="lab"><span class="blue fb">*&nbsp;</span>开户姓名：</span><input type="text" name="" id="" class="ui_input" /></label>
+				<span class="valid_info clear"></span>
+			</div>
+			<div class="ui_form_ele">
+				<label for=""><span class="lab"><span class="blue fb">*&nbsp;</span>开户行：</span><input type="text" name="" id="" class="ui_input" /></label>
+				<span class="valid_info clear"></span>
+			</div>
+			<div class="ui_form_ele">
+				<label for=""><span class="lab"><span class="blue fb">*&nbsp;</span>账号：</span><input type="text" name="" id="" class="ui_input" /></label>
+				<span class="valid_info clear"></span>
+			</div>
+		</form>
+		<div class="btns">
+			<a href="javascript:void(0)" class="confirm ma" id="customer_account_submit">提交</a>
+		</div>
+	</div>
+	<div id="submitSuccess" class="yellow_tip none">
+		<div class="title">客户受益银行账户信息</div>
+		<p class="tips">订单提交成功！</p>
+	</div>
+</body>
+</html>
