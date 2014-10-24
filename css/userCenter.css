@@ -1,7 +1,7 @@
 
 .uc_content{float:left;width:810px;}
 .user_info{background-color:#f6f6f7;margin-bottom:10px;padding:10px 0;font-size:12px;}
-.user_info_0,.user_info_1,.user_info_2{float:left;}
+.user_info_0,.user_info_1,.user_info_2{float:left;height:115px;}
 .user_info_0,.user_info_1{border-right:1px solid #cacaca;}
 .user_info_0{width:216px;}
 .user_info_1{width:148px;text-align:center;}
