@@ -9,8 +9,8 @@ a,a:hover{text-decoration: none;}
 
 .solid_line{height: 0px;border-bottom: solid 1px #727272;}
 
-.btn_blue{width: 250px;text-align:center;height:50px;line-height:50px;font-size: 16px;color: white;background-color: #40b1e6;}
-.btn_orange{width: 250px;text-align:center;height: 50px;line-height: 50px;font-size: 16px;color: white;background-color: #fac03d;}
+.btn_blue{display:block;float:left;width: 250px;text-align:center;height:50px;line-height:50px;font-size: 16px;color: white;background-color: #40b1e6;}
+.btn_orange{display:block;float:left;width: 250px;text-align:center;height: 50px;line-height: 50px;font-size: 16px;color: white;background-color: #fac03d;}
 
 .icon1{width: 19px;height: 22px;background: url("../images/orgInfo_01.png") no-repeat;}
 

@@ -19,8 +19,8 @@ a,a:hover{text-decoration: none;}
 .dashed_line{height: 0px;border-bottom: dashed 1px #e8e8e8;}
 .solid_line{height: 0px;border-bottom: solid 1px #727272;}
 
-.btn_blue{height:36px;line-height:36px;font-size: 16px;color: white;background-color: #40b1e6;}
-.btn_blue2{height:36px;line-height:36px;font-size: 16px;color: #40b1e6;background-color: #fff;border: solid 1px #40b1e6;}
+.btn_blue{display:block;height:36px;line-height:36px;font-size: 16px;color: white;background-color: #40b1e6;}
+.btn_blue2{display:block;height:36px;line-height:36px;font-size: 16px;color: #40b1e6;background-color: #fff;border: solid 1px #40b1e6;}
 .btn_orange{height: 50px;line-height: 50px;font-size: 16px;color: white;background-color: #fac03d;}
 
 
