@@ -10,7 +10,7 @@ a,a:hover{text-decoration: none;}
 .dashed_line{height: 0px;border-bottom: dashed 1px #e8e8e8;}
 .solid_line{height: 0px;border-bottom: solid 1px #727272;}
 
-.btn_blue{height:28px;line-height:28px;font-size: 12px;color: white;background-color: #40b1e6;}
+.btn_blue{display:block;height:28px;line-height:28px;font-size: 12px;color: white;background-color: #40b1e6;}
 
 .icon1{width: 13px;height: 15px;background: url("../images/accountSafe_01.png") no-repeat;}
 .icon_yes{width: 48px;height: 48px;background: url("../images/reg_cuccess_icon.png") no-repeat 0 0;}
