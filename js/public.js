@@ -84,7 +84,8 @@ $(function(){
 		},function(){
 			$(this).css('border-color','#b1b1b1');
 		}).click(function(evt){
-			$(this).next().toggle();
+			var list=$(this).next();
+			list.css('height',Math.min(list.height(),174)).toggle();
 			evt.stopPropagation();
 			evt.preventDefault();
 		});

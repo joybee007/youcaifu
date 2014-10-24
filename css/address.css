@@ -21,7 +21,7 @@ a,a:hover{text-decoration: none;}
 
 .btn_blue{display:block;height:36px;line-height:36px;font-size: 16px;color: white;background-color: #40b1e6;}
 .btn_blue2{display:block;height:36px;line-height:36px;font-size: 16px;color: #40b1e6;background-color: #fff;border: solid 1px #40b1e6;}
-.btn_orange{height: 50px;line-height: 50px;font-size: 16px;color: white;background-color: #fac03d;}
+.btn_orange{display:block;height: 50px;line-height: 50px;font-size: 16px;color: white;background-color: #fac03d;}
 
 
 .icon1{width: 15px;height: 13px;background: url("../images/address_01.png") no-repeat;}
