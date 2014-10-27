@@ -67,6 +67,19 @@ $(function(){
 		$(window).scrollTop(0);
 	});
 	//模拟select
+	function initSelect(ele){
+		var ul=$(ele).parent().find('ul.ui_div_select_options');
+		ul.empty();
+		$(ele).find('option').each(function(j,b){
+			var li=$('<li />');
+			li.data('val',$(b).val()).text($(b).text()).attr('title',$(b).text());
+			if($(b).prop('selected')){
+				$(ele).parents('.ui_div_select').find('.ui_div_select_value').text($(b).text());
+			}
+			ul.append(li);
+		});
+	}
+	window.initSelect=initSelect;
 	if($('.ui_div_select').length){
 		$('.ui_div_select select').each(function(i,a){
 			$(a).parent().css('z-index',10-i);
@@ -92,19 +105,6 @@ $(function(){
 		$(document).click(function(){
 			$('.ui_div_select_options').hide();
 		});
-		function initSelect(ele){
-			var ul=$(ele).parent().find('ul.ui_div_select_options');
-			ul.empty();
-			$(ele).find('option').each(function(j,b){
-				var li=$('<li />');
-				li.data('val',$(b).val()).text($(b).text()).attr('title',$(b).text());
-				if($(b).prop('selected')){
-					$(ele).parents('.ui_div_select').find('.ui_div_select_value').text($(b).text());
-				}
-				ul.append(li);
-			});
-		}
-		window.initSelect=initSelect;
 	}
 	$('select').change(function(){
 		alert($(this).val());
