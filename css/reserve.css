@@ -9,10 +9,11 @@
 .m_title h2{float:left;padding:0 75px 0 54px;background:url(../images/reg_cuccess_icon.png) right 0 no-repeat;font-weight:normal;font-size:26px;}
 .m_title .reserve_id{float:right;padding-right:56px;}
 .reserve_pro_info{padding:15px 0 25px 0;}
-.reserve_pro_info_img{display:block;float:left;width:178px;height:178px;margin-left:55px;border:1px solid #e4dfdf;}
+.reserve_pro_info_img{display:block;float:right;width:178px;height:178px;margin:0 55px 0 0;_margin-right:27px;border:1px solid #e4dfdf;}
 .reserve_pro_info_img img{width:178px;height:178px;}
 .reserve_pro_info_table{display:block;float:left;line-height:42px;font-size:14px;color:#616161;}
-.reserve_pro_info_table .tar{padding:0 20px 0 35px;text-align:right;}
+.reserve_pro_info_table td{padding-left:10px;}
+.reserve_pro_info_table .tar{width:132px;text-align:right;padding:0;}
 
 
 /* 预约成功部分 */
