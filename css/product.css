@@ -36,6 +36,7 @@ h1 img{vertical-align:middle;}
 .pd_right .pd_time a.active{border:1px solid #40b1e6;background-image:url(../images/product_select_prop.png);background-repeat:no-repeat;background-position:right bottom;}
 .pd_right .pd_money{height:56px;line-height:56px;margin-bottom:10px;}
 .pd_right .pd_money span{display:block;float:left;}
+.pd_right .pd_time_0,.pd_right .pd_money_0{width:112px;}
 .pd_right .pd_money input{display:block;float:left;width:180px;height:40px;line-height:40px;margin:8px 5px 0 0;border:1px solid #c6c6c6;font-size:20px;}
 .pd_right .pd_interest{float:left;border:1px dashed #ec8028;margin-bottom:15px;padding:0 75px 0 20px;height:48px;line-height:48px;font-size:14px;color:#808080;}
 .pd_right .pd_interest .content{font-size:18px;color:#ec8028;}
