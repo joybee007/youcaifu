@@ -124,6 +124,8 @@ h3.main_header3{line-height:32px;font-size:16px;color:#40b1e6;}
 .ui_form_ele .agreement_lab a:hover{color:#40b1e6;}
 form .submit{display:block;margin:0 0 0 132px;width:250px;height:50px;background-color:#fac03d;text-align:center;line-height:50px;font-size:16px;color:#fff;}
 form .submit_disabled{background-color:#b1b1b1;cursor:default;}
+form h3.search_title{font-size:18px;font-weight:bold;color:#727272;line-height:40px;}
+form a.search_btn{display:block;width:166px;height:40px;margin:0 auto;line-height:40px;text-align:center;color:#fff;background:url(../images/reserve_03.png) no-repeat;}
 .ui_div_select{float:left;width:250px;height:32px;cursor:default;position:relative;z-index:2;}
 .ui_div_select_value{height:30px;padding-left:8px;line-height:30px;border:1px solid #b1b1b1;background:#fcfcfc url(../images/ui_div_select_value.png) no-repeat 220px 12px;overflow:hidden;}
 .ui_div_select_options{position:absolute;top:31px;left:0;width:248px;line-height:28px;background-color:#FFF;border:1px solid #b1b1b1;max-height:174px;overflow-y:auto;overflow-x:hidden;}
@@ -167,3 +169,20 @@ form .submit_disabled{background-color:#b1b1b1;cursor:default;}
 #videoBox{width:480px;height:400px;margin:0 auto;}
 
 #followTip{width:30px;height:24px;color:red;font-weight:bold;font-size:14px;position:absolute;text-align:center;z-index:900;line-height:24px;cursor:default;}
+
+/* 通用表格 */
+.result_list_table{width:100%;border:1px solid #e8e8e8;text-align:center;font-size:14px;}
+.result_list_table thead{background-color:#f6f7f7;}
+.result_list_table thead tr{border-bottom:1px solid #e8e8e8;font-size:12px;color:#484848;}
+.result_list_table thead tr th{padding:10px 0;font-weight:normal;}
+.result_list_table tbody tr{border-bottom:1px dashed #e8e8e8;color:#3e3e3e;}
+.result_list_table tbody tr td{padding:10px 0;line-height:24px;}
+.result_list_table tbody tr td a{color:inherit;_color:expression(this.parentNode.currentStyle.color);}
+.result_list_table tbody tr td a:hover{color:#40b1e6;}
+.result_list_table tbody tr td .edit{display:block;margin:0 auto;width:55px;height:20px;line-height:20px;text-align:center;color:#fff;background-color:#40b1e6;font-size:12px;}
+.result_list_table tbody tr td .edit:hover{color:#fff;}
+
+
+
+
+

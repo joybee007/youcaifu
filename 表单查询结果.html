@@ -5,12 +5,13 @@
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/public.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="css/myOrders.css" media="all" />
+	<style type="text/css">
+		.right_main{width:810px;float:left;}
+	</style>
 	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="js/kxbdSuperMarquee.js"></script>
 	<script type="text/javascript" src="js/public.js"></script>
-	<script type="text/javascript" src="js/myContract.js"></script>
 </head>
 <body class="yahei">
 	<div id="header">
@@ -75,25 +76,40 @@
 					<li><a href="javascript:void(0)">会员注销</a></li>
 				</ul>
 			</div>
-			<div class="order_wrap">
-				<div class="cantract_0 clearfix">
-					<a href="javascript:void(0)" class="cantract_type bdr">预用印合同</a>
-					<a href="javascript:void(0)" class="cantract_type active">非预用印合同</a>
-				</div>
-				<div class="cantract_1 clearfix">
-					<a href="javascript:void(0)" class="pro_type active">在售产品</a>
-					<a href="javascript:void(0)" class="pro_type">已成立产品</a>
-				</div>
-				<p class="cantract_2">未用印合同状态</p>
-				<div class="cantract_steps">
-					<ul>
-						<li>对方寄出未用印合同</li>
-						<li>对方寄出签字未用印合同</li>
-						<li>对方收到签字未用印合同</li>
-						<li>对方寄出签字未用印合同</li>
-						<li>我收到签字未用印合同</li>
-					</ul>
-				</div>
+			<div class="right_main">
+				<form action="" id="" class="">
+					<h3 class="search_title">查询：</h3>
+					<div class="ui_form_ele fl">
+						<label for="username"><span class="lab">客户名称：</span><input type="text" name="username" id="username" class="ui_input" /></label>
+						<span class="valid_info clear"></span>
+					</div>
+					<div class="ui_form_ele fl">
+						<label for=""><span class="lab">证件类型：</span><div class="ui_div_select">
+							<div class="ui_div_select_value"></div>
+							<ul class="ui_div_select_options none"></ul>
+							<select name="" id="" class="none">
+								<option value="1">1万以内</option>
+								<option value="2">1-3万</option>
+								<option value="3">3-5万</option>
+								<option value="4" selected="selected">5-10万</option>
+								<option value="5">10-30万</option>
+								<option value="5">10-30万10-30万10-30万10-30万10-30万10-30万10-30万10-30万</option>
+								<option value="5">10-30万</option>
+								<option value="5">10-30万</option>
+								<option value="5">10-30万</option>
+								<option value="6">30万以上</option></select>
+						</div></label>
+						<span class="valid_info clear"></span>
+					</div>
+					<div class="ui_form_ele">
+						<label for="username"><span class="lab">证件号码：</span><input type="text" name="username" id="username" class="ui_input" /></label>
+						<span class="valid_info clear"></span>
+					</div>
+					<div class="clear"></div>
+					<br />
+					<a href="javascript:void(0)" class="search_btn">查询</a>
+				</form>
+				<br />
 				<table class="result_list_table">
 					<thead>
 						<tr>
@@ -111,28 +127,7 @@
 							<td>2345444444444444</td>
 							<td>余兴建投3号</td>
 							<td>王佳慧</td>
-							<td>
-								<div class="contract_status">
-									<div class="c_status c_status_0">对方寄出未用印合同</div>
-									<div class="c_status_slider"></div>
-									<div class="c_status_pop">
-										<ul class="c_status_pop_list">
-											<li class="c_status_pop_list_already"><span>1</span>对方寄出未用印合同</li>
-											<li class="c_status_pop_list_current"><span>2</span>我寄出签字未用印合同</li>
-											<li><span>3</span>对方收到签字未用印合同</li>
-											<li><span>4</span>对方寄出签字未用印合同</li>
-											<li><span>5</span>我收到未用印合同</li>
-										</ul>
-										<ul class="c_status_pop_btns">
-											<li><a href="javascript:void(0)">确认</a></li>
-											<li class="c_status_pop_btn_applicable"><a href="javascript:void(0)">确认</a></li>
-											<li><a href="javascript:void(0)">确认</a></li>
-											<li><a href="javascript:void(0)">确认</a></li>
-											<li class="c_status_pop_btn_applicable"><a href="javascript:void(0)">确认</a></li>
-										</ul>
-									</div>
-								</div>
-							</td>
+							<td>对方寄出未用印合同</td>
 							<td><a href="javascript:void(0)">查看回寄信息</a></td>
 						</tr>
 						<tr>
@@ -140,28 +135,23 @@
 							<td>2345444444444444</td>
 							<td>余兴建投3号</td>
 							<td>王佳慧</td>
-							<td>
-								<div class="contract_status">
-									<div class="c_status c_status_1">对方寄出未用印合同</div>
-									<div class="c_status_slider"></div>
-									<div class="c_status_pop">
-										<ul class="c_status_pop_list">
-											<li class="c_status_pop_list_already"><span>1</span>对方寄出未用印合同</li>
-											<li class="c_status_pop_list_current"><span>2</span>我寄出签字未用印合同</li>
-											<li><span>3</span>对方收到签字未用印合同</li>
-											<li><span>4</span>对方寄出签字未用印合同</li>
-											<li><span>5</span>我收到未用印合同</li>
-										</ul>
-										<ul class="c_status_pop_btns">
-											<li><a href="javascript:void(0)">确认</a></li>
-											<li class="c_status_pop_btn_applicable"><a href="javascript:void(0)">确认</a></li>
-											<li><a href="javascript:void(0)">确认</a></li>
-											<li><a href="javascript:void(0)">确认</a></li>
-											<li class="c_status_pop_btn_applicable"><a href="javascript:void(0)">确认</a></li>
-										</ul>
-									</div>
-								</div>
-							</td>
+							<td>对方寄出未用印合同</td>
+							<td><a href="javascript:void(0)">查看回寄信息</a></td>
+						</tr>
+						<tr>
+							<td><a href="javascript:void(0)">1927444444444444</a></td>
+							<td>2345444444444444</td>
+							<td>余兴建投3号</td>
+							<td>王佳慧</td>
+							<td>对方寄出未用印合同</td>
+							<td><a href="javascript:void(0)">查看回寄信息</a></td>
+						</tr>
+						<tr>
+							<td><a href="javascript:void(0)">1927444444444444</a></td>
+							<td>2345444444444444</td>
+							<td>余兴建投3号</td>
+							<td>王佳慧</td>
+							<td>对方寄出未用印合同</td>
 							<td><a href="javascript:void(0)">查看回寄信息</a></td>
 						</tr>
 					</tbody>
