@@ -10,7 +10,7 @@ h1{float:left;width:160px;padding:0 0 0 28px;line-height:64px;height:64px;color:
 
 .regForm{display:block;padding:34px 0 30px 0;}
 
-.regForm .submit{display:block;margin:0 0 0 132px;width:250px;height:50px;background-color:#fac03d;text-align:center;line-height:50px;font-size:16px;color:#fff;}
+/* .regForm .submit{display:block;margin:0 0 0 132px;width:250px;height:50px;background-color:#fac03d;text-align:center;line-height:50px;font-size:16px;color:#fff;} */
 
 .regP_success{padding:175px 0 140px 345px;background:#fff url(../images/xiaoren_03.jpg) 142px 94px no-repeat;}
 .regP_success .success_info{height:48px;line-height:48px;padding-left:105px;background:url(../images/reg_cuccess_icon.png) 0 0 no-repeat;font-size:30px;}
