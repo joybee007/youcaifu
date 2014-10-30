@@ -57,6 +57,7 @@ h3.main_header3{line-height:32px;font-size:16px;color:#40b1e6;}
 #userBox .userInfoBox{display:none;width:147px;border:1px solid #40b1e6;font-size:12px;background-color:#FFF;position:absolute;top:48px;left:-1px;z-index:2;}
 #userBox .userInfoBox a:hover{color:#40b1e6;}
 #userBox .uib_0{padding:19px 0 5px 26px;width:104px;margin:0 auto;background:url(../images/uib_0.png) 9px 19px no-repeat;line-height:15px;color:#3b9740;border-bottom:1px solid #ddd;}
+#userBox .uib_0_0{width:64px;}
 #userBox .uib_1{width:130px;margin:0 auto;color:#ddd;font-size:12px;border-bottom:1px solid #ddd;}
 #userBox .uib_1 li{line-height:26px;height:26px;padding-left:46px;background-image:url(../images/uib_1.png);background-repeat:no-repeat;}
 #userBox .uib_1 li a{color:#4c4e62;}
