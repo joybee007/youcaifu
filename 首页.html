@@ -27,33 +27,6 @@
 					<li><a href="javascript:void(0)" class="nav_3">关于我们</a></li>
 				</ul>
 			</div>
-			<!-- 根据是否登录切换#loginBox和#userBox的显示。 -->
-			<div id="loginBox">
-				<div class="login_btns">
-					<a href="javascript:void(0)" id="login_btn">登录</a>
-					<a href="javascript:void(0)">注册</a>
-				</div>
-				<div class="loginPop none" id="loginPop">
-					<h3 class="loginPop_title">优财富用户可直接登录</h3>
-					<form action="" id="loginForm">
-						<p class="login_valied_info">用户名或密码错误。</p>
-						<div class="form_div">
-							<label for="username" class="login_lab username"><input type="text" name="username" id="username" class="login_ipt" placeholder="登录邮箱/手机" /></label>
-						</div>
-						<div class="form_div">
-							<label for="password" class="login_lab password"><input type="password" name="password" id="password" class="login_ipt" placeholder="输入密码" /></label>
-						</div>
-						<div class="form_div">
-							<label for="checkcode" class="login_lab checkcode_lab"><input type="text" name="checkcode" id="checkcode" placeholder="输入验证码" class="login_ipt login_checkcode" /><img src="images/login_pop_09.png" alt="" /></label>
-						</div>
-						<div class="form_div clearfix">
-							<label for="autologin" class="autologin"><input type="checkbox" name="autologin" id="autologin" value="1" />&nbsp;&nbsp;下次自动登录</label>
-							<a href="javascript:void(0)" class="forgetPsw">忘记密码？</a>
-						</div>
-						<a href="javascript:void(0)" id="login_submit">登&nbsp;录</a>
-					</form>
-				</div>
-			</div>
 			<div id="userBox" class="none">
 				<div class="userMessageUnread">+99</div>
 				<div class="userAvatar fl"><img src="images/userAvatar_03.png" alt="" /></div>
@@ -67,6 +40,34 @@
 					</ul>
 					<div class="user_quit"><a href="javascript:void(0)">退出</a></div>
 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mainwrap pr" style="z-index:3">
+		<div id="loginBox">
+			<div class="login_btns">
+				<a href="javascript:void(0)" id="login_btn">登录</a>
+				<a href="javascript:void(0)">注册</a>
+			</div>
+			<div class="loginPop none" id="loginPop">
+				<h3 class="loginPop_title">优财富用户可直接登录</h3>
+				<form action="" id="loginForm">
+					<p class="login_valied_info">用户名或密码错误。</p>
+					<div class="form_div">
+						<label for="username" class="login_lab username"><input type="text" name="username" id="username" class="login_ipt" placeholder="登录邮箱/手机" /></label>
+					</div>
+					<div class="form_div">
+						<label for="password" class="login_lab password"><input type="password" name="password" id="password" class="login_ipt" placeholder="输入密码" /></label>
+					</div>
+					<div class="form_div">
+						<label for="checkcode" class="login_lab checkcode_lab"><input type="text" name="checkcode" id="checkcode" placeholder="输入验证码" class="login_ipt login_checkcode" /><img src="images/login_pop_09.png" alt="" /></label>
+					</div>
+					<div class="form_div clearfix">
+						<label for="autologin" class="autologin"><input type="checkbox" name="autologin" id="autologin" value="1" />&nbsp;&nbsp;下次自动登录</label>
+						<a href="javascript:void(0)" class="forgetPsw">忘记密码？</a>
+					</div>
+					<a href="javascript:void(0)" id="login_submit">登&nbsp;录</a>
+				</form>
 			</div>
 		</div>
 	</div>
