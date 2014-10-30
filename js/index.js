@@ -28,4 +28,18 @@ $(function(){
 	function hideXinshou(){
 		$('#mask,#xinshou').hide();
 	}
+	
+	//placeholder
+	$('#username').placeholder({
+		pColor: "#999",
+		pActive: "#999",
+		posL: 48
+	});
+	$('#password').placeholder({
+		pColor: "#999",
+		pActive: "#999",
+		posL: 48
+	});
+	
+	
 });
