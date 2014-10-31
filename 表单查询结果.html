@@ -5,13 +5,12 @@
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/public.css" media="all" />
-	<style type="text/css">
-		.right_main{width:810px;float:left;}
-	</style>
+	<link rel="stylesheet" type="text/css" href="css/myOrders.css" media="all" />
 	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="js/kxbdSuperMarquee.js"></script>
 	<script type="text/javascript" src="js/public.js"></script>
+	<script type="text/javascript" src="js/myOrders.js"></script>
 </head>
 <body class="yahei">
 	<div id="header">
@@ -76,83 +75,123 @@
 					<li><a href="javascript:void(0)">会员注销</a></li>
 				</ul>
 			</div>
-			<div class="right_main">
-				<form action="" id="" class="">
-					<h3 class="search_title">查询：</h3>
-					<div class="ui_form_ele fl">
-						<label for="username"><span class="lab">客户名称：</span><input type="text" name="username" id="username" class="ui_input" /></label>
-						<span class="valid_info clear"></span>
+			<div class="order_wrap">
+				<a href="javascript:void(0)" class="newOrder fl">新预约订单</a>
+				<a href="javascript:void(0)" class="order_filter fl">成功订单</a>
+				<a href="javascript:void(0)" class="order_filter fl">失败订单</a>
+				<a href="javascript:void(0)" class="order_filter fl">我的订单</a>
+				<div class="clear pb10"></div>
+				<div class="search_conditions clearfix f12">
+					<div class="sc_div fl">
+						<label for="">客户名称：<input type="text" name="" id="" /></label>
 					</div>
-					<div class="ui_form_ele fl">
-						<label for=""><span class="lab">证件类型：</span><div class="ui_div_select">
-							<div class="ui_div_select_value"></div>
-							<ul class="ui_div_select_options none"></ul>
-							<select name="" id="" class="none">
-								<option value="1">1万以内</option>
-								<option value="2">1-3万</option>
-								<option value="3">3-5万</option>
-								<option value="4" selected="selected">5-10万</option>
-								<option value="5">10-30万</option>
-								<option value="5">10-30万10-30万10-30万10-30万10-30万10-30万10-30万10-30万</option>
-								<option value="5">10-30万</option>
-								<option value="5">10-30万</option>
-								<option value="5">10-30万</option>
-								<option value="6">30万以上</option></select>
-						</div></label>
-						<span class="valid_info clear"></span>
+					<div class="sc_div fl w120">
+						<label for="">交易类型：<div class="ui_div_select">
+								<div class="ui_div_select_value"></div>
+								<ul class="ui_div_select_options none"></ul>
+								<select name="" id="" class="none">
+									<option value="1">1万以内</option>
+									<option value="2">1-3万</option>
+									<option value="3">3-5万</option>
+									<option value="4" selected="selected">5-10万</option>
+									<option value="5">10-30万</option>
+									<option value="5">10-30万10-30万10-30万10-30万10-30万10-30万10-30万10-30万</option>
+									<option value="5">10-30万</option>
+									<option value="5">10-30万</option>
+									<option value="5">10-30万</option>
+									<option value="6">30万以上</option></select>
+							</div></label>
 					</div>
-					<div class="ui_form_ele">
-						<label for="username"><span class="lab">证件号码：</span><input type="text" name="username" id="username" class="ui_input" /></label>
-						<span class="valid_info clear"></span>
+					<div class="sc_div fl">
+						<label for="">证件号码：<input type="text" name="" id="" /></label>
 					</div>
-					<div class="clear"></div>
-					<br />
-					<a href="javascript:void(0)" class="search_btn">查询</a>
-				</form>
-				<br />
+					<a href="javascript:void(0)" class="sc_submit fr">搜索</a>
+				</div>
 				<table class="result_list_table">
 					<thead>
 						<tr>
-							<th>合同编号</th>
-							<th>订单号</th>
-							<th>产品名称</th>
-							<th>客户名称</th>
-							<th>用印合同状态</th>
-							<th>详情</th>
+							<th width="153">订单号</th>
+							<th width="45">交易类型</th>
+							<th width="62">客户名称</th>
+							<th width="100">产品名称</th>
+							<th width="70">预约金额（万元）</th>
+							<th width="70">分配额度（万元）</th>
+							<th width="70">到帐金额（万元）</th>
+							<th colspan="3">打款状态</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td><a href="javascript:void(0)">1927444444444444</a></td>
-							<td>2345444444444444</td>
-							<td>余兴建投3号</td>
+							<td><a href="javascript:void(0)">00U002O00K2929I2</a></td>
+							<td>认购</td>
 							<td>王佳慧</td>
-							<td>对方寄出未用印合同</td>
-							<td><a href="javascript:void(0)">查看回寄信息</a></td>
+							<td>余兴建投3号</td>
+							<td>10000</td>
+							<td>10000</td>
+							<td>10000</td>
+							<td width="80">开放打款</td>
+							<td width="80">预约提交</td>
+							<td width="80"><a href="javascript:void(0)" class="edit">操作</a></td>
 						</tr>
 						<tr>
-							<td><a href="javascript:void(0)">1927444444444444</a></td>
-							<td>2345444444444444</td>
-							<td>余兴建投3号</td>
+							<td>00U002O00K2929I2</td>
+							<td>认购</td>
 							<td>王佳慧</td>
-							<td>对方寄出未用印合同</td>
-							<td><a href="javascript:void(0)">查看回寄信息</a></td>
+							<td>余兴建投3号</td>
+							<td>10000</td>
+							<td>10000</td>
+							<td>10000</td>
+							<td>开放打款</td>
+							<td>预约提交</td>
+							<td><a href="javascript:void(0)" class="edit">操作</a></td>
 						</tr>
 						<tr>
-							<td><a href="javascript:void(0)">1927444444444444</a></td>
-							<td>2345444444444444</td>
-							<td>余兴建投3号</td>
+							<td>00U002O00K2929I2</td>
+							<td>认购</td>
 							<td>王佳慧</td>
-							<td>对方寄出未用印合同</td>
-							<td><a href="javascript:void(0)">查看回寄信息</a></td>
+							<td>余兴建投3号</td>
+							<td>10000</td>
+							<td>10000</td>
+							<td>10000</td>
+							<td width="80">开放打款</td>
+							<td width="80">预约提交</td>
+							<td width="80"><a href="javascript:void(0)" class="edit">操作</a></td>
 						</tr>
 						<tr>
-							<td><a href="javascript:void(0)">1927444444444444</a></td>
-							<td>2345444444444444</td>
-							<td>余兴建投3号</td>
+							<td>00U002O00K2929I2</td>
+							<td>认购</td>
 							<td>王佳慧</td>
-							<td>对方寄出未用印合同</td>
-							<td><a href="javascript:void(0)">查看回寄信息</a></td>
+							<td>余兴建投3号</td>
+							<td>10000</td>
+							<td>10000</td>
+							<td>10000</td>
+							<td>开放打款</td>
+							<td>预约提交</td>
+							<td><a href="javascript:void(0)" class="edit">操作</a></td>
+						</tr>
+						<tr>
+							<td>00U002O00K2929I2</td>
+							<td>认购</td>
+							<td>王佳慧</td>
+							<td>余兴建投3号</td>
+							<td>10000</td>
+							<td>10000</td>
+							<td>10000</td>
+							<td width="80">开放打款</td>
+							<td width="80">预约提交</td>
+							<td width="80"><a href="javascript:void(0)" class="edit">操作</a></td>
+						</tr>
+						<tr>
+							<td>00U002O00K2929I2</td>
+							<td>认购</td>
+							<td>王佳慧</td>
+							<td>余兴建投3号</td>
+							<td>10000</td>
+							<td>10000</td>
+							<td>10000</td>
+							<td>开放打款</td>
+							<td>预约提交</td>
+							<td><a href="javascript:void(0)" class="edit">操作</a></td>
 						</tr>
 					</tbody>
 				</table>
@@ -209,46 +248,6 @@
 			<a href="javascript:void(0)" id="service_online"></a>
 			<a href="javascript:void(0)" id="go_top"></a>
 		</div>
-	</div>
-	<div id="edit_links" class="none">
-		<div class="el_pointer"></div>
-		<div class="btns"><a href="javascript:void(0)">修改</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:void(0)" id="cancle_order">撤销</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:void(0)" id="customer_account_edit">客户汇款账户</a><br /><a href="javascript:void(0)">募集账户查看</a>&nbsp;|&nbsp;<a href="javascript:void(0)">回寄信息查看</a></div>
-	</div>
-	<div id="confirm_cancle" class="yellow_tip none">
-		<div class="title">您确定要撤销该订单吗？</div>
-		<p class="tips">撤销订单后，不能恢复。</p>
-		<div class="btns clearfix">
-			<a href="javascript:void(0)" class="confirm fl" id="confirm_cancle_btn">确定</a>
-			<a href="javascript:void(0)" class="cancle fl" id="cancle_cancle_btn">取消</a>
-		</div>
-	</div>
-	<div id="customerForm" class="yellow_tip none">
-		<div class="title">客户收益银行账户信息</div>
-		<form action="">
-			<div class="ui_form_ele">
-				<label for=""><span class="lab">客户姓名：</span><span class="lab gray">赵宝刚</span></label>
-				<span class="valid_info clear"></span>
-			</div>
-			<div class="ui_form_ele">
-				<label for=""><span class="lab"><span class="blue fb">*&nbsp;</span>开户姓名：</span><input type="text" name="" id="" class="ui_input" /></label>
-				<span class="valid_info clear"></span>
-			</div>
-			<div class="ui_form_ele">
-				<label for=""><span class="lab"><span class="blue fb">*&nbsp;</span>开户行：</span><input type="text" name="" id="" class="ui_input" /></label>
-				<span class="valid_info clear"></span>
-			</div>
-			<div class="ui_form_ele">
-				<label for=""><span class="lab"><span class="blue fb">*&nbsp;</span>账号：</span><input type="text" name="" id="" class="ui_input" /></label>
-				<span class="valid_info clear"></span>
-			</div>
-		</form>
-		<div class="btns">
-			<a href="javascript:void(0)" class="confirm ma" id="customer_account_submit">提交</a>
-		</div>
-	</div>
-	<div id="submitSuccess" class="yellow_tip none">
-		<div class="title">客户受益银行账户信息</div>
-		<p class="tips">订单提交成功！</p>
 	</div>
 </body>
 </html>
