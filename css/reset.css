@@ -72,10 +72,11 @@ table{border-collapse:collapse;}
 .w700{width:700px;}
 .w800{width:800px;}
 .w{width:100%}
-.h50{width:50px;}
-.h80{width:80px;}
-.h100{width:100px;}
-.h200{width:200px;}
+.h10{height:10px;}
+.h50{height:50px;}
+.h80{height:80px;}
+.h100{height:100px;}
+.h200{height:200px;}
 
 /*边距*/
 .m10{margin:10px;}

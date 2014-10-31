@@ -2,7 +2,7 @@
 $(function(){
 	var currentOrder,
 		editOffset;
-	$('.order_list').on('click','.edit',function(evt){
+	$('.result_list_table').on('click','.edit',function(evt){
 		evt.stopPropagation();
 		editOffset=$(this).offset();
 		$('#edit_links').css({

@@ -141,7 +141,7 @@ form a.search_btn{display:block;width:166px;height:40px;margin:0 auto;line-heigh
 .search_conditions .ui_div_select_value{line-height:22px;height:22px;width:76px;background-position:65px 9px;}
 .search_conditions .ui_div_select_options{width:84px;top:23px;}
 .search_conditions .sc_submit{display:block;width:33px;height:24px;padding-left:27px;background:url(../images/search_condition_submit.gif) no-repeat;color:#fff;line-height:24px;margin:5px 0 0 0;}
-
+a.add_order{display:block;width:47px;height:24px;background:url(../images/add_order.gif) no-repeat;font-size:14px;color:#fff;line-height:24px;padding-left:46px;}
 
 
 
