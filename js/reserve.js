@@ -13,5 +13,12 @@ $(function(){
 	$('.submit').click(function(){
 		$(this).addClass('submit_disabled').prev('.saved_info').show().prev('.add_new').hide().prev('.old_list').hide();
 	});
+	$('#submit').click(function(){
+		showValidInfo('验证消息');
+	});
+	//显示验证消息
+	function showValidInfo(text){
+		$('.form_valid_info').find('p').html(text).end().stop(true,true).fadeIn('fast').delay(1000).fadeOut('slow');
+	}
 	
 });

@@ -36,7 +36,8 @@
 .rr_btns input.forward{background-color:#fac03d;}
 .rr_btns input.back{background-color:#40b1e6;}
 
-.form_valid_info{line-height:74px;padding-left:55px;float:left;font-size:14px;color:#b1b1b1;}
+.form_valid_info{position:absolute;z-index:2;top:-51px;right:30px;width:248px;padding:6px 0;border:1px solid #40b1e6;color:#b1b1b1;text-align:center;line-height:24px;font-size:12px;background-color:#FFF;}
+.form_valid_info_icon{position:absolute;z-index:2;bottom:-8px;left:120px;width:8px;height:8px;font-size:0;line-height:0;background:url(../images/form_valid_info.gif) no-repeat;}
 .confirm_submit{float:right;width:250px;height:50px;line-height:50px;margin:12px 30px;font-size:24px;font-weight:bold;text-align:center;background-color:#40b1e6;color:#fff;}
 .confirm_submit_disabled{background-color:#b1b1b1;}
 
