@@ -39,7 +39,7 @@
 .c_status_0{color:#40b1e6;}
 .c_status_1{color:#fac03d;}
 .c_status_slider{float:right;width:15px;height:15px;font-size:0;background:url(../images/c_status_slider.png) no-repeat;margin:4px 0 0 0;cursor:pointer;}
-.c_status_pop{display:none;position:absolute;z-index:2;top:17px;left:-9px;width:231px;height:190px;background:url(../images/c_status_pop.gif) no-repeat 0 7px;overflow:hidden;}
+.c_status_pop{display:none;position:absolute;z-index:2;top:17px;left:-9px;width:300px;height:190px;background:url(../images/c_status_pop.gif) no-repeat 0 7px;overflow:hidden;}
 .c_status_pop_list{float:left;width:160px;padding:22px 0 0 11px;}
 .c_status_pop_list li{height:35px;font-size:12px;line-height:18px;_line-height:19px;text-align:left;color:#a7a7a7;}
 .c_status_pop_list li span{display:block;float:left;width:18px;height:18px;line-height:18px;margin-right:3px;color:#545454;text-align:center;background-image:url(../images/c_status_pop_list_icon.png);}
@@ -47,11 +47,13 @@
 .c_status_pop_list li.c_status_pop_list_current{color:#fac03d;}
 .c_status_pop_list li.c_status_pop_list_current span{background-position:0 -18px;color:#fff;}
 
-.c_status_pop_btns{float:right;width:52px;padding-top:22px;}
-.c_status_pop_btns li{height:35px;}
-.order_list tbody tr td .c_status_pop_btns li a{display:block;width:42px;height:18px;line-height:18px;text-align:center;font-size:12px;color:#fff;background-color:#40b1e6;visibility:hidden;}
-.order_list tbody tr td .c_status_pop_btns li a:hover{color:#fff;}
-.order_list tbody tr td .c_status_pop_btns li.c_status_pop_btn_applicable a{visibility:visible;}
+.c_status_pop_btns{float:right;width:121px;padding-top:22px;}
+.c_status_pop_btns li{*float:left;height:35px;}
+.result_list_table tbody tr td .c_status_pop_btns li a{display:block;float:left;width:42px;height:18px;line-height:18px;text-align:center;font-size:12px;color:#fff;background-color:#40b1e6;visibility:hidden;}
+.result_list_table tbody tr td .c_status_pop_btns li a:hover{color:#fff;}
+.result_list_table tbody tr td .c_status_pop_btns li.c_status_pop_btn_applicable a{visibility:visible;}
+.result_list_table tbody tr td .c_status_pop_btns li input{display:block;float:left;margin-right:5px;width:65px;height:16px;line-height:16px;font-size:12px;visibility:hidden;}
+.result_list_table tbody tr td .c_status_pop_btns li.c_status_pop_btn_applicable input{visibility:visible;}
 .cantract_0{padding:2px 0 11px;border-bottom:1px solid #e2e2e2;}
 .cantract_0 a{display:block;float:left;padding:0 11px;line-height:18px;color:#727272;font-size:12px;}
 .cantract_0 a.bdr{border-right:1px solid #e8e8e8;}
