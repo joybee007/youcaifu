@@ -134,10 +134,10 @@ form a.search_btn{display:block;width:166px;height:40px;margin:0 auto;line-heigh
 .ui_check{height:32px;line-height:32px;_padding-top:6px;}
 .ui_check input{vertical-align:middle;}
 .search_conditions{border:1px solid #e8e8e8;padding:8px;color:#484848;line-height:24px;margin-bottom:10px;}
-/* .search_conditions label{display:block;} */
+.search_conditions label{display:block;}
 .search_conditions .sc_div{height:24px;padding:5px 32px 5px 0;}
-.search_conditions .sc_div input.sc_input{width:156px;height:20px;vertical-align:middle;*line-height:22px;font-size:14px;}
-.search_conditions .ui_div_select{float:none;width:78px;display:inline-block;*display:inline;zoom:1;vertical-align:middle;height:24px;}
+.search_conditions .sc_div input{width:156px;height:20px;vertical-align:middle;*line-height:22px;font-size:14px;}
+.search_conditions .ui_div_select{float:none;width:78px;display:inline-block;_display:inline;zoom:1;vertical-align:middle;height:24px;}
 .search_conditions .ui_div_select_value{line-height:22px;height:22px;width:76px;background-position:65px 9px;}
 .search_conditions .ui_div_select_options{width:84px;top:23px;}
 .search_conditions .sc_submit{display:block;width:33px;height:24px;padding-left:27px;background:url(../images/search_condition_submit.gif) no-repeat;color:#fff;line-height:24px;margin:5px 0 0 0;}
