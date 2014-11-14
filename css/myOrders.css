@@ -39,7 +39,10 @@
 .c_status_0{color:#40b1e6;}
 .c_status_1{color:#fac03d;}
 .c_status_slider{float:right;width:15px;height:15px;font-size:0;background:url(../images/c_status_slider.png) no-repeat;margin:4px 0 0 0;cursor:pointer;}
-.c_status_pop{display:none;position:absolute;z-index:2;top:17px;left:-9px;width:300px;height:190px;background:url(../images/c_status_pop.gif) no-repeat 0 7px;overflow:hidden;}
+.c_status_pop{display:none;position:absolute;z-index:2;top:17px;left:-9px;width:300px;overflow:hidden;}
+.c_status_pop_4{height:155px;background:url(../images/c_status_pop_4.gif) no-repeat 0 7px;}
+.c_status_pop_5{height:190px;background:url(../images/c_status_pop_5.gif) no-repeat 0 7px;}
+.c_status_pop_6{height:225px;background:url(../images/c_status_pop_6.gif) no-repeat 0 7px;}
 .c_status_pop_list{float:left;width:160px;padding:22px 0 0 11px;}
 .c_status_pop_list li{height:35px;font-size:12px;line-height:18px;_line-height:19px;text-align:left;color:#a7a7a7;}
 .c_status_pop_list li span{display:block;float:left;width:18px;height:18px;line-height:18px;margin-right:3px;color:#545454;text-align:center;background-image:url(../images/c_status_pop_list_icon.png);}
@@ -62,8 +65,12 @@
 .cantract_1 a{display:block;float:left;width:81px;height:16px;border:1px solid #40b1e6;line-height:16px;_line-height:17px;_overflow:hidden;font-size:12px;margin-right:10px;color:#40b1e6;text-align:center;}
 .cantract_1 a.active{background-color:#40b1e6;color:#fff;}
 .cantract_2{padding:0 0 7px 10px;font-size:12px;color:#cecece;line-height:15px;}
-.cantract_steps{height:28px;line-height:28px;background:url(../images/mycantractsteps.png) no-repeat;margin-bottom:12px;}
-.cantract_steps ul li{float:left;width:162px;text-align:center;font-size:12px;color:#fff;}
+.cantract_steps_4{height:28px;line-height:28px;background:url(../images/mycantractsteps-4.png) no-repeat;margin-bottom:12px;}
+.cantract_steps_4 ul li{float:left;width:202.5px;text-align:center;font-size:12px;color:#fff;}
+.cantract_steps_5{height:28px;line-height:28px;background:url(../images/mycantractsteps-5.png) no-repeat;margin-bottom:12px;}
+.cantract_steps_5 ul li{float:left;width:162px;text-align:center;font-size:12px;color:#fff;}
+.cantract_steps_6{height:28px;line-height:28px;background:url(../images/mycantractsteps-6.png) no-repeat;margin-bottom:12px;}
+.cantract_steps_6 ul li{float:left;width:135px;text-align:center;font-size:12px;color:#fff;}
 
 
 
