@@ -197,7 +197,7 @@ a.add_order{display:block;width:47px;height:24px;background:url(../images/add_or
 .result_list_table tbody tr td .edit{display:block;margin:0 auto;width:55px;height:20px;line-height:20px;text-align:center;color:#fff;background-color:#40b1e6;font-size:12px;}
 .result_list_table tbody tr td .edit:hover{color:#fff;}
 
-.fileupload{position: absolute;top: 0;right: 0;margin: 0;opacity: 0;-ms-filter: 'alpha(opacity=0)';font-size: 200px;direction: ltr;cursor: pointer;}
+.fileupload{position: absolute;top: 0;right: 0;margin: 0;opacity: 0;filter: alpha(opacity=0);font-size: 200px;direction: ltr;cursor: pointer;}
 
 
 

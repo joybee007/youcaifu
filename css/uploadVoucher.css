@@ -31,7 +31,7 @@ bottom:0;left:1px;}
 .up_v_btn_0{background-position:0 0;}
 .up_v_btn_1{background-position:-128px 0;}
 
-#fileupload{position: absolute;top: 0;right: 0;margin: 0;opacity: 0;-ms-filter: 'alpha(opacity=0)';font-size: 200px;direction: ltr;cursor: pointer;}
+#fileupload{position: absolute;top: 0;right: 0;margin: 0;opacity: 0;filter:alpha(opacity=0);font-size: 200px;direction: ltr;cursor: pointer;}
 
 
 
