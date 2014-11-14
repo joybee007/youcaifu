@@ -56,7 +56,7 @@ $(function(){
 				layer.msg('确认', 1, 1);
 			},
 			no: function(){
-				layer.msg('取消', 1, 13);
+				layer.msg('取消', 1, 5);
 			}
 		}
 	});

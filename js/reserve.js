@@ -21,4 +21,19 @@ $(function(){
 		$('.form_valid_info').find('p').html(text).end().stop(true,true).fadeIn('fast').delay(1000).fadeOut('slow');
 	}
 	
+	//客户名称联想
+	$('#customer').focus(function(){
+		var list=$('.customerList');
+		list.show().css('height',Math.min(list.height(),174));
+	}).blur(function(){
+		$('.customerList').hide();
+	});
+	$('ul.customerList').on('mousedown','li',function(){
+		$('#customer').val($(this).text());
+	}).on('mouseover','li',function(){
+		$(this).css('background','#e4f1f2');
+	}).on('mouseout','li',function(){
+		$(this).css('background','none');
+	});
+	
 });
