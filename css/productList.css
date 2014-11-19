@@ -59,6 +59,7 @@ h1{padding-left:10px;height:44px;line-height:42px;font-size:20px;color:#40b1e6;}
 .pro_info .pro_info_1 table .title{color:#444;padding:0 34px 0 10px;}
 .pro_info .pro_info_1 table .describ{color:#f14d2c;padding-right:10px;font-size:16px;font-weight:bold;}
 .pro_info .pro_info_1 .follows{background:url(../images/p_list_follow_icon_07.png) no-repeat 9px 8px;height:26px;padding:8px 0 0 46px;font-size:12px;line-height:26px;margin:15px 0 0 75px;}
+.pro_info .pro_info_1 .follows_disabled{background:url(../images/p_list_follow_icon_07.png) no-repeat 9px -66px;}
 .pro_info .pro_info_1 .follows .red{font-size:14px;font-weight:bold;}
 .pro_info .pro_info_2{float:left;width:166px;}
 .pro_info .pro_info_2 .cost{border:1px solid #c6c6c6;text-align:center;margin-bottom:10px;}

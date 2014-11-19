@@ -24,5 +24,6 @@
 .pro_info .pi_right .pi_n1{width:25%;border-right:1px solid #dbdbdb;}
 .pro_info .pi_right .pi_n2{width:25%;}
 .pro_info .pi_right .follows{background:url(../images/p_list_follow_icon_07.png) no-repeat 9px 8px;height:26px;padding:8px 0 0 46px;font-size:12px;line-height:26px;}
+.pro_info .pi_right .follows_disabled{background-position:9px -66px;}
 .pro_info .pi_right .follows .red{font-size:14px;font-weight:bold;}
 .pro_info .pi_right .reserve{display:block;width:166px;height:40px;text-align:center;line-height:40px;font-size:16px;color:#fff;background:url(../images/reserve_03.png) 0 0 no-repeat;}

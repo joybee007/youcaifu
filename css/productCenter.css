@@ -38,6 +38,7 @@
 .pro_box .pb_info .pb_n2{width:101px;}
 .pro_box .pb_info .pb_intro .pb_btns{padding:0 9px;}
 .pro_box .pb_info .pb_intro .follows{background:url(../images/pb_follows_07.png) no-repeat 9px 0;height:26px;padding:0 0 0 46px;font-size:12px;line-height:26px;}
+.pro_box .pb_info .pb_intro .follows_disabled{background:url(../images/pb_follows_07.png) no-repeat 9px -74px;}
 .pro_box .pb_info .pb_intro .follows .red{font-size:14px;font-weight:bold;}
 .pro_box .pb_info .pb_intro .reserve{display:block;width:100px;height:30px;text-align:center;line-height:30px;font-size:14px;color:#fff;background:url(../images/reserve_05.png) no-repeat;}
 

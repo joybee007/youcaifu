@@ -12,6 +12,7 @@
 .pd_left .pd_img{display:block;width:298px;height:298px;border:1px solid #e4dfdf;line-height:0;}
 .pd_left .pd_img img{width:298px;height:298px;}
 .pd_left .follows{background:url(../images/p_list_follow_icon_07.png) no-repeat 9px 8px;height:26px;padding:8px 0 0 46px;font-size:12px;line-height:26px;margin:15px 0 0 75px;}
+.pd_left .follows_disabled{background:url(../images/p_list_follow_icon_07.png) no-repeat 9px -66px;}
 .pd_left .follows .red{font-size:14px;font-weight:bold;}
 .pd_right .pd_benefits{line-height:18px;color:#474747;font-size:12px;padding:6px 0;border-top:1px dashed #e8e8e8;border-bottom:1px dashed #e8e8e8;}
 h1{height:44px;font-size:14px;line-height:44px;color:#474747;}
