@@ -11,10 +11,10 @@
 			});
 			setTimeout(function(){
 				show({},index);
-			},3000);
+			},6000);
 			function show(e){
 				var i=e.data||index;
-				list.eq(i).css({zIndex:zIndex}).hide().fadeIn('fast');
+				list.eq(i).css({zIndex:zIndex}).hide().fadeIn(800);
 				navbox.children().removeClass('active').eq(i).addClass('active');
 				zIndex++;
 				if(i+1==length){
@@ -24,7 +24,7 @@
 				}
 				setTimeout(function(){
 					show({},index);
-				},3000);
+				},6000);
 			}
 			list.eq(0).css({zIndex:zIndex}).show();
 			navbox.children().removeClass('active').eq(0).addClass('active');

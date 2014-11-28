@@ -3,7 +3,8 @@
 #banner{height:340px;position:relative;z-index:2;}
 #banner .marqueeBox{overflow:hidden;height:340px;width:100%;position:relative;z-index:3;}
 #banner .marqueeBox ul{}
-#banner .marqueeBox ul li{position:absolute;top:0;left:0;z-index:2;width:100%;text-align:center;line-height:0;}
+#banner .marqueeBox ul li{position:absolute;top:0;left:0;z-index:2;width:100%;text-align:center;line-height:0;background-position:center 0;height:340px;background-repeat:no-repeat;}
+#banner .marqueeBox ul li img{display:block;margin:0 auto;}
 #banner .marqueeNav{position:absolute;top:315px;left:50%;z-index:4;}
 #banner .marqueeNav li{float:left;width:11px;height:11px;margin-right:11px;font-size:0;line-height:0;background-image:url(../images/banner_nav.png);background-position:0 -11px;cursor:pointer;}
 #banner .marqueeNav li.active{background-position:0 0;}
